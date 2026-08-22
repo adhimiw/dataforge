@@ -1,0 +1,7 @@
+state.json
+notebooks/*
+reports/*
+runs/*
+!notebooks/.gitkeep
+!reports/.gitkeep
+!runs/.gitkeep
