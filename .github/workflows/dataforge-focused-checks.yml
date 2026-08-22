@@ -1,0 +1,44 @@
+name: DataForge focused checks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "packages/opencode/**"
+      - "packages/tui/**"
+      - ".dataforge/**"
+      - ".github/workflows/dataforge-focused-checks.yml"
+  pull_request:
+    paths:
+      - "packages/opencode/**"
+      - "packages/tui/**"
+      - ".dataforge/**"
+      - ".github/workflows/dataforge-focused-checks.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: dataforge-focused-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  focused:
+    name: DataForge runtime regression suite
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun and dependencies
+        uses: ./.github/actions/setup-bun
+
+      - name: Run focused configuration and agent tests
+        working-directory: packages/opencode
+        run: bun test --timeout 30000 test/config/branding.test.ts test/config/config.test.ts test/config/agent-color.test.ts
+
+      - name: Typecheck the terminal user interface
+        working-directory: packages/tui
+        run: bun run typecheck

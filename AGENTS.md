@@ -4,6 +4,22 @@
 - The default branch in this repo is `dev`.
 - Local `main` ref may not exist; use `dev` or `origin/dev` for diffs.
 
+## DataForge Fork Overrides
+
+For the DataForge fork, the publishing branch is `main`. Treat the upstream `dev`-branch guidance above as historical upstream context rather than the release target for this repository.
+
+## Data Governance Defaults
+
+Apply these rules to datasets, schemas, notebooks, prompts, generated reports, workspace state, logs, screenshots, fixtures, and external tool calls. They are safe project defaults; a repository-specific policy, contract, or applicable law takes precedence.
+
+- Classify material before using it. Treat unknown material as **restricted** until its owner confirms otherwise. Public material is approved for public use; internal material stays in the approved project boundary; restricted material includes credentials, direct identifiers, private content, proprietary source data, access logs, and security-sensitive metadata.
+- Minimize collection and exposure. Inspect file names, schemas, row counts, quality summaries, and small redacted samples before reading records. Do not paste raw restricted rows, tokens, connection strings, private URLs, or customer identifiers into prompts, source code, tests, issues, commits, logs, reports, screenshots, or chat.
+- Keep source data local to its approved workspace. Do not upload, synchronize, publish, or send material to third-party tools, model providers, browsers, issue trackers, or storage services without explicit authorization from the data owner.
+- Treat destructive actions as approval gates. Ask before deleting or overwriting source data, changing schemas, running write queries, calling production services, changing access controls, or publishing any analysis artifact externally.
+- Record reproducibility metadata, not sensitive payloads. `.dataforge/state.json` may track artifact paths, commands, assumptions, checks, model choices, timestamps, and aggregate quality measures. It must never contain secrets, raw restricted records, direct identifiers, query results with personal data, or unredacted stack traces.
+- Prefer synthetic or irreversibly de-identified fixtures for tests. If a real sample is required for debugging, use the smallest approved sample, keep it outside version control, and delete it after the investigation.
+- Verify output before delivery. Check that reports, notebooks, exports, screenshots, and deployed sites contain no restricted content, credentials, or unreviewed claims. If a possible exposure is discovered, stop distribution, preserve minimal diagnostic context, notify the project owner, and follow the incident-response process.
+
 ## Branch Names
 
 Use a short branch name of at most three words, separated by hyphens. Do not use slashes or type prefixes such as `feat/` or `fix/`.
