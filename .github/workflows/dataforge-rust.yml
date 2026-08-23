@@ -1,0 +1,46 @@
+name: DataForge Rust checks
+
+on:
+  push:
+    branches: [rust-native-migration]
+    paths:
+      - "rust/**"
+      - "docs/RUST_MIGRATION_ARCHITECTURE.md"
+      - ".github/workflows/dataforge-rust.yml"
+  pull_request:
+    paths:
+      - "rust/**"
+      - "docs/RUST_MIGRATION_ARCHITECTURE.md"
+      - ".github/workflows/dataforge-rust.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  rust-native:
+    name: Rust-native DataForge quality gate
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: rust
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install stable Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+
+      - name: Check formatting
+        run: cargo fmt --check
+
+      - name: Run strict linting
+        run: cargo clippy -- -D warnings
+
+      - name: Run tests
+        run: cargo test
+
+      - name: Build release binary
+        run: cargo build --release

@@ -15,3 +15,11 @@
 - [x] Add bounded autonomous-run controls with explicit budgets, checkpointing, stop conditions, and approval gates.
 - [x] Add focused regression coverage and validate the full dataset workflow without externalizing the source records.
 - [x] Document the dataset test results and bounded-autonomy behavior for review.
+
+## Rust-native DataForge migration
+
+- [x] Research the current TypeScript runtime, terminal UI, command, state, and integration boundaries alongside appropriate Rust crates and patterns.
+- [x] Produce a migration architecture that defines the Rust application scope, compatibility policy, and governed action model.
+- [x] Create a dedicated Rust migration branch and scaffold the Rust DataForge workspace.
+- [x] Implement the governed workspace commands, bounded-autonomy contract, and terminal analysis console in Rust.
+- [x] Test the Rust application with safe fixtures and document feature coverage, known gaps, and migration instructions.
