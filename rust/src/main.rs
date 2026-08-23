@@ -1,6 +1,7 @@
 use clap::{Parser, Subcommand, ValueEnum};
 use dataforge_rs::analysis::profile_csv;
 use dataforge_rs::governance::{authorize, policy_report, Action, AutonomyBudget};
+use dataforge_rs::live::collect_live;
 use dataforge_rs::raster::rasterize_png;
 use dataforge_rs::tui;
 use dataforge_rs::workspace::{research_brief, Workspace};
@@ -48,6 +49,10 @@ enum Command {
         #[arg(long, default_value = ".")]
         workspace: PathBuf,
     },
+    Live {
+        #[command(subcommand)]
+        command: LiveCommand,
+    },
     Guard {
         action: ActionName,
         #[arg(long)]
@@ -72,6 +77,19 @@ enum WorkspaceCommand {
     Autonomy {
         #[arg(default_value = ".")]
         directory: PathBuf,
+    },
+}
+
+#[derive(Subcommand)]
+enum LiveCommand {
+    Fetch {
+        #[arg(long, default_value = ".")]
+        workspace: PathBuf,
+        #[arg(
+            long,
+            help = "explicitly approve fetching the documented public sources"
+        )]
+        approved: bool,
     },
 }
 
@@ -179,6 +197,20 @@ async fn run(cli: Cli) -> Result<()> {
             );
         }
         Command::Dashboard { workspace } => tui::run(&Workspace::new(workspace).manifest_path())?,
+        Command::Live { command } => match command {
+            LiveCommand::Fetch {
+                workspace,
+                approved,
+            } => {
+                if !approved {
+                    return Err(dataforge_rs::DataForgeError::Governance(
+                        "Public live-data collection is an external action. Re-run with --approved after reviewing the source contract.".to_string(),
+                    ));
+                }
+                let run = collect_live(&Workspace::new(workspace)).await?;
+                println!("{}", serde_json::to_string_pretty(&run)?);
+            }
+        },
         Command::Guard { action, bypass } => println!(
             "{}",
             serde_json::to_string_pretty(&authorize(

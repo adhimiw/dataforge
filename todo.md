@@ -23,3 +23,12 @@
 - [x] Create a dedicated Rust migration branch and scaffold the Rust DataForge workspace.
 - [x] Implement the governed workspace commands, bounded-autonomy contract, and terminal analysis console in Rust.
 - [x] Test the Rust application with safe fixtures and document feature coverage, known gaps, and migration instructions.
+
+## Multi-source real-time data-fusion challenge
+
+- [x] Research public live-data sources and select a reproducible, high-value multi-source use case.
+- [x] Define source contracts, provenance, staleness, reconciliation, and replay policies.
+- [x] Implement Rust source adapters, bounded concurrency, source health records, and deterministic replay fixtures.
+- [x] Add six hard test cases: schema drift, late data, conflicting revisions, rate limiting, missing intervals, and semantic/unit mismatch.
+- [x] Validate the end-to-end fusion run against available public data without silently externalizing user data.
+- [x] Document live-operation options, costs, test outcomes, and residual risks.
