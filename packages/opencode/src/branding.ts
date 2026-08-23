@@ -7,6 +7,9 @@ export const BRAND = {
   providerID: "opencode",
   modelID: "big-pickle",
   model: "opencode/big-pickle",
+  runtimeLabel: "DataForge Runtime",
+  providerLabel: "DataForge Zen",
+  modelLabel: "Big Pickle",
   apiKeyEnv: "OPENCODE_API_KEY",
   zenURL: "https://opencode.ai/zen",
 } as const
@@ -16,7 +19,7 @@ const workflowCommands: ConfigV1.Info["command"] = {
     description: "Initialize a DataForge workspace with durable state and data-agent guidance",
     agent: "dataforge",
     template:
-      "Initialize this workspace for DataForge. Inspect the repository and available datasets, identify the runtime and package manager, create or update AGENTS.md with safe project-specific instructions, create a durable .dataforge/ state directory, and report what was initialized. Do not delete or overwrite user data.",
+      "Initialize this workspace for DataForge. Inspect the repository and available datasets, identify the runtime and package manager, create or update AGENTS.md with project-specific data-governance instructions, create durable .dataforge/ state and evidence directories, and report what was initialized. Do not delete or overwrite user data. Treat unknown data as restricted until classified.",
   },
   inspect: {
     description: "Profile datasets and report schema, quality, and useful next steps",
@@ -28,7 +31,19 @@ const workflowCommands: ConfigV1.Info["command"] = {
     description: "Run a reproducible exploratory or machine-learning analysis",
     agent: "dataforge",
     template:
-      "Analyze the requested dataset or business question end to end. Plan the work, inspect the data before modeling, create reproducible scripts or notebooks, validate outputs, record metrics and assumptions in .dataforge/state.json, and explain any limitations. Prefer deterministic tools and small summaries over copying full datasets into chat.",
+      "Analyze the requested dataset or business question end to end. Plan the work, classify and inspect the data before modeling, create reproducible scripts or notebooks, validate outputs, record aggregate metrics and assumptions in .dataforge/state.json, and explain limitations. Create an analysis-console manifest only from verified, redacted aggregate data. Prefer deterministic tools and small summaries over copying full datasets into chat. Do not send records to external services.",
+  },
+  research: {
+    description: "Research public dataset context and record cited, approval-gated findings",
+    agent: "dataforge",
+    template:
+      "Prepare a dataset-context research brief. First inspect the local schema and state without exposing records. Then ask for approval before using web search or web fetch. Form public queries only from the user's dataset description and non-sensitive schema concepts; never include raw values, identifiers, private URLs, proprietary labels, or secrets. Prefer primary and domain-authoritative sources. Record URLs, publisher, access date, query rationale, claim summary, relevance, and evidence limits in .dataforge/state.json or a report. Separate source-backed facts from unverified hypotheses. Do not download, join, train, or mutate data without a separate explicit approval.",
+  },
+  enrich: {
+    description: "Design a reversible, approval-gated enrichment or training-preparation plan",
+    agent: "dataforge",
+    template:
+      "Design a reversible enrichment or training-preparation plan without changing source data. Reuse the approved local profile and cited research brief. Specify intended outcome, public source, join key justification, coverage, privacy impact, transformations, rollback path, validation checks, and failure conditions. Ask for explicit approval before downloading, joining, writing, generating labels, or training. Record only metadata and aggregate validation results in .dataforge/state.json.",
   },
   notebook: {
     description: "Create and validate a reproducible Jupyter notebook",
@@ -69,7 +84,7 @@ export function applyBrandDefaults(input: ConfigV1.Info): ConfigV1.Info {
     ...(input.provider ?? {}),
     [BRAND.providerID]: {
       ...(input.provider?.[BRAND.providerID] ?? {}),
-      name: "DataForge Zen",
+      name: BRAND.providerLabel,
       ...(hasExplicitModel ? {} : { whitelist: [BRAND.modelID] }),
     },
   }

@@ -27,10 +27,16 @@ describe("DataForge runtime defaults", () => {
     expect(config.small_model).toBe(BRAND.model)
     expect(config.default_agent).toBe("dataforge")
     expect(config.enabled_providers).toEqual([BRAND.providerID])
-    expect(config.provider?.[BRAND.providerID]?.name).toBe("DataForge Zen")
+    expect(config.provider?.[BRAND.providerID]?.name).toBe(BRAND.providerLabel)
     expect(config.provider?.[BRAND.providerID]?.whitelist).toEqual([BRAND.modelID])
     expect(config.command?.init?.agent).toBe("dataforge")
     expect(config.command?.debug?.description).toContain("Diagnose")
+    expect(config.command?.research?.agent).toBe("dataforge")
+    expect(config.command?.research?.template).toContain("approval")
+    expect(config.command?.research?.template).toContain("never include raw values")
+    expect(config.command?.enrich?.agent).toBe("dataforge")
+    expect(config.command?.enrich?.template).toContain("reversible")
+    expect(config.command?.analyze?.template).toContain("analysis-console manifest")
   })
 
   it("preserves an explicit model and allows provider switching by opt-in", () => {

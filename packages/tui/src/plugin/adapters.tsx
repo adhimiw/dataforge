@@ -66,6 +66,8 @@ function routeCurrent(route: ReturnType<typeof useRoute>): TuiPluginApi["route"]
     }
   }
 
+  if (route.data.type === "analysis") return { name: "dataforge-analysis" }
+
   return {
     name: route.data.id,
     params: route.data.data,

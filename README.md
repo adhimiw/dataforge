@@ -100,7 +100,7 @@ dataforge executable
               ├─ default agent: dataforge
               ├─ default provider label: DataForge Zen
               ├─ default model: opencode/big-pickle
-              └─ workflow commands: init / inspect / analyze / notebook / debug / verify
+              └─ workflow commands: init / inspect / analyze / research / enrich / notebook / debug / verify
                   └─ TUI session and tool loop
                       ├─ dedicated DataForge agent prompt
                       ├─ approval-aware shell/edit behavior
@@ -108,15 +108,15 @@ dataforge executable
                       └─ reproducible artifacts, notebook outputs, reports, and run logs
 ```
 
-| Layer | Role | DataForge change |
-| --- | --- | --- |
-| `src/index.ts` | CLI identity and startup | Defines the `dataforge` command name and marks the process as a DataForge runtime. |
-| `src/branding.ts` | Runtime policy | Holds product constants and applies runtime-scoped model, provider, agent, and workflow defaults. |
-| `src/agent/agent.ts` | Agent registry | Adds the native `dataforge` primary agent with the Big Pickle model and approval-oriented permissions. |
-| `src/agent/prompt/dataforge.txt` | Agent operating procedure | Encodes data inspection, reproducibility, secrets handling, state recording, and verification rules. |
-| `src/cli/cmd/workspace.ts` | Deterministic local operations | Provides `workspace init` and `workspace doctor` without exposing credentials. |
-| `packages/tui` | Product experience | Replaces visible identity and shifts onboarding from generic coding prompts to data and debugging workflows. |
-| `.dataforge/` | Durable artifacts | Defines the ignored local state, notebook, report, and run-log convention. |
+| Layer                            | Role                           | DataForge change                                                                                                                                |
+| -------------------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| `src/index.ts`                   | CLI identity and startup       | Defines the `dataforge` command name and marks the process as a DataForge runtime.                                                              |
+| `src/branding.ts`                | Runtime policy                 | Holds product constants and applies runtime-scoped model, provider, agent, and workflow defaults.                                               |
+| `src/agent/agent.ts`             | Agent registry                 | Adds the native `dataforge` primary agent with the Big Pickle model and approval-oriented permissions.                                          |
+| `src/agent/prompt/dataforge.txt` | Agent operating procedure      | Encodes data inspection, reproducibility, secrets handling, state recording, and verification rules.                                            |
+| `src/cli/cmd/workspace.ts`       | Deterministic local operations | Provides workspace initialization, safe diagnostics, research-contract printing, and local plot-raster generation without exposing credentials. |
+| `packages/tui`                   | Product experience             | Provides DataForge-only terminal labels and a manifest-backed analysis console with explicit unavailable states.                                |
+| `.dataforge/`                    | Durable artifacts              | Defines ignored local state, notebook, research, report, run-log, and terminal-raster conventions.                                              |
 
 The visual system is equally intentional. The companion site follows a terminal field-manual approach: warm cream paper, near-black ink, one monospaced type system, 1px rules instead of shadows, bracketed markers, a single dark terminal surface, and forge cobalt reserved for configuration signals. It references the supplied design brief's structural restraint without reusing upstream names, wordmarks, product copy, or visual assets.
 
@@ -141,15 +141,18 @@ The key is intentionally absent from `.env.example`, `README.md` examples, works
 
 ## New extension points
 
-| Extension point | How to use it | Why it exists |
-| --- | --- | --- |
-| Runtime brand policy | Edit `packages/opencode/src/branding.ts`. | Centralizes the public name, compatible provider, default model, workflow prompts, and opt-in escape hatch. |
-| Primary agent prompt | Edit `packages/opencode/src/agent/prompt/dataforge.txt`. | Makes data-engineering behavior durable and reviewable rather than embedding it in transient chat setup. |
-| Built-in workflow commands | Extend `workflowCommands` in `src/branding.ts`. | Adds reusable operator shortcuts such as `/inspect`, `/analyze`, and `/verify`. |
-| Workspace CLI | Extend `src/cli/cmd/workspace.ts`. | Adds deterministic operations that do not need an LLM round trip. |
-| TUI identity | Change `packages/tui/src/logo.ts`, home prompts, and connection/recovery components. | Keeps the visible product coherent when the terminal launches or fails. |
-| Project instructions | Edit `AGENTS.md` in an initialized target workspace. | Captures project-specific schema, test, governance, and data-handling rules next to the work. |
-| Local state | Add fields to `.dataforge/state.json` deliberately. | Supports resumption, evidence tracking, and artifact discovery without treating user data as source code. |
+| Extension point            | How to use it                                                                        | Why it exists                                                                                                           |
+| -------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| Runtime brand policy       | Edit `packages/opencode/src/branding.ts`.                                            | Centralizes the public name, compatible provider, default model, workflow prompts, and opt-in escape hatch.             |
+| Primary agent prompt       | Edit `packages/opencode/src/agent/prompt/dataforge.txt`.                             | Makes data-engineering behavior durable and reviewable rather than embedding it in transient chat setup.                |
+| Built-in workflow commands | Extend `workflowCommands` in `src/branding.ts`.                                      | Adds reusable operator shortcuts such as `/inspect`, `/analyze`, and `/verify`.                                         |
+| Workspace CLI              | Extend `src/cli/cmd/workspace.ts`.                                                   | Adds deterministic operations that do not need an LLM round trip.                                                       |
+| TUI identity               | Change `packages/tui/src/logo.ts`, home prompts, and connection/recovery components. | Keeps the visible product coherent when the terminal launches or fails.                                                 |
+| Project instructions       | Edit `AGENTS.md` in an initialized target workspace.                                 | Captures project-specific schema, test, governance, and data-handling rules next to the work.                           |
+| Local state                | Add fields to `.dataforge/state.json` deliberately.                                  | Supports resumption, evidence tracking, and artifact discovery without treating user data as source code.               |
+| Governed research          | Use `/research` after approval.                                                      | Produces a source ledger from public schema-level context without exposing records, identifiers, or proprietary labels. |
+| Enrichment planning        | Use `/enrich` after research is reviewed.                                            | Keeps joins, feature transformations, downloads, and training as separate, reversible approval gates.                   |
+| Analysis console           | Run `/dashboard` in the TUI.                                                         | Shows only manifest-backed charts, plot rasters, profiler metrics, analysis events, and safe local preview rows.        |
 
 ## Workspace runbook
 
@@ -167,8 +170,10 @@ The command creates this local structure:
 .dataforge/
 ├── state.json       # private progress, assumptions, artifacts, and verification checks
 ├── notebooks/       # executed notebook artifacts
+├── research/        # approved source ledgers and research briefs
 ├── reports/         # generated summaries
-└── runs/            # diagnostics and execution logs
+├── runs/            # diagnostics and execution logs
+└── scripts/         # local helpers, including plot rasterization
 ```
 
 ### Run workspace doctor
@@ -184,24 +189,66 @@ The command prints a JSON report. A normal result looks like this:
 ```json
 {
   "product": "DataForge",
-  "model": "opencode/big-pickle",
+  "runtime": "DataForge Runtime",
+  "model": "Big Pickle",
   "provider": "DataForge Zen",
   "workspace": "/absolute/path/to/project",
   "node": "v22.x",
-  "zen_api_key": "present",
+  "credential": "present",
   "state": "ready",
   "state_error": null,
-  "state_data": {
-    "status": "initialized",
-    "workspace": null,
-    "last_run": null,
-    "artifacts": [],
-    "checks": []
+  "governance": {
+    "data_classification": "unknown",
+    "external_research": "approval_required",
+    "external_enrichment": "approval_required",
+    "raw_data_externalization": "forbidden"
+  },
+  "research": {
+    "approval": "not_requested",
+    "sources": []
   }
 }
 ```
 
-`zen_api_key: "present"` confirms that an environment variable was found; it does not validate the key remotely and never prints its value. `state: "unreadable"` means the file is missing or malformed, in which case re-run `dataforge workspace init .` after preserving any needed contents. Use `cat .dataforge/state.json` or a JSON-aware editor to inspect generated state directly. Because this file is ignored by version control, it should contain operational context that is useful locally but not suitable for commits.
+`credential: "present"` confirms that an environment variable was found; it does not validate the key remotely and never prints its value. `state: "unreadable"` means the file is missing or malformed, in which case re-run `dataforge workspace init .` after preserving any needed contents. Use `cat .dataforge/state.json` or a JSON-aware editor to inspect generated state directly. Because this file is ignored by version control, it should contain operational context that is useful locally but not suitable for commits.
+
+### Research dataset context safely
+
+Use the research workflow only after approving external lookup. DataForge first profiles the dataset locally, then forms a public research brief from the user-provided topic and non-sensitive schema concepts. It must not put a raw value, direct identifier, private URL, proprietary label, or secret into a search query. Each finding must include a URL, publisher, access date, query rationale, claim summary, relevance, and limitation. The system records a hypothesis separately from a verified finding.
+
+```text
+/research review the public context for this dataset's industry and the meaning of its non-sensitive metric names; ask before searching
+/enrich propose a reversible feature-enrichment plan with source, join key, coverage, privacy impact, rollback path, and validation checks
+```
+
+You can inspect the exact contract before approving any external lookup:
+
+```sh
+dataforge workspace research-brief .
+```
+
+“Train” is an approval-gated preparation step in DataForge. It never implicitly trains a model, generates labels, downloads data, joins an external source, changes raw records, or publishes an artifact.
+
+### Open the terminal analysis console
+
+Open `/dashboard` from the command palette or a DataForge session to inspect the latest `.dataforge/analysis-console.json` manifest. The console never invents output: unavailable artifacts are shown as unavailable rather than replaced with demo data.
+
+| Key     | View            | Meaning                                                                                                                  |
+| ------- | --------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `1`     | Terminal Charts | Aggregate line and bar charts from the executed analysis manifest.                                                       |
+| `2`     | Plot Raster     | Real local Python plot artifacts rendered in TrueColor Unicode half-block cells. `Tab` or `Space` moves between figures. |
+| `3`     | Data Profiler   | Column type, null rate, distinct count, and distribution sparkline summaries.                                            |
+| `4`     | Analysis Stream | Plan, tool, observation, interpretation, and verification events.                                                        |
+| `5`     | Safe Records    | Redaction-aware local preview rows. `Up` and `Down` move through approved rows.                                          |
+| `Enter` | Ask DataForge   | Returns to the prompt with a governed evidence-review question.                                                          |
+
+To place a real Matplotlib or Seaborn PNG in the plot view, create the plot locally and then render its display payload without uploading the image or dataset:
+
+```sh
+dataforge workspace rasterize .dataforge/reports/figure-1.png .
+```
+
+The initializer writes `.dataforge/scripts/rasterize.py`. When Pillow is available in the approved local environment, this utility produces a true-color foreground/background cell payload in `.dataforge/analysis-console.json`; the console displays it with Unicode `▀` half-blocks. This is a presentation artifact only and does not validate a chart or permit data externalization.
 
 ### Debug a failing analysis
 

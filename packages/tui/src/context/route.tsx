@@ -20,7 +20,11 @@ export type PluginRoute = {
   data?: Record<string, unknown>
 }
 
-export type Route = HomeRoute | SessionRoute | PluginRoute
+export type AnalysisRoute = {
+  type: "analysis"
+}
+
+export type Route = HomeRoute | SessionRoute | PluginRoute | AnalysisRoute
 
 export const { use: useRoute, provider: RouteProvider } = createSimpleContext({
   name: "Route",
@@ -47,6 +51,7 @@ function initialRoute(value: unknown): Route | undefined {
   if (value.type === "session" && "sessionID" in value && typeof value.sessionID === "string") {
     return { type: "session", sessionID: value.sessionID }
   }
+  if (value.type === "analysis") return { type: "analysis" }
   if (value.type === "plugin" && "id" in value && typeof value.id === "string") {
     return { type: "plugin", id: value.id }
   }

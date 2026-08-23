@@ -374,20 +374,18 @@ function ApiMethod(props: ApiMethodProps) {
                 DataForge Zen connects the terminal agent to the free Big Pickle model with one credential.
               </text>
               <text fg={theme.text}>
-                Get a key at <span style={{ fg: theme.primary }}>https://opencode.ai/zen</span>, then return here and
-                paste it.
+                Follow the access setup in the <span style={{ fg: theme.primary }}>DataForge runtime guide</span>, then
+                return here and paste it.
               </text>
             </box>
           ),
           "opencode-go": (
             <box gap={1}>
               <text fg={theme.textMuted}>
-                OpenCode Go is a $10 per month subscription that provides reliable access to popular open coding models
-                with generous usage limits.
+                Alternative hosted access provides reliable availability for supported models with generous usage
+                limits.
               </text>
-              <text fg={theme.text}>
-                Go to <span style={{ fg: theme.primary }}>https://opencode.ai/go</span> and enable OpenCode Go
-              </text>
+              <text fg={theme.text}>Complete access setup in your approved provider account, then return here.</text>
             </box>
           ),
         })[props.providerID] ?? undefined

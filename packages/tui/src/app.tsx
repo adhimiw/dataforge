@@ -52,6 +52,7 @@ import { DialogWorkspaceList } from "./component/dialog-workspace-list"
 import { DialogConsoleOrg } from "./component/dialog-console-org"
 import { ThemeProvider, useTheme } from "./context/theme"
 import { Home } from "./routes/home"
+import { AnalysisConsole } from "./routes/analysis-console"
 import { Session } from "./routes/session"
 import { PromptHistoryProvider } from "./component/prompt/history"
 import { FrecencyProvider } from "./component/prompt/frecency"
@@ -137,6 +138,7 @@ const appBindingCommands = [
   "app.toggle.diffwrap",
   "app.toggle.paste_summary",
   "app.toggle.session_directory_filter",
+  "dataforge.dashboard",
 ] as const
 
 export type TuiInput = {
@@ -454,25 +456,28 @@ function App(props: { onSnapshot?: () => Promise<string[]>; pluginHost: TuiPlugi
     if (!terminalTitleEnabled() || Flag.OPENCODE_DISABLE_TERMINAL_TITLE) return
 
     if (route.data.type === "home") {
-      renderer.setTerminalTitle("OpenCode")
+      renderer.setTerminalTitle("DataForge")
       return
     }
 
     if (route.data.type === "session") {
       const session = sync.session.get(route.data.sessionID)
       if (!session || isDefaultTitle(session.title)) {
-        renderer.setTerminalTitle("OpenCode")
+        renderer.setTerminalTitle("DataForge")
         return
       }
 
       const title = session.title.length > 40 ? session.title.slice(0, 37) + "..." : session.title
-      renderer.setTerminalTitle(`OC | ${title}`)
+      renderer.setTerminalTitle(`DataForge | ${title}`)
       return
     }
 
     if (route.data.type === "plugin") {
-      renderer.setTerminalTitle(`OC | ${route.data.id}`)
+      renderer.setTerminalTitle(`DataForge | ${route.data.id}`)
+      return
     }
+
+    if (route.data.type === "analysis") renderer.setTerminalTitle("DataForge | Analysis Console")
   })
 
   const args = useArgs()
@@ -589,6 +594,16 @@ function App(props: { onSnapshot?: () => Promise<string[]>; pluginHost: TuiPlugi
           route.navigate({
             type: "home",
           })
+          dialog.clear()
+        },
+      },
+      {
+        name: "dataforge.dashboard",
+        title: "Open DataForge analysis console",
+        category: "DataForge",
+        slashName: "dashboard",
+        run: () => {
+          route.navigate({ type: "analysis" })
           dialog.clear()
         },
       },
@@ -762,7 +777,7 @@ function App(props: { onSnapshot?: () => Promise<string[]>; pluginHost: TuiPlugi
         : []),
       {
         name: "opencode.status",
-        title: "View status",
+        title: "View DataForge status",
         slashName: "status",
         run: () => {
           dialog.replace(() => <DialogStatus />)
@@ -771,7 +786,7 @@ function App(props: { onSnapshot?: () => Promise<string[]>; pluginHost: TuiPlugi
       },
       {
         name: "opencode.debug",
-        title: "View debug info",
+        title: "View DataForge debug info",
         slashName: "debug",
         run: () => {
           dialog.replace(() => <DialogDebug />)
@@ -819,7 +834,7 @@ function App(props: { onSnapshot?: () => Promise<string[]>; pluginHost: TuiPlugi
         name: "docs.open",
         title: "Open docs",
         run: () => {
-          open("https://opencode.ai/docs").catch(() => {})
+          open("https://adhimiw.github.io/dataforge/").catch(() => {})
           dialog.clear()
         },
         category: "System",
@@ -1070,7 +1085,7 @@ function App(props: { onSnapshot?: () => Promise<string[]>; pluginHost: TuiPlugi
     await DialogAlert.show(
       dialog,
       "Update Complete",
-      `Successfully updated to OpenCode v${result.data.version}. Please restart the application.`,
+      `Successfully updated DataForge to v${result.data.version}. Please restart the application.`,
     )
 
     void exit()
@@ -1117,6 +1132,9 @@ function App(props: { onSnapshot?: () => Promise<string[]>; pluginHost: TuiPlugi
               <Show when={route.data.type === "session" ? route.data.sessionID : undefined} keyed>
                 {(_) => <Session />}
               </Show>
+            </Match>
+            <Match when={route.data.type === "analysis"}>
+              <AnalysisConsole />
             </Match>
           </Switch>
           {plugin()}

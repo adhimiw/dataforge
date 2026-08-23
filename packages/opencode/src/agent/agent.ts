@@ -169,6 +169,8 @@ const layer = Layer.effect(
                 bash: "ask",
                 edit: "ask",
                 external_directory: "ask",
+                websearch: "ask",
+                webfetch: "ask",
               }),
               user,
             ),

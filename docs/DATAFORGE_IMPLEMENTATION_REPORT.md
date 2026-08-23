@@ -13,14 +13,14 @@ DataForge is a focused fork of the OpenCode terminal runtime for reproducible da
 
 DataForge remains compatible with the upstream Zen provider by retaining the internal provider ID `opencode`. This is a technical compatibility boundary rather than a public product name. The user-facing provider label is **DataForge Zen**, the executable is `dataforge`, and terminal-facing product language uses DataForge throughout.
 
-| Concern | Upstream-compatible element retained | DataForge layer added |
-| --- | --- | --- |
-| Provider discovery | `opencode` provider ID | `DataForge Zen` user-facing label. |
-| Zen model selection | `big-pickle` model ID | `opencode/big-pickle` runtime default and picker restriction. |
-| Credential lookup | `OPENCODE_API_KEY` environment variable | Explicit secret-safe documentation and doctor presence check. |
-| Local runtime | Existing session, tool, and provider services | `DATAFORGE_RUNTIME=1` startup marker and policy injection. |
-| Agent registry | Existing native agent architecture | New `dataforge` primary agent and agent prompt. |
-| TUI framework | Existing terminal renderer | New mark, home prompts, connection copy, errors, and runbook language. |
+| Concern             | Upstream-compatible element retained          | DataForge layer added                                                  |
+| ------------------- | --------------------------------------------- | ---------------------------------------------------------------------- |
+| Provider discovery  | `opencode` provider ID                        | `DataForge Zen` user-facing label.                                     |
+| Zen model selection | `big-pickle` model ID                         | `opencode/big-pickle` runtime default and picker restriction.          |
+| Credential lookup   | `OPENCODE_API_KEY` environment variable       | Explicit secret-safe documentation and doctor presence check.          |
+| Local runtime       | Existing session, tool, and provider services | `DATAFORGE_RUNTIME=1` startup marker and policy injection.             |
+| Agent registry      | Existing native agent architecture            | New `dataforge` primary agent and agent prompt.                        |
+| TUI framework       | Existing terminal renderer                    | New mark, home prompts, connection copy, errors, and runbook language. |
 
 ## Runtime configuration flow
 
@@ -74,22 +74,24 @@ This is not a claim that DataForge can autonomously infer every organization’s
 
 The brand module installs command templates at runtime. They remain project-overridable, allowing a team to provide a same-named project command when its procedure must differ.
 
-| Slash command | Operational objective |
-| --- | --- |
-| `/init` | Initialize a workspace, observe the repository and data layout, create guidance, and avoid overwriting user files. |
-| `/inspect` | Profile data safely: file discovery, schemas, row counts, missing values, duplicates, and likely key fields. |
-| `/analyze` | Produce reproducible exploratory or modeling work, record metrics and assumptions, and verify results. |
-| `/notebook` | Create and execute a notebook through supported notebook tooling where available. |
-| `/debug` | Reproduce a failure, inspect dependencies and assumptions, apply the smallest safe repair, and record diagnosis. |
-| `/verify` | Detect and run relevant lint, typecheck, unit, notebook, and data-quality checks. |
+| Slash command | Operational objective                                                                                                                                       |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/init`       | Initialize a workspace, observe the repository and data layout, create guidance, and avoid overwriting user files.                                          |
+| `/inspect`    | Profile data safely: file discovery, schemas, row counts, missing values, duplicates, and likely key fields.                                                |
+| `/analyze`    | Produce reproducible exploratory or modeling work, record metrics and assumptions, and verify results.                                                      |
+| `/research`   | Request approval, form a schema-level public research brief, and create a provenance ledger that separates sources from hypotheses.                         |
+| `/enrich`     | Produce a reversible enrichment or training-preparation plan without changing source data or downloading, joining, training, or publishing before approval. |
+| `/notebook`   | Create and execute a notebook through supported notebook tooling where available.                                                                           |
+| `/debug`      | Reproduce a failure, inspect dependencies and assumptions, apply the smallest safe repair, and record diagnosis.                                            |
+| `/verify`     | Detect and run relevant lint, typecheck, unit, notebook, and data-quality checks.                                                                           |
 
 ## Workspace tooling
 
-`packages/opencode/src/cli/cmd/workspace.ts` adds two deterministic CLI operations that do not require an LLM call.
+`packages/opencode/src/cli/cmd/workspace.ts` adds deterministic local operations that do not require an LLM call. The state envelope now tracks only non-sensitive governance metadata, source-ledger status, hypotheses, enrichment status, and analysis-console artifact paths. It does not contain raw rows, identifiers, secrets, downloaded external data, or image payloads.
 
 ### `dataforge workspace init [directory]`
 
-The initializer creates `.dataforge/notebooks`, `.dataforge/reports`, `.dataforge/runs`, `.dataforge/state.json`, and an `AGENTS.md` instruction file only when missing. It uses exclusive file creation, so it reports `kept` rather than overwriting a pre-existing file.
+The initializer creates `.dataforge/notebooks`, `.dataforge/reports`, `.dataforge/runs`, `.dataforge/research`, `.dataforge/scripts`, `.dataforge/state.json`, and an `AGENTS.md` instruction file only when missing. It uses exclusive file creation, so it reports `kept` rather than overwriting a pre-existing file. The generated instructions require classification before analysis, consent before external research, a source ledger, and approval before enrichment or training actions.
 
 ```sh
 dataforge workspace init .
@@ -108,53 +110,69 @@ Example shape:
 ```json
 {
   "product": "DataForge",
-  "model": "opencode/big-pickle",
+  "runtime": "DataForge Runtime",
+  "model": "Big Pickle",
   "provider": "DataForge Zen",
   "workspace": "/absolute/path/to/project",
   "node": "v22.x",
-  "zen_api_key": "present",
+  "credential": "present",
   "state": "ready",
   "state_error": null,
-  "state_data": {
-    "status": "initialized",
-    "workspace": null,
-    "last_run": null,
-    "artifacts": [],
-    "checks": []
+  "governance": {
+    "external_research": "approval_required",
+    "external_enrichment": "approval_required",
+    "raw_data_externalization": "forbidden"
+  },
+  "research": {
+    "approval": "not_requested",
+    "sources": []
   }
 }
 ```
 
+### `dataforge workspace research-brief [directory]`
+
+This command prints the outbound-research contract before an agent performs an external lookup. It permits only a user-provided public subject and non-sensitive schema concepts in a query. It explicitly excludes raw values, identifiers, private URLs, proprietary labels, and secrets. The required source ledger includes URL, publisher, access date, query rationale, claim, relevance, and limitations.
+
+### `dataforge workspace rasterize <image> [directory]`
+
+This command is a local-only display bridge for genuine Python plot files. It writes a generated helper under `.dataforge/scripts/rasterize.py`; with Pillow installed in the approved local environment, the helper converts a Matplotlib or Seaborn PNG into foreground/background RGB cell pairs for `.dataforge/analysis-console.json`. The TUI renders each pair with the Unicode `▀` half-block, so the displayed figure is based on actual artifact pixels rather than a simulated chart. The image is not uploaded, and rasterization does not constitute analysis verification.
+
 ## TUI and product-surface changes
 
-The implementation replaces high-visibility terminal surfaces, not just package metadata. Changes include the DataForge diamond/wordmark, home-screen starter prompts for data quality and notebook debugging, DataForge Zen key-entry guidance, Big Pickle model wording, DataForge-branded model and MCP error messages, a configurable crash-report destination, and a DataForge-oriented base prompt for non-specialized sessions.
+The implementation replaces high-visibility terminal surfaces, not just package metadata. Changes include the DataForge diamond/wordmark, DataForge terminal title, DataForge-only connection, sidebar, notification, permission, debug, and documentation labels, home-screen starter prompts for data quality and notebook debugging, DataForge Zen key-entry guidance, Big Pickle model wording, DataForge-branded model and MCP error messages, a configurable crash-report destination, and a DataForge-oriented base prompt for non-specialized sessions. Internal compatibility IDs remain implementation details and are not used as public TUI labels.
+
+The new `/dashboard` command opens a dedicated DataForge analysis console. The console accepts only an executed `.dataforge/analysis-console.json` manifest. Its key model provides terminal charts on `1`, true-color plot raster artifacts on `2`, column profiling on `3`, a separated plan/tool/observation/interpretation/verification activity stream on `4`, and redaction-aware safe local rows on `5`. `Tab` or `Space` selects a raster figure, `Up` and `Down` move within safe rows, `Enter` returns an evidence-review prompt to the main agent, and `Escape` returns to the home screen. Missing artifacts are announced; the UI does not fabricate charts, source findings, or data rows.
 
 The companion website extends the identity in a separate static React project. It follows a warm-paper terminal-field-manual aesthetic with a monospaced type system, hairline rules, DataForge generated visual assets, a functional copy-to-clipboard command pattern, and responsive runbook content. It does not duplicate source-project branding or copy.
 
 ## Extension points for future work
 
-| Extension | Location | Safe way to evolve it |
-| --- | --- | --- |
-| Brand and default model policy | `packages/opencode/src/branding.ts` | Update constants and policy tests together; preserve explicit user model behavior. |
-| Data-agent operating procedure | `packages/opencode/src/agent/prompt/dataforge.txt` | Add task instructions in clear, observable language; do not embed secrets or project-specific paths. |
-| Workflow prompts | `workflowCommands` in `src/branding.ts` | Add concise prompt templates with a measurable completion condition. |
-| Workspace state schema | `.dataforge/state.example.json` and workspace command | Version additions carefully and keep state local/ignored. |
-| Deterministic diagnostics | `src/cli/cmd/workspace.ts` | Add signals that do not require or disclose credentials. |
-| TUI onboarding | `packages/tui/src/feature-plugins/home/tips-view.tsx` and dialog components | Keep suggestions accurate for the exact shipped binary and document configuration compatibility names. |
-| Companion website | `website/client/src/pages/Home.tsx` | Add real documentation routes before adding decorative marketing surfaces. |
+| Extension                      | Location                                           | Safe way to evolve it                                                                                                         |
+| ------------------------------ | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Brand and default model policy | `packages/opencode/src/branding.ts`                | Update constants and policy tests together; preserve explicit user model behavior.                                            |
+| Data-agent operating procedure | `packages/opencode/src/agent/prompt/dataforge.txt` | Add task instructions in clear, observable language; do not embed secrets or project-specific paths.                          |
+| Workflow prompts               | `workflowCommands` in `src/branding.ts`            | Add concise prompt templates with a measurable completion condition.                                                          |
+| Workspace state schema         | `stateTemplate` in `src/cli/cmd/workspace.ts`      | Version additions carefully and keep state local, metadata-only, and ignored.                                                 |
+| Deterministic diagnostics      | `src/cli/cmd/workspace.ts`                         | Add signals that do not require or disclose credentials.                                                                      |
+| Research and enrichment policy | `packages/opencode/src/agent/prompt/dataforge.txt` | Keep public search consent-gated, preserve source provenance, and require explicit approval before data mutation or training. |
+| TUI analysis console           | `packages/tui/src/routes/analysis-console.tsx`     | Add manifest fields only when an executed local artifact provides evidence; never substitute mock analysis output.            |
+| Companion website              | `website/client/src/pages/Home.tsx`                | Add real documentation routes before adding decorative marketing surfaces.                                                    |
 
 ## Verification evidence
 
-| Verification activity | Outcome |
-| --- | --- |
-| Bun dependency installation | Passed after installing the compiler toolchain required by a native tree-sitter dependency. |
-| TUI typecheck | Passed. |
-| Focused config and agent-color suite | 98 tests passed, 0 failed. |
-| New DataForge runtime-default regression suite plus focused tests | 101 tests passed, 0 failed. |
-| Workspace init and doctor smoke tests | Passed in disposable fixture directories; state and guidance were created and doctor reported a redacted key-presence status. |
-| Fork formatting and diff hygiene | Passed. |
-| Companion website typecheck and production build | Passed. |
-| Full executable package native typecheck | The `tsgo` process was terminated by the sandbox resource/time envelope without diagnostics. The report keeps this as a documented limitation rather than a pass. |
+| Verification activity                                             | Outcome                                                                                                                                                           |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bun dependency installation                                       | Passed after installing the compiler toolchain required by a native tree-sitter dependency.                                                                       |
+| TUI typecheck                                                     | Passed.                                                                                                                                                           |
+| Focused config and agent-color suite                              | 98 tests passed, 0 failed.                                                                                                                                        |
+| New DataForge runtime-default regression suite plus focused tests | 101 tests passed, 0 failed.                                                                                                                                       |
+| Workspace init and doctor smoke tests                             | Passed in disposable fixture directories; state and guidance were created and doctor reported a redacted key-presence status.                                     |
+| Research-brief command smoke test                                 | Passed; it printed the consent-gated outbound query contract and source-ledger requirements.                                                                      |
+| Local plot-raster smoke test                                      | Passed with a generated local PNG; the rasterizer wrote a true-color pixel manifest, with no dataset upload or record disclosure.                                 |
+| Fork formatting and diff hygiene                                  | Passed.                                                                                                                                                           |
+| Companion website typecheck and production build                  | Passed.                                                                                                                                                           |
+| Full executable package native typecheck                          | The `tsgo` process was terminated by the sandbox resource/time envelope without diagnostics. The report keeps this as a documented limitation rather than a pass. |
 
 ## References
 
