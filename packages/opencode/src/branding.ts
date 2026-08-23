@@ -45,6 +45,12 @@ const workflowCommands: ConfigV1.Info["command"] = {
     template:
       "Design a reversible enrichment or training-preparation plan without changing source data. Reuse the approved local profile and cited research brief. Specify intended outcome, public source, join key justification, coverage, privacy impact, transformations, rollback path, validation checks, and failure conditions. Ask for explicit approval before downloading, joining, writing, generating labels, or training. Record only metadata and aggregate validation results in .dataforge/state.json.",
   },
+  autonomous: {
+    description: "Run bounded local DataForge work with checkpoints and mandatory approval gates",
+    agent: "dataforge",
+    template:
+      "Run this task in bounded autonomous mode. Continue only through low-risk local inspection, profiling, aggregate analysis, reproducible artifact generation, and verification within the configured turn and tool budgets. Before starting, state the goal, budget, expected artifacts, and stop conditions in .dataforge/state.json. Checkpoint after each material artifact or failed verification. Stop immediately and request approval before web research, web fetch, any external upload or download, external joins, credentials, destructive operations, database writes, source-data mutation, model training, label generation, publication, or an action outside the approved workspace. Do not attempt to bypass permissions, safeguards, rate limits, or review controls. When the budget is exhausted, report completed artifacts, evidence, unresolved risks, and the safest next step rather than continuing.",
+  },
   notebook: {
     description: "Create and validate a reproducible Jupyter notebook",
     agent: "dataforge",

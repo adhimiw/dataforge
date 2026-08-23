@@ -25,6 +25,25 @@ const stateTemplate = {
     status: "not_started",
     approved: false,
   },
+  autonomy: {
+    mode: "bounded",
+    status: "idle",
+    max_model_turns: 8,
+    max_tool_calls: 12,
+    checkpoint_after: "material_artifact_or_failed_verification",
+    stop_on: [
+      "budget_exhausted",
+      "external_research",
+      "external_download_or_join",
+      "credential_use",
+      "data_mutation",
+      "destructive_operation",
+      "database_write",
+      "model_training_or_label_generation",
+      "publication",
+      "out_of_workspace_access",
+    ],
+  },
   analysis_console: {
     manifest: ".dataforge/analysis-console.json",
     safe_rows_only: true,
@@ -40,6 +59,8 @@ DataForge follows a governed workflow. Inspect and classify schemas before analy
 External research is opt-in. Before web search or web fetch, request approval and form queries only from the user-provided subject plus non-sensitive schema concepts. Never place raw values, direct identifiers, private URLs, proprietary labels, or secrets in an outbound query. Store only source provenance, aggregate findings, and evidence limits in .dataforge/state.json.
 
 Record workflow status, assumptions, checks, hypotheses, approval decisions, and artifact paths in .dataforge/state.json. A correlation is a hypothesis until a reproducible validation passes. Ask before destructive commands, database writes, credential use, external downloads, joins, model training, publication, or external-directory access. Verify generated artifacts and report the exact checks that passed.
+
+Bounded autonomous runs are allowed only for low-risk local work. Record a goal, model-turn budget, tool-call budget, expected artifacts, checkpoints, and stop conditions before continuing. Stop and ask at every approval gate or budget limit. Never bypass permissions, safeguards, rate limits, or review controls.
 `
 
 const rasterizeScript = `#!/usr/bin/env python3
@@ -183,6 +204,12 @@ export const WorkspaceCommand = cmd({
             state_error: stateError,
             governance: state && typeof state === "object" && "governance" in state ? state.governance : "missing",
             research: state && typeof state === "object" && "research" in state ? state.research : "missing",
+            autonomy:
+              state && typeof state === "object" && "autonomy" in state
+                ? state.autonomy
+                : stateError
+                  ? "missing"
+                  : { status: "legacy_missing", defaults: stateTemplate.autonomy },
           }
           console.log(JSON.stringify(report, null, 2))
           if (stateError) process.exitCode = 1
@@ -225,6 +252,39 @@ export const WorkspaceCommand = cmd({
         },
       })
       .command({
+        command: "autonomy [directory]",
+        describe: "print the bounded DataForge autonomous-run policy for a workspace",
+        builder: (inner) =>
+          inner.positional("directory", {
+            type: "string",
+            default: process.cwd(),
+            describe: "workspace directory",
+          }),
+        async handler(args) {
+          const directory = path.resolve(args.directory as string)
+          console.log(
+            JSON.stringify(
+              {
+                product: BRAND.name,
+                workspace: directory,
+                mode: "bounded",
+                default_budgets: { max_model_turns: 8, max_tool_calls: 12 },
+                allowed_without_new_approval: [
+                  "local inspection",
+                  "aggregate profiling",
+                  "reproducible local artifact generation",
+                  "verification",
+                ],
+                mandatory_stop_conditions: stateTemplate.autonomy.stop_on,
+                forbidden: ["permission bypass", "safeguard bypass", "rate-limit bypass", "unreviewed externalization"],
+              },
+              null,
+              2,
+            ),
+          )
+        },
+      })
+      .command({
         command: "rasterize <image> [directory]",
         describe: "render a local Python plot PNG as a true-color DataForge terminal raster",
         builder: (inner) =>
@@ -237,21 +297,41 @@ export const WorkspaceCommand = cmd({
               type: "string",
               default: process.cwd(),
               describe: "workspace directory",
+            })
+            .option("id", {
+              type: "string",
+              default: "figure",
+              describe: "stable local identifier for this plot artifact",
+            })
+            .option("title", {
+              type: "string",
+              default: "Python plot",
+              describe: "safe display title for the terminal plot view",
             }),
         async handler(args) {
           const directory = path.resolve(args.directory as string)
           const image = path.resolve(directory, args.image as string)
           const result = await initializeWorkspace(directory)
           const output = path.join(result.dataforge, "analysis-console.json")
-          const process = Bun.spawn(
-            ["python3", path.join(result.dataforge, "scripts", "rasterize.py"), image, "--output", output],
+          const child = Bun.spawn(
+            [
+              "python3",
+              path.join(result.dataforge, "scripts", "rasterize.py"),
+              image,
+              "--output",
+              output,
+              "--id",
+              args.id as string,
+              "--title",
+              args.title as string,
+            ],
             {
               cwd: directory,
               stdout: "inherit",
               stderr: "inherit",
             },
           )
-          if ((await process.exited) !== 0) process.exitCode = 1
+          if ((await child.exited) !== 0) process.exitCode = 1
         },
       })
       .demandCommand(),

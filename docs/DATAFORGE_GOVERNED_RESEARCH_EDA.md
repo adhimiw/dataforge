@@ -37,6 +37,12 @@ The local `dataforge workspace rasterize <plot.png> <workspace>` command creates
 
 `.dataforge/state.json` remains metadata-only. The update adds a `governance`, `datasets`, `research`, `hypotheses`, `enrichment`, and `analysis_console` envelope. The state may contain aggregate counts, artifact paths, safe display labels, hashes, commands, approvals, source URLs, and verification results. It must never store a secret, raw restricted row, direct identifier, unredacted exception payload, downloaded external dataset, or image payload.
 
+## Bounded autonomous execution
+
+DataForge can work autonomously only inside a **bounded local execution contract**. A bounded run starts with a stated goal, expected artifacts, explicit model-turn and tool-call budgets, checkpoints, and stop conditions. It may continue through low-risk local inspection, aggregate profiling, reproducible local artifact generation, and verification. It must stop and request approval for external research, downloads, joins, credential use, data mutation, destructive actions, database writes, training or label generation, publication, and out-of-workspace access.
+
+The default policy sets 8 model turns and 12 tool calls, checkpoints after each material artifact or failed verification, and returns a written evidence-and-next-step report when a budget is exhausted. It does not bypass permissions, safeguards, rate limits, approvals, or review controls. Operators can review the contract with `dataforge workspace autonomy .`; new workspaces persist it in local state, while existing state is surfaced as `legacy_missing` rather than silently altered.
+
 ## Reference-informed implementation choices
 
 The design applies the reusable ideas found in the referenced projects without copying their prompts, names, or product interfaces: **durable and reviewable harness state, bounded autonomy, explicit verification, rollback-friendly refinement, specialist roles, and clear trust boundaries**. The Prime Agent documentation is used for its persistent-state and evidence-backed refinement concepts, while SWE-agent reinforces tool-mediated, configuration-driven automation. Curated agent lists are treated as discovery indexes, not as implementation specifications. [1] [2] [3] [4] [5]

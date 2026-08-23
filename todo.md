@@ -7,3 +7,11 @@
 - [x] Add the requested terminal analysis views and keyboard interaction model.
 - [x] Add or extend focused tests for safe research, analysis artifacts, and TUI contracts.
 - [x] Update documentation and verify local checks before creating a release-ready commit.
+
+## TB burden CSV validation and bounded autonomy
+
+- [x] Inspect and classify the supplied TB burden CSV in a temporary local workspace.
+- [x] Produce reproducible aggregate EDA, local plot artifacts, and a redaction-aware analysis-console manifest.
+- [x] Add bounded autonomous-run controls with explicit budgets, checkpointing, stop conditions, and approval gates.
+- [x] Add focused regression coverage and validate the full dataset workflow without externalizing the source records.
+- [x] Document the dataset test results and bounded-autonomy behavior for review.

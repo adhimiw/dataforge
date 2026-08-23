@@ -37,6 +37,9 @@ describe("DataForge runtime defaults", () => {
     expect(config.command?.enrich?.agent).toBe("dataforge")
     expect(config.command?.enrich?.template).toContain("reversible")
     expect(config.command?.analyze?.template).toContain("analysis-console manifest")
+    expect(config.command?.autonomous?.agent).toBe("dataforge")
+    expect(config.command?.autonomous?.template).toContain("budget")
+    expect(config.command?.autonomous?.template).toContain("Do not attempt to bypass permissions")
   })
 
   it("preserves an explicit model and allows provider switching by opt-in", () => {
