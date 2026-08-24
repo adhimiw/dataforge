@@ -31,5 +31,6 @@ export * from "./widgets/status-bar";
 // Data, Search & AI
 export * from "./data/csv";
 export * from "./llm/zen";
+export * from "./llm/colibri";
 export * from "./search/exa";
 export * from "./agent/pattern-discovery";

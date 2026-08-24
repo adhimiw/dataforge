@@ -16,6 +16,7 @@ import { Style } from "./core/cell";
 import { XperiaTheme } from "./style/xperia";
 import { CSVProfiler, DatasetProfile } from "./data/csv";
 import { ZenClient } from "./llm/zen";
+import { ColibriEngine, COLIBRI_REGISTRY } from "./llm/colibri";
 import { ExaClient, ExaSearchResult } from "./search/exa";
 import { GodPatternDiscoveryEngine, DiscoveredPattern } from "./agent/pattern-discovery";
 import path from "path";
@@ -102,6 +103,7 @@ for (const item of imgFiles) {
 const terminal = new Terminal().enter();
 const input = new InputParser();
 const zenClient = new ZenClient();
+const colibriEngine = new ColibriEngine("ornith-1.5:9b");
 const exaClient = new ExaClient();
 const discoveryEngine = new GodPatternDiscoveryEngine();
 
@@ -113,12 +115,18 @@ let isStreaming = false;
 let totalTokens = 0;
 let tableSelectedIndex = 0;
 
+// Model Selection: 0 = Ornith-1.5:9B (Local Colibri), 1 = OpenCode Zen Big-Pickle (Cloud)
+let activeModelIndex = 0;
+const activeModels = [
+  { id: "ornith-1.5:9b", name: "Ornith-1.5:9B (Local Colibri)", type: "local" },
+  { id: "big-pickle", name: "Big Pickle 200k (OpenCode Zen)", type: "cloud" },
+];
+
 const streamView = new StreamView();
 let discoveredPatterns: DiscoveredPattern[] = [];
 let exaLiveResults: ExaSearchResult[] = [];
 let exaQueryText = "Taylor Swift Eras Tour Spotify catalog stream surge";
 
-// Initial autonomous discovery rollout
 triggerAutonomousRollout();
 
 async function triggerAutonomousRollout() {
@@ -140,8 +148,9 @@ async function triggerAutonomousRollout() {
 function triggerLLMQuery(promptText: string) {
   if (isStreaming) return;
   isStreaming = true;
+  const currentModel = activeModels[activeModelIndex];
   streamView.setThinkingState(true);
-  streamView.addToken(`\n\n👤 **User**: ${promptText}\n\n🤖 **DataForge Zen Agent (OpenPipe ART)**:\n`);
+  streamView.addToken(`\n\n👤 **User**: ${promptText}\n\n🤖 **DataForge Agent [${currentModel.name}]**:\n`);
   render();
 
   const summary = `
@@ -151,37 +160,67 @@ Discovered Patterns: ${discoveredPatterns.length} verified hidden clusters
 Exa Neural Context: ${exaLiveResults[0]?.title || "Billboard streaming data active"}
 `;
 
-  zenClient.streamAnalysis(summary, promptText, {
-    onThinking: (thought) => {
-      streamView.addThinking(thought);
-      totalTokens += 4;
-      render();
-    },
-    onToken: (tok) => {
-      streamView.setThinkingState(false);
-      streamView.addToken(tok);
-      totalTokens += 2;
-      render();
-    },
-    onError: (err) => {
-      streamView.setThinkingState(false);
-      streamView.addToken(`\n❌ Error: ${err.message}\n`);
-      isStreaming = false;
-      render();
-    },
-    onComplete: () => {
-      streamView.setThinkingState(false);
-      isStreaming = false;
-      render();
-    },
-  });
+  if (currentModel.type === "local") {
+    colibriEngine.setModel(currentModel.id);
+    colibriEngine.streamAnalysis(summary, promptText, {
+      onThinking: (thought) => {
+        streamView.addThinking(thought);
+        totalTokens += 3;
+        render();
+      },
+      onToken: (tok) => {
+        streamView.setThinkingState(false);
+        streamView.addToken(tok);
+        totalTokens += 2;
+        render();
+      },
+      onError: (err) => {
+        streamView.setThinkingState(false);
+        streamView.addToken(`\n❌ Local Model Error: ${err.message}\n(Falling back to OpenCode Zen...)\n`);
+        zenClient.streamAnalysis(summary, promptText, {
+          onThinking: (t) => streamView.addThinking(t),
+          onToken: (t) => streamView.addToken(t),
+          onComplete: () => { isStreaming = false; render(); },
+        });
+      },
+      onComplete: () => {
+        streamView.setThinkingState(false);
+        isStreaming = false;
+        render();
+      },
+    });
+  } else {
+    zenClient.streamAnalysis(summary, promptText, {
+      onThinking: (thought) => {
+        streamView.addThinking(thought);
+        totalTokens += 4;
+        render();
+      },
+      onToken: (tok) => {
+        streamView.setThinkingState(false);
+        streamView.addToken(tok);
+        totalTokens += 2;
+        render();
+      },
+      onError: (err) => {
+        streamView.setThinkingState(false);
+        streamView.addToken(`\n❌ Error: ${err.message}\n`);
+        isStreaming = false;
+        render();
+      },
+      onComplete: () => {
+        streamView.setThinkingState(false);
+        isStreaming = false;
+        render();
+      },
+    });
+  }
 }
 
 function render() {
   terminal.draw((frame) => {
     const size = frame.size;
 
-    // Layout: Header (3), Tabs (1), Main Body (Fill), Prompt (3), Status (1)
     const chunks = Layout.vertical()
       .constraints([
         Constraint.length(3), // Header
@@ -199,7 +238,7 @@ function render() {
       .background(XperiaTheme.OBSIDIAN_BG);
 
     const headerPara = Paragraph.text(
-      `📊 Active Dataset: [${datasetsConfig[activeDatasetIndex].name}] (${currentProfile.rowCount.toLocaleString()} records, ${currentProfile.columnCount} cols) │ Press [D] to Cycle Datasets │ Exa Neural Web Active`
+      `📊 Dataset: [${datasetsConfig[activeDatasetIndex].name}] (${currentProfile.rowCount.toLocaleString()} rows) │ Model: [${activeModels[activeModelIndex].name}] │ [D] Cycle Data │ [M] Switch Model`
     )
       .block(headerBlock)
       .style(XperiaTheme.SUBTITLE);
@@ -231,13 +270,13 @@ function render() {
 
     const promptWidget = new PromptInput()
       .value(inputValue)
-      .placeholder("Ask about Spotify audio clusters, viral streaming multipliers, or search Exa...")
+      .placeholder(`Ask ${activeModels[activeModelIndex].name} about audio clusters, virality multipliers, or Exa search...`)
       .block(promptBlock);
     frame.renderWidget(promptWidget, chunks[3]);
 
     // 5. Status Bar
     const statusBar = new StatusBar()
-      .model("opencode/big-pickle (200k) + Colibri MoE Specs")
+      .model(activeModels[activeModelIndex].name)
       .agent("dataforge-art")
       .tokens(totalTokens)
       .cost(totalTokens * 0.000002)
@@ -276,7 +315,6 @@ function renderAnalyticsTab(area: any, frame: any) {
     ])
     .split(area);
 
-  // Left: Top Artists or Global Trends Bar Chart
   const barBlock = new Block()
     .border("rounded", Style.default().withFg(XperiaTheme.BORDER_SUBTLE))
     .title("TOP STREAMING ARTISTS & CATALOG VELOCITY (BILLIONS)", "left", Style.default().bold().withFg(XperiaTheme.XPERIA_CYAN))
@@ -299,7 +337,6 @@ function renderAnalyticsTab(area: any, frame: any) {
     .block(barBlock);
   frame.renderWidget(barChart, hChunks[0]);
 
-  // Right: Audio Feature Distribution Line Chart
   const lineBlock = new Block()
     .border("rounded", Style.default().withFg(XperiaTheme.BORDER_SUBTLE))
     .title("AUDIO FEATURE VIRALITY CURVE (Danceability vs Energy)", "left", Style.default().bold().withFg(XperiaTheme.SONY_GOLD))
@@ -456,6 +493,13 @@ input.on("key", (e: KeyEvent) => {
   if (e.key === "d" || e.key === "D") {
     const nextIdx = (activeDatasetIndex + 1) % datasetsConfig.length;
     loadActiveDataset(nextIdx);
+    render();
+    return;
+  }
+
+  // Cycle model with 'm' or 'M'
+  if (e.key === "m" || e.key === "M") {
+    activeModelIndex = (activeModelIndex + 1) % activeModels.length;
     render();
     return;
   }
