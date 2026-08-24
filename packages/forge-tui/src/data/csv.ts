@@ -1,4 +1,5 @@
 ﻿import fs from "fs";
+import path from "path";
 
 export type ColumnStat = {
   name: string;
@@ -14,6 +15,7 @@ export type ColumnStat = {
 
 export type DatasetProfile = {
   filepath: string;
+  name: string;
   rowCount: number;
   columnCount: number;
   headers: string[];
@@ -44,6 +46,46 @@ export class CSVProfiler {
     return values;
   }
 
+  // Auto-scan current working directory and subdirectories for raw datasets
+  static discoverWorkspaceDatasets(baseDir: string = process.cwd()): { id: string; name: string; paths: string[] }[] {
+    const discovered: { id: string; name: string; paths: string[] }[] = [];
+    const validExtensions = [".csv", ".tsv", ".json"];
+
+    function scanDir(dir: string, depth: number = 0) {
+      if (depth > 3) return;
+      try {
+        if (!fs.existsSync(dir)) return;
+        const entries = fs.readdirSync(dir, { withFileTypes: true });
+        for (const entry of entries) {
+          const fullPath = path.join(dir, entry.name);
+          if (entry.isDirectory()) {
+            if (!entry.name.startsWith(".") && entry.name !== "node_modules" && entry.name !== "dist") {
+              scanDir(fullPath, depth + 1);
+            }
+          } else if (entry.isFile()) {
+            const ext = path.extname(entry.name).toLowerCase();
+            if (validExtensions.includes(ext)) {
+              // Ensure it's not a config or lockfile
+              if (!entry.name.includes("package") && !entry.name.includes("tsconfig") && !entry.name.includes("turbo")) {
+                const stat = fs.statSync(fullPath);
+                if (stat.size > 50) {
+                  discovered.push({
+                    id: path.basename(entry.name, ext).toLowerCase().replace(/[^a-z0-9_]/g, "_"),
+                    name: `📁 ${entry.name} (${(stat.size / 1024).toFixed(1)} KB)`,
+                    paths: [fullPath],
+                  });
+                }
+              }
+            }
+          }
+        }
+      } catch {}
+    }
+
+    scanDir(baseDir);
+    return discovered;
+  }
+
   static profile(filepath: string, maxSampleRows: number = 5000): DatasetProfile {
     const raw = fs.readFileSync(filepath, "utf8");
     const rawLines = raw.split(/\r?\n/).filter((l) => l.trim().length > 0);
@@ -60,7 +102,6 @@ export class CSVProfiler {
       sampleRows.push(this.parseLine(rawLines[i]));
     }
 
-    // Column profiling
     const columns: ColumnStat[] = [];
     const countryMortalityMap = new Map<string, number>();
     const yearDeathsMap = new Map<number, number>();
@@ -107,7 +148,6 @@ export class CSVProfiler {
         max = Math.max(...numValues);
         mean = numValues.reduce((a, b) => a + b, 0) / numValues.length;
 
-        // 8-bucket histogram for sparklines
         const buckets = new Array(8).fill(0);
         const range = max - min || 1;
         for (const nv of numValues) {
@@ -130,7 +170,6 @@ export class CSVProfiler {
       });
     }
 
-    // Time-series & Country Aggregations
     for (const row of sampleRows) {
       const country = countryIdx !== -1 ? row[countryIdx] : "";
       const year = yearIdx !== -1 ? parseInt(row[yearIdx]) : NaN;
@@ -147,7 +186,6 @@ export class CSVProfiler {
       }
     }
 
-    // Yearly Trends sorted
     const yearlyTrends = Array.from(yearDeathsMap.entries())
       .sort((a, b) => a[0] - b[0])
       .map(([year, deaths]) => ({
@@ -156,7 +194,6 @@ export class CSVProfiler {
         incidence: yearIncidenceMap.get(year) || 0,
       }));
 
-    // Top 10 Countries by Mortality
     const topCountriesByMortality = Array.from(countryMortalityMap.entries())
       .sort((a, b) => b[1] - a[1])
       .slice(0, 8)
@@ -164,6 +201,7 @@ export class CSVProfiler {
 
     return {
       filepath,
+      name: path.basename(filepath),
       rowCount,
       columnCount: headers.length,
       headers,

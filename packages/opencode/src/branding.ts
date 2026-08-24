@@ -1,4 +1,4 @@
-﻿import type { ConfigV1 } from "@opencode-ai/core/v1/config/config"
+import type { ConfigV1 } from "@opencode-ai/core/v1/config/config"
 
 export const BRAND = {
   name: "DataForge",
@@ -45,6 +45,12 @@ const workflowCommands: ConfigV1.Info["command"] = {
     agent: "dataforge",
     template:
       "Prepare a focused Exa neural web search brief on the requested dataset question or anomaly. Retrieve authoritative sources, highlights, and citations explaining real-world drivers without exposing private data. Structure results with URLs, relevance scores, and evidence summaries.",
+  },
+  lr: {
+    description: "Execute autonomous Exa neural literature review and provenance tracking across datasets to discover original authorship, peer-reviewed baselines, and empirical citations",
+    agent: "dataforge",
+    template:
+      "Scan the current working directory for raw datasets (.csv, .tsv, .json), profile schemas, and execute an autonomous Literature Review (LR) using Exa neural search. Discover the dataset's original author/organization, hosting platform, academic peer-reviewed baseline papers, originality score, and known hidden anomalies. Write the complete findings to .dataforge/literature_review.md and record state.",
   },
   art: {
     description: "Execute an OpenPipe ART (Agent Reinforcement Training) rollout with empirical hypothesis formulation, Exa validation, and model synthesis",
