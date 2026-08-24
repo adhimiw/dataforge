@@ -28,9 +28,11 @@ export * from "./widgets/image";
 export * from "./widgets/prompt-input";
 export * from "./widgets/status-bar";
 
-// Data, Search & AI
+// Data, Search, Fusion & AI
 export * from "./data/csv";
 export * from "./llm/zen";
 export * from "./llm/colibri";
 export * from "./search/exa";
 export * from "./agent/pattern-discovery";
+export * from "./agent/subagent-manager";
+export * from "./fusion/hazard-fusion";
