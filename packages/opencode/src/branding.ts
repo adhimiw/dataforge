@@ -1,9 +1,9 @@
-import type { ConfigV1 } from "@opencode-ai/core/v1/config/config"
+﻿import type { ConfigV1 } from "@opencode-ai/core/v1/config/config"
 
 export const BRAND = {
   name: "DataForge",
   command: "dataforge",
-  tagline: "Autonomous data engineering and analysis in your terminal",
+  tagline: "Autonomous data engineering, OpenPipe ART reasoning, Exa search, and Colibri inference in your terminal",
   providerID: "opencode",
   modelID: "big-pickle",
   model: "opencode/big-pickle",
@@ -12,6 +12,7 @@ export const BRAND = {
   modelLabel: "Big Pickle",
   apiKeyEnv: "OPENCODE_API_KEY",
   zenURL: "https://opencode.ai/zen",
+  localModel: "ollama/ornith-1.5:9b",
 } as const
 
 const workflowCommands: ConfigV1.Info["command"] = {
@@ -32,6 +33,30 @@ const workflowCommands: ConfigV1.Info["command"] = {
     agent: "dataforge",
     template:
       "Analyze the requested dataset or business question end to end. Plan the work, classify and inspect the data before modeling, create reproducible scripts or notebooks, validate outputs, record aggregate metrics and assumptions in .dataforge/state.json, and explain limitations. Create an analysis-console manifest only from verified, redacted aggregate data. Prefer deterministic tools and small summaries over copying full datasets into chat. Do not send records to external services.",
+  },
+  spotify: {
+    description: "Run multi-dataset relational joining and acoustic virality clustering across Spotify datasets",
+    agent: "dataforge",
+    template:
+      "Execute multi-dataset relational analysis across Spotify Tracks (114k), Artist Streaming Analytics, and Most Streamed Artists in .dataforge/datasets/spotify/. Compute Pearson correlation matrices across danceability, energy, loudness, valence, and streaming longevity. Generate publication-quality Matplotlib/Seaborn visualization rasters and record verified cluster insights in .dataforge/state.json.",
+  },
+  exa: {
+    description: "Search Exa neural index to discover domain patterns, live streaming cultural catalysts, and real-time anomalies with citations",
+    agent: "dataforge",
+    template:
+      "Prepare a focused Exa neural web search brief on the requested dataset question or anomaly. Retrieve authoritative sources, highlights, and citations explaining real-world drivers without exposing private data. Structure results with URLs, relevance scores, and evidence summaries.",
+  },
+  art: {
+    description: "Execute an OpenPipe ART (Agent Reinforcement Training) rollout with empirical hypothesis formulation, Exa validation, and model synthesis",
+    agent: "dataforge",
+    template:
+      "Run an OpenPipe ART multi-turn reasoning rollout: 1) Extract empirical tensor statistics, 2) Formulate testable hypotheses, 3) Verify through Exa neural web search, 4) Evaluate reward consistency against ground-truth data, 5) Synthesize reproducible data models and code pipelines.",
+  },
+  colibri: {
+    description: "Inspect local Colibri MoE weight-streaming inference profiles and hardware tiers",
+    agent: "dataforge",
+    template:
+      "Inspect the Colibri weight-streaming model registry (Ornith-1.5:9B, OLMoE 7B, GLM-5.2 744B, DeepSeek V4 Flash 167B, Qwen3.6-35B-A3B) and check active local inference server status on port 11434.",
   },
   research: {
     description: "Research public dataset context and record cited, approval-gated findings",
@@ -83,7 +108,7 @@ export function applyBrandDefaults(input: ConfigV1.Info): ConfigV1.Info {
 
   if (process.env.DATAFORGE_ALLOW_PROVIDER_SWITCH === "1" || hasExplicitModel) return input
 
-  input.enabled_providers = [BRAND.providerID]
+  input.enabled_providers = [BRAND.providerID, "ollama"]
   input.model = BRAND.model
   input.small_model ??= BRAND.model
   input.provider = {
