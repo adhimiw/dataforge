@@ -1,26 +1,34 @@
-import { EOL } from "os"
+﻿import { EOL } from "os"
 import { Schema } from "effect"
 import { logo as glyphs } from "./logo"
 
-const wordmark = [`          ◢◆◣`, `     DATAFORGE`, `Autonomous data engineering`, `         in your terminal`]
+const wordmark = [
+  `  \x1b[38;2;0;210;255m\x1b[1m██████╗   █████╗  ████████╗  █████╗ ███████╗  ██████╗  ██████╗   ██████╗  ███████╗\x1b[0m`,
+  `  \x1b[38;2;0;210;255m\x1b[1m██╔══██╗ ██╔══██╗ ╚══██╔══╝ ██╔══██╗██╔════╝ ██╔═══██╗ ██╔══██╗ ██╔════╝  ██╔════╝\x1b[0m`,
+  `  \x1b[38;2;0;210;255m\x1b[1m██║  ██║ ███████║    ██║    ███████║█████╗   ██║   ██║ ██████╔╝ ██║  ███╗ █████╗  \x1b[0m`,
+  `  \x1b[38;2;0;210;255m\x1b[1m██║  ██║ ██╔══██║    ██║    ██╔══██║██╔══╝   ██║   ██║ ██╔══██╗ ██║   ██║ ██╔══╝  \x1b[0m`,
+  `  \x1b[38;2;0;210;255m\x1b[1m██████╔╝ ██║  ██║    ██║    ██║  ██║██║      ╚██████╔╝ ██║  ██║ ╚██████╔╝ ███████╗\x1b[0m`,
+  `  \x1b[38;2;0;210;255m\x1b[1m╚═════╝  ╚═╝  ╚═╝    ╚═╝    ╚═╝  ╚═╝╚═╝       ╚═════╝  ╚═╝  ╚═╝  ╚═════╝  ╚══════╝\x1b[0m`,
+  `  \x1b[38;2;255;179;0mAutonomous Data Engineering, OpenPipe ART & Situational Intelligence in your terminal\x1b[0m`,
+]
 
 export class CancelledError extends Schema.TaggedErrorClass<CancelledError>()("UICancelledError", {}) {}
 
 export const Style = {
-  TEXT_HIGHLIGHT: "\x1b[96m",
-  TEXT_HIGHLIGHT_BOLD: "\x1b[96m\x1b[1m",
-  TEXT_DIM: "\x1b[90m",
-  TEXT_DIM_BOLD: "\x1b[90m\x1b[1m",
+  TEXT_HIGHLIGHT: "\x1b[38;2;0;210;255m",       // Xperia Electric Cyan
+  TEXT_HIGHLIGHT_BOLD: "\x1b[38;2;0;210;255m\x1b[1m",
+  TEXT_DIM: "\x1b[38;2;120;140;160m",            // Subtle Slate
+  TEXT_DIM_BOLD: "\x1b[38;2;120;140;160m\x1b[1m",
   TEXT_NORMAL: "\x1b[0m",
   TEXT_NORMAL_BOLD: "\x1b[1m",
-  TEXT_WARNING: "\x1b[93m",
-  TEXT_WARNING_BOLD: "\x1b[93m\x1b[1m",
-  TEXT_DANGER: "\x1b[91m",
-  TEXT_DANGER_BOLD: "\x1b[91m\x1b[1m",
-  TEXT_SUCCESS: "\x1b[92m",
-  TEXT_SUCCESS_BOLD: "\x1b[92m\x1b[1m",
-  TEXT_INFO: "\x1b[94m",
-  TEXT_INFO_BOLD: "\x1b[94m\x1b[1m",
+  TEXT_WARNING: "\x1b[38;2;255;179;0m",          // Sony Gold
+  TEXT_WARNING_BOLD: "\x1b[38;2;255;179;0m\x1b[1m",
+  TEXT_DANGER: "\x1b[38;2;230;0;18m",            // Sony Crimson
+  TEXT_DANGER_BOLD: "\x1b[38;2;230;0;18m\x1b[1m",
+  TEXT_SUCCESS: "\x1b[38;2;0;230;118m",          // Emerald
+  TEXT_SUCCESS_BOLD: "\x1b[38;2;0;230;118m\x1b[1m",
+  TEXT_INFO: "\x1b[38;2;0;210;255m",             // Electric Cyan
+  TEXT_INFO_BOLD: "\x1b[38;2;0;210;255m\x1b[1m",
 }
 
 export function println(...message: string[]) {
@@ -41,60 +49,12 @@ export function empty() {
 }
 
 export function logo(pad?: string) {
-  if (!process.stdout.isTTY && !process.stderr.isTTY) {
-    const result = []
-    for (const row of wordmark) {
-      if (pad) result.push(pad)
-      result.push(row)
-      result.push(EOL)
-    }
-    return result.join("").trimEnd()
-  }
-
   const result: string[] = []
-  const reset = "\x1b[0m"
-  const left = {
-    fg: "\x1b[90m",
-    shadow: "\x1b[38;5;235m",
-    bg: "\x1b[48;5;235m",
-  }
-  const right = {
-    fg: reset,
-    shadow: "\x1b[38;5;238m",
-    bg: "\x1b[48;5;238m",
-  }
-  const gap = " "
-  const draw = (line: string, fg: string, shadow: string, bg: string) => {
-    const parts: string[] = []
-    for (const char of line) {
-      if (char === "_") {
-        parts.push(bg, " ", reset)
-        continue
-      }
-      if (char === "^") {
-        parts.push(fg, bg, "▀", reset)
-        continue
-      }
-      if (char === "~") {
-        parts.push(shadow, "▀", reset)
-        continue
-      }
-      if (char === " ") {
-        parts.push(" ")
-        continue
-      }
-      parts.push(fg, char, reset)
-    }
-    return parts.join("")
-  }
-  glyphs.left.forEach((row, index) => {
+  for (const row of wordmark) {
     if (pad) result.push(pad)
-    result.push(draw(row, left.fg, left.shadow, left.bg))
-    result.push(gap)
-    const other = glyphs.right[index] ?? ""
-    result.push(draw(other, right.fg, right.shadow, right.bg))
+    result.push(row)
     result.push(EOL)
-  })
+  }
   return result.join("").trimEnd()
 }
 
@@ -117,7 +77,7 @@ export function error(message: string) {
   if (message.startsWith("Error: ")) {
     message = message.slice("Error: ".length)
   }
-  println(Style.TEXT_DANGER_BOLD + "Error: " + Style.TEXT_NORMAL + message)
+  println(Style.TEXT_DANGER_BOLD + "DataForge Error: " + Style.TEXT_NORMAL + message)
 }
 
 export function markdown(text: string): string {
