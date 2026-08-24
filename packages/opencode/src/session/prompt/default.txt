@@ -2,13 +2,14 @@
 
 # Core Identity & Knowledge
 - Platform: DataForge Autonomous Engine with Sony Xperia SST Design System.
-- Core Models: Local Colibri Engine (`ollama/ornith-1.5:9b` on :11434) and DataForge Zen (`opencode/big-pickle` with 200k context).
+- Model Switcher: Support both Local Colibri Engine (`ollama/ornith-1.5:9b` on port 11434) and DataForge Zen (`opencode/big-pickle` with 200k context). Use `/model` to view or switch.
 - Multi-Dataset Registry:
   1. Spotify Tracks Dataset (114k records, 20 audio dimensions).
   2. Spotify Artist Streaming Analytics (Monthly listeners, total streams).
   3. Most Streamed Artists All-Time (1B+ tracks, lead vs feature velocity).
   4. WHO Tuberculosis Global Burden (1990–2013 longitudinal incidence/mortality).
   5. Public Multi-Source Hazard Fusion (Live USGS Earthquakes, NWS Weather Alerts, NASA EONET Curated Events).
+  6. Any local workspace datasets (.csv, .tsv, .json) discovered in the current directory.
 
 # Autonomous Sub-Agent Fleet
 When asked about available sub-agents or when orchestrating complex workflows, DataForge dispatches the following 6 specialized autonomous sub-agents:
@@ -20,6 +21,12 @@ When asked about available sub-agents or when orchestrating complex workflows, D
 6. `verification_guard`: Enforces the 6 Hard Test Cases (`HF-01` Schema Drift through `HF-06` Semantic Unit Protection) and data integrity invariants.
 
 # Workflow Commands
+- `/model`: Switch between Local Colibri (ollama/ornith-1.5:9b) and DataForge Zen (opencode/big-pickle 200k).
+- `/lr`: Execute autonomous Exa neural literature review, provenance tracking, and originality ledger.
+- `/hazard`: Inspect live USGS, NWS, and NASA EONET situational intelligence feeds and verify the 6 Hard Test Cases.
+- `/charts`: Render terminal ASCII/ANSI multi-series line and bar charts.
+- `/plots`: Generate publication-quality Python Matplotlib / Seaborn visual plots.
+- `/dataset`: Scan current directory and cycle between active workspace datasets.
 - `/spotify`: Execute multi-dataset relational analysis and acoustic virality clustering across Spotify datasets.
 - `/exa`: Search Exa neural index for real-time domain patterns and citations.
 - `/art`: Run OpenPipe ART (Agent Reinforcement Training) multi-turn reasoning rollouts.

@@ -1,4 +1,4 @@
-import type { ConfigV1 } from "@opencode-ai/core/v1/config/config"
+﻿import type { ConfigV1 } from "@opencode-ai/core/v1/config/config"
 
 export const BRAND = {
   name: "DataForge",
@@ -34,6 +34,42 @@ const workflowCommands: ConfigV1.Info["command"] = {
     template:
       "Analyze the requested dataset or business question end to end. Plan the work, classify and inspect the data before modeling, create reproducible scripts or notebooks, validate outputs, record aggregate metrics and assumptions in .dataforge/state.json, and explain limitations. Create an analysis-console manifest only from verified, redacted aggregate data. Prefer deterministic tools and small summaries over copying full datasets into chat. Do not send records to external services.",
   },
+  model: {
+    description: "Switch between Local Colibri (ollama/ornith-1.5:9b) and DataForge Zen (opencode/big-pickle 200k)",
+    agent: "dataforge",
+    template:
+      "Inspect current active LLM model and switch between local Colibri weight-streaming (ollama/ornith-1.5:9b on port 11434) and DataForge Zen (opencode/big-pickle with 200k context). Verify model connectivity and latency.",
+  },
+  lr: {
+    description: "Execute autonomous Exa neural literature review and provenance tracking across datasets",
+    agent: "dataforge",
+    template:
+      "Scan the current working directory for raw datasets (.csv, .tsv, .json), profile schemas, and execute an autonomous Literature Review (LR) using Exa neural search. Discover the dataset's original author/organization, hosting platform, academic peer-reviewed baseline papers, originality score, and known hidden anomalies. Write the complete findings to .dataforge/literature_review.md and record state.",
+  },
+  hazard: {
+    description: "Inspect live USGS Earthquakes, NWS Weather Alerts, NASA EONET events and enforce 6 Hard Test Cases",
+    agent: "dataforge",
+    template:
+      "Collect and reconcile live public situational intelligence feeds: USGS Earthquakes, NWS Active Alerts, and NASA EONET Curated Events. Reconcile spatial-temporal envelopes (<=250km/6h), produce SHA-256 SourceReceipts, and verify all 6 Hard Test Cases (HF-01 to HF-06).",
+  },
+  charts: {
+    description: "Render high-resolution terminal line and horizontal/vertical bar charts",
+    agent: "dataforge",
+    template:
+      "Compute aggregated distribution metrics on the active dataset and render terminal line and bar charts with high-resolution ANSI TrueColor styling.",
+  },
+  plots: {
+    description: "Generate publication-quality Python Matplotlib / Seaborn visual plots",
+    agent: "dataforge",
+    template:
+      "Generate publication-grade Python Matplotlib / Seaborn visualization plots for the active dataset, compute correlation matrices, and output 24-bit TrueColor raster files under packages/forge-tui/artifacts/.",
+  },
+  dataset: {
+    description: "Scan workspace and cycle between active datasets and reference suites",
+    agent: "dataforge",
+    template:
+      "Scan the active workspace for all available raw datasets (.csv, .tsv, .parquet, .json), report row counts, and switch the primary working dataset.",
+  },
   spotify: {
     description: "Run multi-dataset relational joining and acoustic virality clustering across Spotify datasets",
     agent: "dataforge",
@@ -45,12 +81,6 @@ const workflowCommands: ConfigV1.Info["command"] = {
     agent: "dataforge",
     template:
       "Prepare a focused Exa neural web search brief on the requested dataset question or anomaly. Retrieve authoritative sources, highlights, and citations explaining real-world drivers without exposing private data. Structure results with URLs, relevance scores, and evidence summaries.",
-  },
-  lr: {
-    description: "Execute autonomous Exa neural literature review and provenance tracking across datasets to discover original authorship, peer-reviewed baselines, and empirical citations",
-    agent: "dataforge",
-    template:
-      "Scan the current working directory for raw datasets (.csv, .tsv, .json), profile schemas, and execute an autonomous Literature Review (LR) using Exa neural search. Discover the dataset's original author/organization, hosting platform, academic peer-reviewed baseline papers, originality score, and known hidden anomalies. Write the complete findings to .dataforge/literature_review.md and record state.",
   },
   art: {
     description: "Execute an OpenPipe ART (Agent Reinforcement Training) rollout with empirical hypothesis formulation, Exa validation, and model synthesis",
