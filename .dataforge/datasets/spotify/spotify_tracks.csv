@@ -1,0 +1,1201 @@
+track_id,artists,album_name,track_name,popularity,duration_ms,explicit,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature,track_genre
+trk_1000,Ed Sheeran,Starboy Summer (Deluxe Edition),Starboy Summer,60,257714,0,0.824,0.853,9,-13.74,1,0.049,0.285,0.0,0.129,0.399,97.56,4,pop
+trk_1001,Kendrick Lamar,Save Waves (Deluxe Edition),Save Waves,95,186393,0,0.781,0.667,2,-6.67,1,0.329,0.598,0.0,0.2,0.683,100.91,4,hip-hop
+trk_1002,Coldplay,Levitating Chamber (Deluxe Edition),Levitating Chamber,100,215416,0,0.391,0.529,8,-3.9,1,0.322,0.455,0.0,0.301,0.349,111.4,4,rock
+trk_1003,Drake,As It Was World (Deluxe Edition),As It Was World,88,169291,0,0.608,0.41,9,-6.22,0,0.349,0.742,0.0,0.253,0.506,154.56,4,hip-hop
+trk_1004,Post Malone,Anti Chamber (Deluxe Edition),Anti Chamber,61,155409,0,0.411,0.911,0,-9.48,1,0.318,0.162,0.0,0.145,0.578,140.86,4,hip-hop
+trk_1005,Taylor Swift,Sunflower Fantasy (Deluxe Edition),Sunflower Fantasy,63,239698,0,0.762,0.789,0,-6.43,1,0.292,0.023,0.0,0.159,0.732,85.31,4,pop
+trk_1006,Drake,God's Tears (Deluxe Edition),God's Tears,73,153622,1,0.427,0.589,7,-4.34,1,0.175,0.456,0.2411,0.195,0.436,124.59,4,hip-hop
+trk_1007,Eminem,Levitating Fantasy (Deluxe Edition),Levitating Fantasy,56,160339,0,0.76,0.482,1,-11.41,1,0.159,0.04,0.0,0.289,0.203,100.99,4,hip-hop
+trk_1008,Billie Eilish,Save Symphony (Deluxe Edition),Save Symphony,39,140491,1,0.436,0.696,10,-5.67,0,0.199,0.776,0.0,0.083,0.18,147.69,4,alt-pop
+trk_1009,Kendrick Lamar,Shape Dreams (Deluxe Edition),Shape Dreams,60,187672,1,0.486,0.634,2,-9.59,0,0.235,0.182,0.0,0.218,0.156,98.35,4,hip-hop
+trk_1010,Dua Lipa,Die Heart (Deluxe Edition),Die Heart,51,223012,0,0.749,0.889,3,-5.65,0,0.235,0.064,0.0,0.168,0.453,146.42,4,dance-pop
+trk_1011,Harry Styles,Humble Parade (Deluxe Edition),Humble Parade,84,234191,0,0.746,0.785,4,-10.04,0,0.222,0.317,0.0,0.188,0.544,156.7,4,pop-rock
+trk_1012,Post Malone,Anti Waves (Deluxe Edition),Anti Waves,87,218032,0,0.36,0.894,5,-11.91,0,0.153,0.671,0.0,0.092,0.691,156.11,4,hip-hop
+trk_1013,Ariana Grande,Flowers Nights (Deluxe Edition),Flowers Nights,91,160930,1,0.791,0.448,3,-6.6,1,0.141,0.704,0.0,0.122,0.869,126.66,4,pop
+trk_1014,Eminem,Cruel Vibes (Deluxe Edition),Cruel Vibes,69,257510,1,0.373,0.947,6,-11.81,0,0.182,0.298,0.0,0.235,0.454,133.19,4,hip-hop
+trk_1015,Post Malone,vampire Dreams (Deluxe Edition),vampire Dreams,63,151292,0,0.496,0.35,5,-5.63,0,0.19,0.259,0.0,0.245,0.638,138.35,4,hip-hop
+trk_1016,Dua Lipa,Cruel Chamber (Deluxe Edition),Cruel Chamber,76,159522,0,0.425,0.612,1,-11.94,0,0.286,0.33,0.0,0.069,0.591,128.47,4,dance-pop
+trk_1017,Post Malone,Golden Hero (Deluxe Edition),Golden Hero,72,252463,0,0.632,0.712,7,-4.51,1,0.103,0.473,0.0,0.202,0.272,170.51,4,hip-hop
+trk_1018,Bruno Mars,Die Chamber (Deluxe Edition),Die Chamber,55,240101,0,0.462,0.365,4,-5.74,1,0.181,0.473,0.0,0.278,0.483,160.23,4,r&b
+trk_1019,Justin Bieber,Greedy Echoes (Deluxe Edition),Greedy Echoes,97,207812,0,0.573,0.791,4,-7.99,0,0.317,0.128,0.0,0.184,0.503,94.18,4,pop
+trk_1020,Bruno Mars,Levitating Waves (Deluxe Edition),Levitating Waves,40,202387,0,0.45,0.936,10,-12.11,1,0.222,0.03,0.0,0.163,0.166,130.46,4,r&b
+trk_1021,Justin Bieber,Starboy Vibes (Deluxe Edition),Starboy Vibes,44,149132,1,0.815,0.802,3,-8.28,0,0.083,0.445,0.0,0.118,0.158,123.78,4,pop
+trk_1022,Imagine Dragons,Golden Heart (Deluxe Edition),Golden Heart,55,191458,0,0.446,0.392,9,-7.91,1,0.122,0.128,0.0,0.184,0.547,115.78,4,rock
+trk_1023,Harry Styles,Peaches Chamber (Deluxe Edition),Peaches Chamber,64,175759,1,0.633,0.804,1,-10.75,0,0.297,0.107,0.0,0.253,0.885,105.04,4,pop-rock
+trk_1024,Drake,Lucid Waves (Deluxe Edition),Lucid Waves,86,171658,1,0.752,0.547,0,-3.33,1,0.093,0.171,0.0,0.14,0.668,88.29,4,hip-hop
+trk_1025,Kendrick Lamar,Flowers Lights (Deluxe Edition),Flowers Lights,65,157673,1,0.832,0.838,5,-8.32,0,0.306,0.183,0.0485,0.213,0.905,172.87,4,hip-hop
+trk_1026,SZA,Sunflower World (Deluxe Edition),Sunflower World,49,217458,0,0.94,0.74,5,-3.72,1,0.142,0.728,0.0,0.229,0.496,98.14,4,r&b
+trk_1027,Drake,Midnight Hour (Deluxe Edition),Midnight Hour,77,167070,1,0.468,0.366,0,-6.94,0,0.238,0.875,0.0,0.141,0.535,129.73,4,hip-hop
+trk_1028,Bruno Mars,Die Dreams (Deluxe Edition),Die Dreams,90,156828,0,0.474,0.603,8,-9.34,0,0.244,0.679,0.0,0.225,0.7,134.6,4,r&b
+trk_1029,Eminem,Die Memories (Deluxe Edition),Die Memories,92,174535,1,0.776,0.868,8,-7.92,1,0.31,0.104,0.0,0.121,0.778,104.31,4,hip-hop
+trk_1030,Olivia Rodrigo,Golden Nights (Deluxe Edition),Golden Nights,81,206942,1,0.561,0.482,11,-5.36,1,0.208,0.875,0.0,0.073,0.65,94.28,4,pop-rock
+trk_1031,Doja Cat,Anti Dreams (Deluxe Edition),Anti Dreams,47,229493,1,0.47,0.92,10,-6.26,1,0.289,0.643,0.0,0.075,0.78,99.54,4,dance-pop
+trk_1032,Travis Scott,Starboy Echoes (Deluxe Edition),Starboy Echoes,100,228188,1,0.399,0.694,4,-8.9,1,0.095,0.033,0.0,0.182,0.446,117.82,4,hip-hop
+trk_1033,Taylor Swift,Golden Memories (Deluxe Edition),Golden Memories,85,232174,1,0.584,0.882,10,-3.97,0,0.29,0.482,0.0,0.055,0.462,88.37,4,pop
+trk_1034,Doja Cat,Espresso Symphony (Deluxe Edition),Espresso Symphony,91,192398,0,0.93,0.75,8,-12.83,1,0.218,0.28,0.0,0.187,0.812,121.81,4,dance-pop
+trk_1035,Billie Eilish,Blinding You (Deluxe Edition),Blinding You,76,205900,1,0.848,0.763,4,-6.85,1,0.133,0.394,0.0,0.09,0.808,147.04,4,alt-pop
+trk_1036,Taylor Swift,Shape Lights (Deluxe Edition),Shape Lights,78,181138,0,0.761,0.656,8,-10.85,1,0.104,0.156,0.0,0.336,0.337,129.82,4,pop
+trk_1037,Drake,Peaches Summer (Deluxe Edition),Peaches Summer,66,174741,0,0.893,0.311,6,-3.0,1,0.281,0.729,0.0,0.202,0.431,154.48,4,hip-hop
+trk_1038,Imagine Dragons,Shape You (Deluxe Edition),Shape You,90,211966,1,0.901,0.877,10,-12.59,0,0.129,0.799,0.0,0.306,0.552,98.5,4,rock
+trk_1039,Post Malone,Golden Hour (Deluxe Edition),Golden Hour,51,258705,1,0.838,0.573,9,-12.35,1,0.326,0.773,0.0,0.099,0.688,163.09,4,hip-hop
+trk_1040,Imagine Dragons,Espresso Symphony (Deluxe Edition),Espresso Symphony,77,207481,0,0.85,0.861,10,-5.96,1,0.081,0.421,0.0,0.264,0.487,135.92,4,rock
+trk_1041,Ed Sheeran,Greedy Lover (Deluxe Edition),Greedy Lover,100,224166,0,0.439,0.319,9,-7.46,0,0.097,0.744,0.0,0.233,0.162,85.85,4,pop
+trk_1042,Coldplay,Espresso World (Deluxe Edition),Espresso World,59,203913,0,0.533,0.667,10,-6.17,0,0.174,0.235,0.0,0.33,0.866,98.79,4,rock
+trk_1043,Olivia Rodrigo,Cruel Summer (Deluxe Edition),Cruel Summer,56,142258,1,0.353,0.582,9,-12.98,1,0.097,0.075,0.249,0.179,0.816,161.04,4,pop-rock
+trk_1044,Billie Eilish,Die Chamber (Deluxe Edition),Die Chamber,53,235076,0,0.902,0.469,6,-7.13,0,0.182,0.415,0.3168,0.2,0.16,173.53,4,alt-pop
+trk_1045,SZA,Die Summer (Deluxe Edition),Die Summer,68,239015,1,0.61,0.348,5,-13.37,1,0.047,0.487,0.0,0.304,0.302,140.29,4,r&b
+trk_1046,Dua Lipa,Greedy Lover (Deluxe Edition),Greedy Lover,100,185908,0,0.589,0.732,9,-7.98,0,0.183,0.807,0.0,0.221,0.603,160.6,4,dance-pop
+trk_1047,Dua Lipa,Peaches World (Deluxe Edition),Peaches World,82,178162,0,0.476,0.564,7,-12.76,1,0.261,0.876,0.0,0.302,0.684,88.3,4,dance-pop
+trk_1048,Bad Bunny,Peaches Plan (Deluxe Edition),Peaches Plan,81,235968,1,0.371,0.851,10,-3.81,1,0.208,0.413,0.0,0.187,0.271,121.58,4,reggaeton
+trk_1049,Bad Bunny,Lucid Parade (Deluxe Edition),Lucid Parade,89,222954,1,0.836,0.848,1,-9.55,1,0.199,0.666,0.0,0.09,0.655,85.24,4,reggaeton
+trk_1050,Ed Sheeran,vampire Parade (Deluxe Edition),vampire Parade,60,189656,1,0.912,0.445,11,-10.07,0,0.236,0.356,0.0,0.326,0.413,163.17,4,pop
+trk_1051,The Weeknd,vampire Summer (Deluxe Edition),vampire Summer,70,207379,0,0.371,0.962,6,-10.74,1,0.149,0.441,0.0,0.209,0.295,164.15,4,pop
+trk_1052,Billie Eilish,Save Summer (Deluxe Edition),Save Summer,100,232368,0,0.668,0.957,5,-11.15,1,0.198,0.514,0.0,0.335,0.7,159.59,4,alt-pop
+trk_1053,The Weeknd,Peaches Lover (Deluxe Edition),Peaches Lover,34,243033,1,0.71,0.57,3,-5.09,0,0.246,0.536,0.0,0.077,0.368,92.66,4,pop
+trk_1054,Post Malone,As It Was Dreams (Deluxe Edition),As It Was Dreams,37,222010,1,0.706,0.444,7,-7.68,0,0.334,0.801,0.0,0.347,0.664,119.63,4,hip-hop
+trk_1055,Billie Eilish,Levitating Lover (Deluxe Edition),Levitating Lover,70,219248,0,0.888,0.619,8,-11.2,1,0.273,0.64,0.0,0.165,0.733,172.79,4,alt-pop
+trk_1056,SZA,Espresso Vibes (Deluxe Edition),Espresso Vibes,79,166269,0,0.701,0.837,1,-8.8,1,0.251,0.027,0.2707,0.056,0.801,157.88,4,r&b
+trk_1057,Coldplay,As It Was Plan (Deluxe Edition),As It Was Plan,67,151322,0,0.675,0.962,0,-5.33,1,0.253,0.674,0.0,0.326,0.831,87.23,4,rock
+trk_1058,Coldplay,Sunflower Memories (Deluxe Edition),Sunflower Memories,76,164860,1,0.36,0.393,8,-8.06,0,0.325,0.024,0.0,0.226,0.409,111.23,4,rock
+trk_1059,Olivia Rodrigo,Cruel Fantasy (Deluxe Edition),Cruel Fantasy,78,255570,0,0.491,0.638,7,-11.55,1,0.273,0.362,0.0,0.055,0.246,160.02,4,pop-rock
+trk_1060,Post Malone,Lucid Echoes (Deluxe Edition),Lucid Echoes,35,193858,0,0.919,0.607,10,-12.41,1,0.143,0.487,0.0,0.265,0.177,104.25,4,hip-hop
+trk_1061,Drake,Sunflower Summer (Deluxe Edition),Sunflower Summer,50,238064,1,0.626,0.72,3,-13.02,1,0.204,0.62,0.0,0.077,0.321,151.46,4,hip-hop
+trk_1062,Travis Scott,Shape Hero (Deluxe Edition),Shape Hero,75,179929,1,0.475,0.855,7,-7.06,0,0.087,0.086,0.2213,0.254,0.697,173.02,4,hip-hop
+trk_1063,Bruno Mars,Cruel Chamber (Deluxe Edition),Cruel Chamber,83,211484,1,0.889,0.421,0,-11.04,1,0.173,0.037,0.0,0.069,0.673,86.51,4,r&b
+trk_1064,Eminem,Golden Memories (Deluxe Edition),Golden Memories,100,212437,0,0.506,0.961,4,-5.76,1,0.085,0.044,0.2719,0.21,0.63,126.31,4,hip-hop
+trk_1065,Bruno Mars,Cruel Hour (Deluxe Edition),Cruel Hour,58,218300,1,0.364,0.365,0,-11.47,1,0.34,0.576,0.2636,0.233,0.669,152.09,4,r&b
+trk_1066,The Weeknd,Starboy Plan (Deluxe Edition),Starboy Plan,42,216266,1,0.358,0.465,7,-12.28,0,0.08,0.546,0.0,0.292,0.691,135.17,4,pop
+trk_1067,Taylor Swift,Lucid You (Deluxe Edition),Lucid You,91,152220,0,0.747,0.886,11,-4.21,1,0.249,0.012,0.0,0.108,0.686,114.18,4,pop
+trk_1068,Imagine Dragons,Blinding You (Deluxe Edition),Blinding You,83,193910,0,0.479,0.929,9,-5.29,1,0.174,0.741,0.0,0.115,0.445,167.63,4,rock
+trk_1069,Ariana Grande,Shape Heart (Deluxe Edition),Shape Heart,36,150213,0,0.535,0.337,7,-9.77,1,0.289,0.062,0.0,0.235,0.83,126.62,4,pop
+trk_1070,Drake,Anti Hour (Deluxe Edition),Anti Hour,97,236039,1,0.814,0.503,10,-4.43,1,0.051,0.257,0.0,0.266,0.733,87.62,4,hip-hop
+trk_1071,Drake,Midnight Plan (Deluxe Edition),Midnight Plan,96,184475,1,0.697,0.458,7,-9.38,0,0.337,0.267,0.0,0.28,0.242,156.89,4,hip-hop
+trk_1072,Coldplay,Golden You (Deluxe Edition),Golden You,78,152459,0,0.602,0.954,8,-11.24,1,0.318,0.73,0.0,0.143,0.253,101.31,4,rock
+trk_1073,Doja Cat,Sunflower Fantasy (Deluxe Edition),Sunflower Fantasy,78,152748,0,0.453,0.445,4,-10.28,0,0.329,0.182,0.0,0.103,0.483,139.79,4,dance-pop
+trk_1074,Billie Eilish,vampire Chamber (Deluxe Edition),vampire Chamber,82,143187,0,0.941,0.559,7,-3.68,0,0.309,0.057,0.0,0.315,0.284,123.31,4,alt-pop
+trk_1075,Dua Lipa,Espresso You (Deluxe Edition),Espresso You,63,200252,1,0.442,0.595,7,-10.61,0,0.314,0.84,0.0,0.245,0.527,92.72,4,dance-pop
+trk_1076,Travis Scott,Levitating Plan (Deluxe Edition),Levitating Plan,68,170737,0,0.731,0.973,10,-3.45,0,0.202,0.843,0.0,0.192,0.915,160.64,4,hip-hop
+trk_1077,SZA,Levitating You (Deluxe Edition),Levitating You,60,214865,0,0.403,0.848,10,-13.37,1,0.146,0.238,0.2878,0.263,0.178,163.76,4,r&b
+trk_1078,Taylor Swift,Greedy Parade (Deluxe Edition),Greedy Parade,68,179046,0,0.355,0.331,11,-10.48,1,0.112,0.155,0.0,0.332,0.892,150.85,4,pop
+trk_1079,Kendrick Lamar,Blinding You (Deluxe Edition),Blinding You,100,251064,1,0.912,0.758,11,-3.18,1,0.258,0.027,0.0,0.079,0.586,87.82,4,hip-hop
+trk_1080,Drake,Shape Tears (Deluxe Edition),Shape Tears,38,221374,1,0.409,0.583,9,-10.26,1,0.185,0.299,0.0,0.207,0.329,148.07,4,hip-hop
+trk_1081,Taylor Swift,Starboy World (Deluxe Edition),Starboy World,86,158732,1,0.856,0.421,4,-12.99,0,0.165,0.424,0.0,0.278,0.423,162.1,4,pop
+trk_1082,Coldplay,Blinding Vibes (Deluxe Edition),Blinding Vibes,82,207556,1,0.829,0.971,7,-12.25,1,0.347,0.414,0.0,0.155,0.695,136.2,4,rock
+trk_1083,Travis Scott,Espresso Memories (Deluxe Edition),Espresso Memories,35,156293,0,0.719,0.469,1,-13.1,1,0.088,0.342,0.1637,0.076,0.358,102.39,4,hip-hop
+trk_1084,Billie Eilish,Anti Lover (Deluxe Edition),Anti Lover,60,149501,0,0.573,0.309,6,-6.25,0,0.31,0.168,0.0,0.105,0.741,169.69,4,alt-pop
+trk_1085,Doja Cat,Flowers Chamber (Deluxe Edition),Flowers Chamber,12,219055,1,0.476,0.349,7,-11.44,0,0.213,0.477,0.2707,0.098,0.253,155.77,4,dance-pop
+trk_1086,Bad Bunny,Blinding Echoes (Deluxe Edition),Blinding Echoes,70,147474,1,0.566,0.828,7,-8.96,1,0.061,0.388,0.0,0.051,0.755,128.65,4,reggaeton
+trk_1087,Doja Cat,Save Plan (Deluxe Edition),Save Plan,72,257542,0,0.614,0.574,8,-11.74,0,0.042,0.821,0.0,0.109,0.729,149.64,4,dance-pop
+trk_1088,Coldplay,Humble Chamber (Deluxe Edition),Humble Chamber,83,193581,1,0.882,0.782,0,-5.25,0,0.191,0.209,0.0,0.052,0.75,130.49,4,rock
+trk_1089,Imagine Dragons,Espresso Waves (Deluxe Edition),Espresso Waves,65,216299,0,0.729,0.53,4,-10.96,1,0.312,0.077,0.0,0.077,0.862,132.63,4,rock
+trk_1090,Ariana Grande,Sunflower Echoes (Deluxe Edition),Sunflower Echoes,71,171025,0,0.678,0.405,4,-5.27,1,0.305,0.109,0.0,0.153,0.268,91.74,4,pop
+trk_1091,Post Malone,Levitating Hero (Deluxe Edition),Levitating Hero,69,161299,1,0.663,0.616,11,-11.31,0,0.265,0.357,0.0,0.075,0.278,104.33,4,hip-hop
+trk_1092,SZA,Humble Symphony (Deluxe Edition),Humble Symphony,67,153382,0,0.737,0.41,4,-8.4,1,0.044,0.358,0.0,0.288,0.792,123.29,4,r&b
+trk_1093,Billie Eilish,Die Lover (Deluxe Edition),Die Lover,75,151194,0,0.864,0.934,3,-5.72,1,0.079,0.433,0.0,0.152,0.7,90.9,4,alt-pop
+trk_1094,Imagine Dragons,Flowers You (Deluxe Edition),Flowers You,66,186277,1,0.509,0.829,10,-5.79,1,0.12,0.153,0.2723,0.203,0.781,123.89,4,rock
+trk_1095,The Weeknd,Save Dreams (Deluxe Edition),Save Dreams,72,145967,0,0.82,0.878,2,-10.57,1,0.265,0.338,0.0,0.34,0.454,161.94,4,pop
+trk_1096,SZA,Golden Lover (Deluxe Edition),Golden Lover,63,187154,1,0.519,0.693,4,-3.17,0,0.216,0.58,0.0,0.129,0.457,126.64,4,r&b
+trk_1097,Travis Scott,Greedy Waves (Deluxe Edition),Greedy Waves,75,140569,1,0.683,0.33,2,-4.36,0,0.332,0.856,0.1817,0.167,0.672,153.92,4,hip-hop
+trk_1098,Kendrick Lamar,vampire Memories (Deluxe Edition),vampire Memories,46,198790,0,0.87,0.964,8,-12.81,0,0.337,0.553,0.0,0.119,0.852,162.48,4,hip-hop
+trk_1099,Imagine Dragons,Golden Vibes (Deluxe Edition),Golden Vibes,84,190894,0,0.566,0.958,3,-5.95,0,0.063,0.232,0.0,0.1,0.474,160.18,4,rock
+trk_1100,Drake,Flowers Chamber (Deluxe Edition),Flowers Chamber,76,255173,0,0.362,0.878,7,-5.44,0,0.087,0.359,0.379,0.157,0.65,107.96,4,hip-hop
+trk_1101,Drake,Starboy Lover (Deluxe Edition),Starboy Lover,96,155306,1,0.772,0.383,1,-4.21,0,0.231,0.178,0.0,0.139,0.81,93.03,4,hip-hop
+trk_1102,SZA,Lucid Lights (Deluxe Edition),Lucid Lights,52,185325,1,0.55,0.962,11,-5.03,1,0.065,0.519,0.0,0.168,0.748,139.91,4,r&b
+trk_1103,Drake,vampire Lights (Deluxe Edition),vampire Lights,63,196414,1,0.513,0.846,11,-7.81,0,0.207,0.115,0.0,0.063,0.321,164.57,4,hip-hop
+trk_1104,Billie Eilish,Greedy Lights (Deluxe Edition),Greedy Lights,19,219642,1,0.455,0.542,9,-6.69,0,0.228,0.014,0.0,0.303,0.182,116.92,4,alt-pop
+trk_1105,Eminem,Cruel Lights (Deluxe Edition),Cruel Lights,60,160597,1,0.688,0.855,1,-12.97,0,0.303,0.712,0.0,0.173,0.507,135.31,4,hip-hop
+trk_1106,Justin Bieber,Greedy Lights (Deluxe Edition),Greedy Lights,52,168207,1,0.488,0.743,8,-11.76,1,0.142,0.828,0.1733,0.112,0.271,112.72,4,pop
+trk_1107,Doja Cat,Humble Heart (Deluxe Edition),Humble Heart,90,184156,0,0.732,0.744,0,-7.65,0,0.194,0.506,0.0,0.332,0.69,164.29,4,dance-pop
+trk_1108,Eminem,Greedy Symphony (Deluxe Edition),Greedy Symphony,40,221439,0,0.524,0.794,10,-11.66,1,0.303,0.773,0.0,0.178,0.604,152.16,4,hip-hop
+trk_1109,Justin Bieber,Die Parade (Deluxe Edition),Die Parade,68,210743,1,0.585,0.963,3,-4.43,0,0.145,0.501,0.0,0.254,0.439,170.49,4,pop
+trk_1110,Justin Bieber,Die Plan (Deluxe Edition),Die Plan,95,225643,1,0.459,0.316,9,-13.05,0,0.031,0.03,0.0,0.316,0.39,173.41,4,pop
+trk_1111,Ariana Grande,Die Vibes (Deluxe Edition),Die Vibes,51,173698,1,0.889,0.327,5,-6.67,1,0.237,0.543,0.0,0.325,0.657,141.7,4,pop
+trk_1112,Doja Cat,Lucid Fantasy (Deluxe Edition),Lucid Fantasy,76,231890,0,0.893,0.324,4,-9.7,0,0.195,0.233,0.0,0.159,0.788,170.01,4,dance-pop
+trk_1113,The Weeknd,Shape Tears (Deluxe Edition),Shape Tears,74,157088,0,0.707,0.55,5,-9.2,0,0.046,0.376,0.0,0.341,0.496,106.24,4,pop
+trk_1114,Bruno Mars,Flowers World (Deluxe Edition),Flowers World,92,152743,1,0.381,0.356,5,-4.87,1,0.224,0.641,0.0,0.232,0.614,169.61,4,r&b
+trk_1115,Taylor Swift,Save Dreams (Deluxe Edition),Save Dreams,83,170454,0,0.58,0.545,11,-12.73,0,0.222,0.235,0.1616,0.106,0.787,106.0,4,pop
+trk_1116,Post Malone,Sunflower You (Deluxe Edition),Sunflower You,80,183544,0,0.422,0.722,10,-4.24,0,0.22,0.357,0.3846,0.269,0.86,126.79,4,hip-hop
+trk_1117,Bad Bunny,Starboy Dreams (Deluxe Edition),Starboy Dreams,58,162722,1,0.635,0.546,0,-11.85,0,0.205,0.398,0.0,0.084,0.28,114.7,4,reggaeton
+trk_1118,Ariana Grande,Save Heart (Deluxe Edition),Save Heart,49,207776,0,0.575,0.576,1,-12.14,1,0.142,0.335,0.0,0.288,0.182,165.95,4,pop
+trk_1119,Post Malone,vampire You (Deluxe Edition),vampire You,80,234892,0,0.47,0.592,2,-9.85,1,0.119,0.505,0.0,0.283,0.884,147.47,4,hip-hop
+trk_1120,Imagine Dragons,Sunflower You (Deluxe Edition),Sunflower You,37,184839,0,0.845,0.466,11,-12.49,0,0.154,0.839,0.0,0.333,0.813,172.26,4,rock
+trk_1121,Billie Eilish,Starboy Tears (Deluxe Edition),Starboy Tears,68,197529,1,0.9,0.533,1,-5.01,1,0.089,0.19,0.0,0.322,0.221,159.06,4,alt-pop
+trk_1122,Doja Cat,Flowers Waves (Deluxe Edition),Flowers Waves,57,233455,1,0.541,0.979,4,-10.76,0,0.185,0.107,0.0,0.122,0.213,101.12,4,dance-pop
+trk_1123,Imagine Dragons,Cruel You (Deluxe Edition),Cruel You,56,165331,0,0.704,0.864,11,-9.02,0,0.03,0.624,0.0,0.068,0.562,120.74,4,rock
+trk_1124,Taylor Swift,vampire Heart (Deluxe Edition),vampire Heart,49,147512,1,0.401,0.387,11,-10.88,0,0.173,0.43,0.0,0.149,0.861,147.93,4,pop
+trk_1125,Justin Bieber,Greedy Symphony (Deluxe Edition),Greedy Symphony,83,145015,1,0.822,0.605,7,-5.19,1,0.197,0.086,0.0,0.059,0.182,124.87,4,pop
+trk_1126,Billie Eilish,Golden Heart (Deluxe Edition),Golden Heart,55,168486,0,0.903,0.619,3,-13.3,0,0.096,0.29,0.0,0.326,0.355,163.21,4,alt-pop
+trk_1127,Justin Bieber,Starboy Vibes (Deluxe Edition),Starboy Vibes,68,221227,1,0.866,0.97,1,-4.61,1,0.161,0.392,0.0,0.226,0.402,148.99,4,pop
+trk_1128,Harry Styles,Starboy Dreams (Deluxe Edition),Starboy Dreams,62,141264,1,0.655,0.867,10,-11.28,0,0.273,0.302,0.2522,0.257,0.732,94.47,4,pop-rock
+trk_1129,Drake,Greedy Memories (Deluxe Edition),Greedy Memories,80,179304,1,0.393,0.874,3,-4.95,1,0.212,0.29,0.0,0.203,0.277,111.52,4,hip-hop
+trk_1130,Ariana Grande,Midnight Tears (Deluxe Edition),Midnight Tears,60,216973,0,0.359,0.954,8,-4.1,1,0.258,0.829,0.0,0.136,0.647,115.18,4,pop
+trk_1131,SZA,Levitating Hour (Deluxe Edition),Levitating Hour,62,202728,1,0.491,0.527,9,-3.62,1,0.346,0.698,0.2066,0.308,0.338,121.47,4,r&b
+trk_1132,Ed Sheeran,Sunflower You (Deluxe Edition),Sunflower You,66,245471,1,0.678,0.528,1,-12.48,1,0.142,0.483,0.0,0.197,0.29,125.84,4,pop
+trk_1133,Taylor Swift,Lucid Tears (Deluxe Edition),Lucid Tears,67,152833,1,0.718,0.328,4,-9.13,0,0.158,0.515,0.0,0.332,0.649,174.97,4,pop
+trk_1134,The Weeknd,Starboy Fantasy (Deluxe Edition),Starboy Fantasy,60,169785,1,0.766,0.952,11,-5.14,0,0.04,0.604,0.0,0.224,0.569,91.82,4,pop
+trk_1135,Eminem,Greedy Tears (Deluxe Edition),Greedy Tears,41,225168,1,0.679,0.926,5,-11.33,0,0.169,0.802,0.0,0.281,0.793,124.41,4,hip-hop
+trk_1136,Justin Bieber,Midnight Dreams (Deluxe Edition),Midnight Dreams,57,153379,0,0.81,0.377,11,-13.52,0,0.296,0.758,0.0,0.268,0.78,134.28,4,pop
+trk_1137,Imagine Dragons,Cruel Vibes (Deluxe Edition),Cruel Vibes,60,201592,1,0.83,0.683,1,-9.95,1,0.103,0.589,0.0,0.202,0.354,131.94,4,rock
+trk_1138,Drake,Sunflower Tears (Deluxe Edition),Sunflower Tears,60,173864,1,0.624,0.56,2,-5.99,1,0.045,0.842,0.0,0.099,0.182,137.94,4,hip-hop
+trk_1139,Drake,Starboy Echoes (Deluxe Edition),Starboy Echoes,67,183888,1,0.705,0.461,7,-9.19,1,0.129,0.272,0.0,0.323,0.169,89.11,4,hip-hop
+trk_1140,Doja Cat,Save Hero (Deluxe Edition),Save Hero,70,190944,1,0.841,0.739,2,-12.87,1,0.271,0.164,0.0,0.267,0.297,105.12,4,dance-pop
+trk_1141,Olivia Rodrigo,Peaches Heart (Deluxe Edition),Peaches Heart,64,196710,0,0.615,0.795,1,-10.68,0,0.174,0.339,0.0,0.315,0.822,94.7,4,pop-rock
+trk_1142,Ariana Grande,Peaches Waves (Deluxe Edition),Peaches Waves,77,238705,0,0.54,0.495,0,-6.14,0,0.04,0.253,0.0,0.084,0.839,138.12,4,pop
+trk_1143,Olivia Rodrigo,Shape Parade (Deluxe Edition),Shape Parade,68,141344,1,0.744,0.352,7,-4.27,0,0.199,0.07,0.0,0.114,0.647,156.47,4,pop-rock
+trk_1144,Eminem,Save World (Deluxe Edition),Save World,66,219792,0,0.418,0.751,2,-12.37,1,0.039,0.564,0.0,0.15,0.772,156.04,4,hip-hop
+trk_1145,Olivia Rodrigo,Cruel You (Deluxe Edition),Cruel You,45,148739,1,0.62,0.483,10,-11.21,1,0.052,0.725,0.0,0.141,0.895,107.5,4,pop-rock
+trk_1146,Bad Bunny,Save Hour (Deluxe Edition),Save Hour,74,244037,0,0.941,0.352,3,-8.99,1,0.247,0.803,0.2944,0.312,0.211,98.6,4,reggaeton
+trk_1147,Bad Bunny,Save Hour (Deluxe Edition),Save Hour,60,149285,1,0.618,0.812,10,-8.69,1,0.343,0.519,0.0,0.089,0.487,173.88,4,reggaeton
+trk_1148,Billie Eilish,Humble You (Deluxe Edition),Humble You,82,143410,1,0.445,0.35,9,-5.19,0,0.12,0.039,0.0,0.346,0.798,106.51,4,alt-pop
+trk_1149,Taylor Swift,Blinding Parade (Deluxe Edition),Blinding Parade,33,243051,0,0.572,0.868,1,-11.73,0,0.092,0.358,0.0,0.319,0.684,131.61,4,pop
+trk_1150,Eminem,Flowers Fantasy (Deluxe Edition),Flowers Fantasy,80,191514,0,0.525,0.554,8,-4.92,0,0.187,0.751,0.0,0.343,0.368,107.73,4,hip-hop
+trk_1151,Travis Scott,Flowers Hour (Deluxe Edition),Flowers Hour,90,208232,0,0.808,0.787,3,-3.9,0,0.197,0.454,0.3871,0.149,0.807,119.1,4,hip-hop
+trk_1152,Taylor Swift,As It Was Hour (Deluxe Edition),As It Was Hour,33,219652,0,0.852,0.399,5,-11.36,1,0.068,0.755,0.3579,0.33,0.495,157.46,4,pop
+trk_1153,Eminem,Die Memories (Deluxe Edition),Die Memories,54,247394,1,0.822,0.613,3,-3.62,0,0.258,0.401,0.0,0.303,0.723,86.9,4,hip-hop
+trk_1154,Kendrick Lamar,Blinding Parade (Deluxe Edition),Blinding Parade,88,183982,0,0.665,0.787,3,-3.94,0,0.041,0.608,0.0,0.267,0.41,89.53,4,hip-hop
+trk_1155,Harry Styles,Humble Hour (Deluxe Edition),Humble Hour,76,243116,1,0.831,0.932,11,-7.85,1,0.238,0.433,0.0,0.242,0.243,163.79,4,pop-rock
+trk_1156,Imagine Dragons,Starboy World (Deluxe Edition),Starboy World,39,184282,0,0.53,0.387,2,-13.83,1,0.168,0.546,0.0,0.125,0.834,150.32,4,rock
+trk_1157,Bruno Mars,Shape Lights (Deluxe Edition),Shape Lights,38,147873,0,0.466,0.669,8,-9.96,1,0.34,0.741,0.0,0.141,0.477,170.52,4,r&b
+trk_1158,Olivia Rodrigo,vampire Memories (Deluxe Edition),vampire Memories,72,200421,0,0.885,0.376,0,-11.55,0,0.145,0.425,0.0,0.094,0.452,163.97,4,pop-rock
+trk_1159,Kendrick Lamar,Golden Heart (Deluxe Edition),Golden Heart,81,188339,1,0.81,0.946,8,-13.97,1,0.082,0.64,0.0,0.067,0.862,173.25,4,hip-hop
+trk_1160,Eminem,Midnight World (Deluxe Edition),Midnight World,61,237030,0,0.447,0.58,4,-13.62,1,0.157,0.1,0.2434,0.139,0.795,140.53,4,hip-hop
+trk_1161,Drake,Flowers Vibes (Deluxe Edition),Flowers Vibes,69,148070,0,0.629,0.924,1,-13.84,1,0.265,0.756,0.0,0.065,0.404,159.28,4,hip-hop
+trk_1162,Justin Bieber,Greedy Symphony (Deluxe Edition),Greedy Symphony,65,185192,1,0.519,0.354,8,-4.0,0,0.306,0.851,0.0058,0.187,0.706,151.46,4,pop
+trk_1163,Bruno Mars,Midnight Waves (Deluxe Edition),Midnight Waves,69,236979,0,0.362,0.643,3,-5.45,1,0.098,0.229,0.0,0.277,0.573,136.3,4,r&b
+trk_1164,Olivia Rodrigo,Save Lover (Deluxe Edition),Save Lover,5,250890,0,0.863,0.908,2,-4.0,1,0.119,0.411,0.0,0.28,0.465,86.29,4,pop-rock
+trk_1165,The Weeknd,Midnight Hour (Deluxe Edition),Midnight Hour,100,189810,0,0.886,0.762,10,-13.58,1,0.168,0.214,0.0,0.233,0.476,153.22,4,pop
+trk_1166,Drake,God's Heart (Deluxe Edition),God's Heart,56,208468,0,0.354,0.884,0,-9.5,0,0.104,0.568,0.0,0.146,0.407,107.06,4,hip-hop
+trk_1167,Billie Eilish,Greedy Hour (Deluxe Edition),Greedy Hour,10,253149,0,0.833,0.465,4,-10.01,1,0.064,0.655,0.0,0.329,0.598,150.46,4,alt-pop
+trk_1168,Imagine Dragons,Humble Heart (Deluxe Edition),Humble Heart,79,256559,1,0.618,0.687,7,-6.22,1,0.031,0.199,0.0,0.212,0.882,169.75,4,rock
+trk_1169,Billie Eilish,Greedy Chamber (Deluxe Edition),Greedy Chamber,41,141762,1,0.482,0.724,8,-6.96,1,0.079,0.099,0.3447,0.29,0.379,112.47,4,alt-pop
+trk_1170,Travis Scott,Shape Dreams (Deluxe Edition),Shape Dreams,80,175512,0,0.94,0.397,0,-3.28,0,0.315,0.138,0.0,0.098,0.395,155.17,4,hip-hop
+trk_1171,Kendrick Lamar,Cruel Tears (Deluxe Edition),Cruel Tears,46,163146,1,0.563,0.382,4,-10.23,0,0.125,0.41,0.0,0.262,0.887,146.89,4,hip-hop
+trk_1172,SZA,Die Summer (Deluxe Edition),Die Summer,52,234428,0,0.389,0.772,7,-12.91,0,0.269,0.808,0.0,0.259,0.308,126.86,4,r&b
+trk_1173,Bruno Mars,Die Heart (Deluxe Edition),Die Heart,74,230809,1,0.625,0.431,2,-4.06,1,0.215,0.813,0.0,0.268,0.863,88.42,4,r&b
+trk_1174,SZA,Midnight Hour (Deluxe Edition),Midnight Hour,100,147176,0,0.586,0.339,0,-5.01,0,0.239,0.812,0.0,0.12,0.907,145.09,4,r&b
+trk_1175,Justin Bieber,Peaches Echoes (Deluxe Edition),Peaches Echoes,86,256103,1,0.422,0.552,5,-6.03,0,0.163,0.424,0.3943,0.097,0.35,170.29,4,pop
+trk_1176,Billie Eilish,God's Hour (Deluxe Edition),God's Hour,61,245381,0,0.67,0.323,1,-7.92,1,0.159,0.722,0.0,0.119,0.806,112.05,4,alt-pop
+trk_1177,Harry Styles,Levitating Lover (Deluxe Edition),Levitating Lover,48,234722,0,0.628,0.409,2,-5.93,1,0.234,0.08,0.0,0.13,0.653,127.72,4,pop-rock
+trk_1178,Coldplay,Starboy Chamber (Deluxe Edition),Starboy Chamber,81,169222,0,0.557,0.495,1,-9.93,0,0.105,0.678,0.0,0.232,0.598,145.74,4,rock
+trk_1179,Travis Scott,Levitating Waves (Deluxe Edition),Levitating Waves,69,187226,0,0.389,0.927,10,-7.84,1,0.316,0.348,0.0,0.255,0.244,86.69,4,hip-hop
+trk_1180,SZA,Flowers Tears (Deluxe Edition),Flowers Tears,94,185982,1,0.374,0.579,2,-13.09,1,0.276,0.479,0.0,0.159,0.895,160.25,4,r&b
+trk_1181,Taylor Swift,Lucid Summer (Deluxe Edition),Lucid Summer,87,232435,0,0.393,0.736,1,-9.54,1,0.204,0.36,0.0,0.173,0.696,139.78,4,pop
+trk_1182,Doja Cat,Sunflower World (Deluxe Edition),Sunflower World,74,197827,0,0.795,0.805,11,-7.37,1,0.121,0.558,0.0,0.257,0.705,173.51,4,dance-pop
+trk_1183,Drake,Lucid Dreams (Deluxe Edition),Lucid Dreams,98,141595,1,0.619,0.361,4,-4.67,0,0.272,0.421,0.0,0.26,0.154,167.35,4,hip-hop
+trk_1184,Bad Bunny,Shape Plan (Deluxe Edition),Shape Plan,62,170778,0,0.376,0.337,6,-13.05,0,0.127,0.015,0.2408,0.276,0.652,85.56,4,reggaeton
+trk_1185,SZA,Starboy Nights (Deluxe Edition),Starboy Nights,76,249222,1,0.926,0.976,10,-9.08,1,0.23,0.845,0.0029,0.109,0.534,92.24,4,r&b
+trk_1186,Coldplay,vampire Summer (Deluxe Edition),vampire Summer,60,168077,0,0.515,0.563,8,-5.77,1,0.281,0.099,0.0,0.114,0.313,110.55,4,rock
+trk_1187,Doja Cat,Sunflower Chamber (Deluxe Edition),Sunflower Chamber,74,164305,1,0.938,0.885,3,-7.66,1,0.315,0.045,0.0,0.206,0.583,135.44,4,dance-pop
+trk_1188,Eminem,Sunflower Plan (Deluxe Edition),Sunflower Plan,42,159454,0,0.371,0.367,9,-4.14,0,0.331,0.656,0.0,0.173,0.182,106.89,4,hip-hop
+trk_1189,Kendrick Lamar,Blinding Waves (Deluxe Edition),Blinding Waves,70,230962,1,0.59,0.45,0,-6.97,1,0.105,0.808,0.0,0.137,0.8,110.87,4,hip-hop
+trk_1190,Bad Bunny,God's Tears (Deluxe Edition),God's Tears,79,185911,0,0.469,0.398,6,-8.68,1,0.336,0.186,0.0,0.09,0.889,110.15,4,reggaeton
+trk_1191,Bruno Mars,Anti Parade (Deluxe Edition),Anti Parade,100,209569,1,0.593,0.614,5,-5.35,0,0.278,0.287,0.1164,0.065,0.812,124.78,4,r&b
+trk_1192,Billie Eilish,Die Tears (Deluxe Edition),Die Tears,57,213641,0,0.66,0.511,1,-3.19,1,0.264,0.028,0.0,0.311,0.246,101.93,4,alt-pop
+trk_1193,Bruno Mars,Anti Tears (Deluxe Edition),Anti Tears,53,220165,1,0.738,0.424,7,-3.99,1,0.251,0.722,0.3926,0.173,0.549,145.76,4,r&b
+trk_1194,Bruno Mars,Espresso Symphony (Deluxe Edition),Espresso Symphony,87,197767,0,0.556,0.61,4,-4.7,0,0.327,0.702,0.0,0.301,0.39,169.47,4,r&b
+trk_1195,Dua Lipa,Blinding Vibes (Deluxe Edition),Blinding Vibes,68,255068,1,0.395,0.908,9,-6.28,0,0.261,0.17,0.0,0.115,0.198,139.34,4,dance-pop
+trk_1196,Billie Eilish,vampire Lights (Deluxe Edition),vampire Lights,100,194990,0,0.55,0.416,9,-9.93,0,0.258,0.439,0.0863,0.253,0.233,127.72,4,alt-pop
+trk_1197,Justin Bieber,Blinding Echoes (Deluxe Edition),Blinding Echoes,62,250219,1,0.871,0.49,3,-6.18,0,0.181,0.071,0.0,0.243,0.185,145.28,4,pop
+trk_1198,Taylor Swift,Levitating Summer (Deluxe Edition),Levitating Summer,74,201015,1,0.357,0.866,4,-12.58,1,0.132,0.573,0.0775,0.214,0.151,135.04,4,pop
+trk_1199,Ed Sheeran,Midnight Lights (Deluxe Edition),Midnight Lights,71,236434,0,0.709,0.406,7,-9.43,0,0.201,0.494,0.0,0.289,0.379,106.91,4,pop
+trk_1200,Olivia Rodrigo,Peaches Hour (Deluxe Edition),Peaches Hour,66,233616,1,0.477,0.933,4,-10.97,0,0.096,0.033,0.0,0.314,0.589,85.03,4,pop-rock
+trk_1201,Drake,Greedy Echoes (Deluxe Edition),Greedy Echoes,77,194783,1,0.875,0.323,6,-13.76,1,0.19,0.433,0.317,0.165,0.382,85.89,4,hip-hop
+trk_1202,Olivia Rodrigo,Lucid Heart (Deluxe Edition),Lucid Heart,77,152866,0,0.816,0.335,4,-8.08,1,0.093,0.647,0.0,0.103,0.89,94.26,4,pop-rock
+trk_1203,Dua Lipa,Greedy Tears (Deluxe Edition),Greedy Tears,91,145374,0,0.409,0.502,2,-8.69,1,0.089,0.688,0.0,0.17,0.261,164.35,4,dance-pop
+trk_1204,Harry Styles,Golden Summer (Deluxe Edition),Golden Summer,32,208962,0,0.73,0.782,7,-5.82,1,0.111,0.498,0.0,0.314,0.385,96.09,4,pop-rock
+trk_1205,SZA,Anti Plan (Deluxe Edition),Anti Plan,20,242905,0,0.757,0.797,0,-6.98,0,0.102,0.644,0.0,0.294,0.629,145.77,4,r&b
+trk_1206,Olivia Rodrigo,Levitating Symphony (Deluxe Edition),Levitating Symphony,94,217351,0,0.515,0.557,2,-6.65,0,0.089,0.422,0.0,0.053,0.583,89.54,4,pop-rock
+trk_1207,Taylor Swift,Anti Lover (Deluxe Edition),Anti Lover,67,205202,1,0.54,0.439,3,-3.8,1,0.342,0.538,0.0,0.322,0.159,106.54,4,pop
+trk_1208,Coldplay,Espresso Hero (Deluxe Edition),Espresso Hero,60,241516,1,0.677,0.435,5,-8.38,0,0.137,0.401,0.0,0.32,0.245,164.83,4,rock
+trk_1209,Dua Lipa,Humble Nights (Deluxe Edition),Humble Nights,63,186601,1,0.743,0.568,6,-12.56,1,0.033,0.228,0.0,0.201,0.91,92.76,4,dance-pop
+trk_1210,Travis Scott,Shape Lover (Deluxe Edition),Shape Lover,93,199967,0,0.364,0.701,9,-5.28,0,0.111,0.363,0.0,0.341,0.789,107.66,4,hip-hop
+trk_1211,Taylor Swift,Espresso Hero (Deluxe Edition),Espresso Hero,55,220544,1,0.769,0.48,4,-4.77,0,0.133,0.399,0.0,0.157,0.167,173.51,4,pop
+trk_1212,Post Malone,vampire Lover (Deluxe Edition),vampire Lover,76,226323,1,0.435,0.77,11,-8.35,0,0.282,0.027,0.0,0.204,0.469,149.16,4,hip-hop
+trk_1213,Travis Scott,Humble Waves (Deluxe Edition),Humble Waves,100,212617,0,0.686,0.651,9,-12.32,1,0.115,0.541,0.0182,0.105,0.274,117.74,4,hip-hop
+trk_1214,The Weeknd,Lucid Memories (Deluxe Edition),Lucid Memories,64,150471,0,0.745,0.484,3,-5.2,1,0.231,0.012,0.0,0.079,0.203,145.28,4,pop
+trk_1215,Drake,Cruel Lover (Deluxe Edition),Cruel Lover,42,218087,1,0.62,0.524,11,-12.45,0,0.32,0.466,0.1577,0.08,0.556,162.06,4,hip-hop
+trk_1216,Coldplay,Sunflower Fantasy (Deluxe Edition),Sunflower Fantasy,72,145792,0,0.639,0.438,5,-5.38,0,0.055,0.742,0.0,0.131,0.773,139.28,4,rock
+trk_1217,Ed Sheeran,Sunflower Nights (Deluxe Edition),Sunflower Nights,58,156718,1,0.945,0.438,1,-13.92,0,0.152,0.552,0.2548,0.185,0.543,85.22,4,pop
+trk_1218,Harry Styles,Blinding Memories (Deluxe Edition),Blinding Memories,37,164630,0,0.439,0.79,4,-3.04,1,0.052,0.435,0.0,0.209,0.26,168.82,4,pop-rock
+trk_1219,SZA,Save World (Deluxe Edition),Save World,75,241511,1,0.481,0.899,6,-9.75,0,0.223,0.479,0.0,0.224,0.77,162.65,4,r&b
+trk_1220,Bad Bunny,Greedy Vibes (Deluxe Edition),Greedy Vibes,81,203091,1,0.471,0.499,10,-10.71,0,0.096,0.754,0.0,0.09,0.729,151.0,4,reggaeton
+trk_1221,Ariana Grande,God's Lights (Deluxe Edition),God's Lights,72,170908,1,0.522,0.674,11,-6.11,0,0.274,0.701,0.0,0.32,0.892,147.53,4,pop
+trk_1222,Ed Sheeran,Shape Fantasy (Deluxe Edition),Shape Fantasy,58,170332,0,0.533,0.701,0,-5.72,0,0.049,0.817,0.0358,0.071,0.445,111.64,4,pop
+trk_1223,Doja Cat,Starboy Chamber (Deluxe Edition),Starboy Chamber,71,237683,1,0.471,0.473,8,-9.72,1,0.344,0.708,0.0,0.22,0.183,125.99,4,dance-pop
+trk_1224,Post Malone,Cruel Symphony (Deluxe Edition),Cruel Symphony,74,143306,1,0.641,0.978,0,-3.5,0,0.051,0.678,0.0,0.081,0.694,165.31,4,hip-hop
+trk_1225,Eminem,Anti Heart (Deluxe Edition),Anti Heart,89,166379,1,0.832,0.492,3,-5.32,0,0.09,0.375,0.0,0.301,0.613,166.93,4,hip-hop
+trk_1226,Post Malone,Peaches World (Deluxe Edition),Peaches World,50,167493,1,0.865,0.958,9,-7.58,0,0.313,0.35,0.0,0.267,0.283,96.83,4,hip-hop
+trk_1227,Billie Eilish,Peaches Hour (Deluxe Edition),Peaches Hour,63,189840,0,0.495,0.747,8,-7.21,1,0.211,0.356,0.2153,0.191,0.439,100.26,4,alt-pop
+trk_1228,Post Malone,Greedy Lights (Deluxe Edition),Greedy Lights,70,241074,1,0.54,0.477,5,-10.85,1,0.139,0.103,0.2374,0.251,0.493,141.16,4,hip-hop
+trk_1229,Imagine Dragons,Flowers Waves (Deluxe Edition),Flowers Waves,90,220571,1,0.649,0.634,3,-9.54,1,0.084,0.773,0.1231,0.221,0.708,170.78,4,rock
+trk_1230,The Weeknd,Lucid Memories (Deluxe Edition),Lucid Memories,81,197783,1,0.53,0.328,7,-3.82,1,0.13,0.275,0.0,0.344,0.333,169.72,4,pop
+trk_1231,Eminem,God's Chamber (Deluxe Edition),God's Chamber,65,217037,1,0.647,0.489,0,-13.92,1,0.068,0.179,0.0,0.128,0.453,168.07,4,hip-hop
+trk_1232,Post Malone,Peaches Waves (Deluxe Edition),Peaches Waves,31,216958,0,0.358,0.731,5,-10.97,1,0.162,0.866,0.0115,0.198,0.865,143.42,4,hip-hop
+trk_1233,Travis Scott,Sunflower Memories (Deluxe Edition),Sunflower Memories,51,218116,1,0.519,0.456,11,-11.69,0,0.1,0.571,0.0,0.166,0.6,151.6,4,hip-hop
+trk_1234,Imagine Dragons,As It Was Heart (Deluxe Edition),As It Was Heart,23,171052,0,0.521,0.712,10,-13.57,0,0.3,0.222,0.0,0.307,0.742,94.55,4,rock
+trk_1235,Bad Bunny,Starboy Memories (Deluxe Edition),Starboy Memories,48,165561,0,0.607,0.778,6,-9.73,0,0.237,0.523,0.0,0.113,0.748,92.64,4,reggaeton
+trk_1236,Imagine Dragons,vampire Symphony (Deluxe Edition),vampire Symphony,56,235080,0,0.734,0.908,0,-12.17,1,0.116,0.243,0.0,0.26,0.797,118.47,4,rock
+trk_1237,Harry Styles,Anti Hero (Deluxe Edition),Anti Hero,45,174462,1,0.843,0.961,3,-6.38,0,0.11,0.664,0.0,0.059,0.648,100.6,4,pop-rock
+trk_1238,Post Malone,Save Summer (Deluxe Edition),Save Summer,71,220377,1,0.651,0.407,4,-9.4,0,0.324,0.676,0.0,0.305,0.273,96.82,4,hip-hop
+trk_1239,SZA,Flowers Fantasy (Deluxe Edition),Flowers Fantasy,58,172973,1,0.352,0.584,11,-4.9,0,0.043,0.768,0.0,0.302,0.504,167.18,4,r&b
+trk_1240,Taylor Swift,Cruel Tears (Deluxe Edition),Cruel Tears,49,248102,0,0.683,0.674,2,-7.28,1,0.088,0.849,0.0,0.27,0.854,162.42,4,pop
+trk_1241,Eminem,Humble Hero (Deluxe Edition),Humble Hero,55,249606,0,0.378,0.583,2,-7.87,0,0.285,0.525,0.0,0.182,0.677,170.09,4,hip-hop
+trk_1242,Ed Sheeran,Cruel Heart (Deluxe Edition),Cruel Heart,62,153942,0,0.618,0.938,10,-6.16,1,0.187,0.426,0.0,0.183,0.253,169.68,4,pop
+trk_1243,Billie Eilish,Anti Lover (Deluxe Edition),Anti Lover,67,210405,1,0.794,0.386,10,-13.8,1,0.154,0.387,0.0,0.132,0.85,165.76,4,alt-pop
+trk_1244,Kendrick Lamar,Humble Tears (Deluxe Edition),Humble Tears,51,246945,1,0.717,0.675,5,-9.81,1,0.266,0.41,0.0,0.227,0.699,138.65,4,hip-hop
+trk_1245,Drake,Lucid Lover (Deluxe Edition),Lucid Lover,77,208224,0,0.456,0.342,3,-8.84,0,0.168,0.772,0.0,0.263,0.472,165.05,4,hip-hop
+trk_1246,Bruno Mars,Blinding Fantasy (Deluxe Edition),Blinding Fantasy,67,151224,0,0.728,0.362,1,-12.44,0,0.264,0.346,0.0,0.272,0.155,173.17,4,r&b
+trk_1247,Post Malone,Lucid Dreams (Deluxe Edition),Lucid Dreams,83,147273,0,0.521,0.355,9,-4.68,0,0.099,0.111,0.0,0.101,0.505,120.99,4,hip-hop
+trk_1248,SZA,Levitating Hour (Deluxe Edition),Levitating Hour,54,150444,0,0.537,0.465,8,-4.4,1,0.191,0.574,0.0684,0.155,0.757,156.46,4,r&b
+trk_1249,Olivia Rodrigo,Shape Heart (Deluxe Edition),Shape Heart,70,227452,1,0.464,0.603,0,-3.26,1,0.261,0.431,0.0,0.175,0.183,115.92,4,pop-rock
+trk_1250,Taylor Swift,Anti Memories (Deluxe Edition),Anti Memories,57,258507,1,0.426,0.61,10,-3.49,0,0.263,0.578,0.0,0.119,0.207,120.37,4,pop
+trk_1251,Drake,Levitating Vibes (Deluxe Edition),Levitating Vibes,82,231779,0,0.598,0.958,1,-4.92,1,0.222,0.827,0.1397,0.217,0.225,139.88,4,hip-hop
+trk_1252,Bad Bunny,Save World (Deluxe Edition),Save World,49,225455,1,0.632,0.946,5,-8.45,0,0.063,0.495,0.0,0.189,0.697,121.6,4,reggaeton
+trk_1253,Ed Sheeran,Sunflower Lover (Deluxe Edition),Sunflower Lover,93,199926,0,0.716,0.97,11,-4.63,1,0.133,0.116,0.0,0.237,0.795,130.3,4,pop
+trk_1254,Coldplay,Blinding Lover (Deluxe Edition),Blinding Lover,62,187737,0,0.396,0.791,6,-5.63,1,0.218,0.427,0.0,0.107,0.779,103.81,4,rock
+trk_1255,Taylor Swift,Greedy Chamber (Deluxe Edition),Greedy Chamber,57,166138,1,0.881,0.795,1,-4.11,0,0.07,0.797,0.0,0.122,0.775,149.06,4,pop
+trk_1256,Eminem,Shape Heart (Deluxe Edition),Shape Heart,63,194027,1,0.798,0.54,6,-3.64,0,0.114,0.14,0.3644,0.092,0.654,119.13,4,hip-hop
+trk_1257,Taylor Swift,Starboy You (Deluxe Edition),Starboy You,75,178869,0,0.589,0.563,11,-10.66,0,0.144,0.744,0.0,0.145,0.24,174.49,4,pop
+trk_1258,Eminem,Starboy Fantasy (Deluxe Edition),Starboy Fantasy,42,244748,0,0.509,0.51,6,-12.39,0,0.189,0.068,0.0,0.085,0.565,139.79,4,hip-hop
+trk_1259,Taylor Swift,Flowers Fantasy (Deluxe Edition),Flowers Fantasy,65,199968,1,0.822,0.59,10,-13.78,0,0.034,0.343,0.0,0.191,0.4,118.16,4,pop
+trk_1260,Imagine Dragons,Flowers Chamber (Deluxe Edition),Flowers Chamber,62,190823,1,0.41,0.56,7,-8.11,0,0.108,0.495,0.0,0.128,0.308,95.4,4,rock
+trk_1261,Coldplay,Die Parade (Deluxe Edition),Die Parade,61,202922,0,0.8,0.679,5,-8.04,1,0.231,0.319,0.0779,0.197,0.267,103.55,4,rock
+trk_1262,Olivia Rodrigo,Greedy You (Deluxe Edition),Greedy You,61,212678,0,0.613,0.53,3,-4.42,1,0.203,0.534,0.0,0.136,0.395,156.37,4,pop-rock
+trk_1263,Ariana Grande,As It Was Hero (Deluxe Edition),As It Was Hero,76,165548,1,0.924,0.601,5,-4.34,0,0.203,0.482,0.0,0.308,0.565,138.38,4,pop
+trk_1264,Post Malone,Midnight Dreams (Deluxe Edition),Midnight Dreams,71,255266,0,0.781,0.97,5,-10.57,1,0.081,0.582,0.0,0.145,0.3,171.3,4,hip-hop
+trk_1265,Billie Eilish,As It Was Heart (Deluxe Edition),As It Was Heart,47,214792,0,0.876,0.668,11,-4.85,1,0.04,0.124,0.0,0.065,0.379,170.31,4,alt-pop
+trk_1266,Kendrick Lamar,Lucid Lights (Deluxe Edition),Lucid Lights,48,200384,0,0.414,0.326,3,-8.34,0,0.348,0.688,0.0,0.323,0.42,86.14,4,hip-hop
+trk_1267,Dua Lipa,Midnight Dreams (Deluxe Edition),Midnight Dreams,35,162268,1,0.688,0.703,0,-13.78,0,0.264,0.769,0.1734,0.306,0.606,154.73,4,dance-pop
+trk_1268,Harry Styles,Save Memories (Deluxe Edition),Save Memories,70,223368,0,0.863,0.463,6,-11.98,0,0.234,0.869,0.0,0.1,0.256,155.49,4,pop-rock
+trk_1269,SZA,vampire Nights (Deluxe Edition),vampire Nights,68,186623,0,0.416,0.738,1,-11.7,0,0.083,0.283,0.0,0.281,0.597,95.39,4,r&b
+trk_1270,Drake,Blinding Dreams (Deluxe Edition),Blinding Dreams,46,180606,1,0.837,0.884,4,-6.79,0,0.328,0.7,0.0325,0.292,0.766,120.6,4,hip-hop
+trk_1271,Bad Bunny,Shape Lights (Deluxe Edition),Shape Lights,49,174433,0,0.428,0.952,1,-11.25,0,0.224,0.38,0.0,0.23,0.154,135.21,4,reggaeton
+trk_1272,Eminem,Anti Vibes (Deluxe Edition),Anti Vibes,37,166326,0,0.547,0.478,3,-7.37,1,0.031,0.648,0.0,0.131,0.869,149.33,4,hip-hop
+trk_1273,Dua Lipa,Blinding Hero (Deluxe Edition),Blinding Hero,66,216184,0,0.656,0.435,11,-6.02,0,0.212,0.167,0.0,0.093,0.288,122.61,4,dance-pop
+trk_1274,Justin Bieber,Espresso Hero (Deluxe Edition),Espresso Hero,60,166442,1,0.422,0.963,9,-11.18,1,0.154,0.796,0.0,0.208,0.438,120.02,4,pop
+trk_1275,Coldplay,Die Symphony (Deluxe Edition),Die Symphony,51,194047,0,0.72,0.424,11,-13.09,1,0.076,0.541,0.0,0.26,0.888,112.11,4,rock
+trk_1276,Harry Styles,Levitating Summer (Deluxe Edition),Levitating Summer,74,250922,0,0.442,0.333,11,-11.97,0,0.099,0.314,0.0,0.161,0.176,167.71,4,pop-rock
+trk_1277,Doja Cat,Sunflower Echoes (Deluxe Edition),Sunflower Echoes,80,226107,0,0.483,0.781,2,-3.63,1,0.265,0.606,0.0,0.101,0.591,94.44,4,dance-pop
+trk_1278,Bruno Mars,Anti Hero (Deluxe Edition),Anti Hero,71,210898,1,0.465,0.819,2,-6.9,0,0.201,0.818,0.0,0.264,0.285,116.36,4,r&b
+trk_1279,Eminem,Peaches Nights (Deluxe Edition),Peaches Nights,95,162153,0,0.843,0.641,7,-6.65,1,0.155,0.022,0.0,0.122,0.431,120.62,4,hip-hop
+trk_1280,The Weeknd,Sunflower Parade (Deluxe Edition),Sunflower Parade,59,248763,0,0.584,0.677,5,-13.38,1,0.239,0.512,0.0,0.214,0.633,139.85,4,pop
+trk_1281,Imagine Dragons,Peaches Plan (Deluxe Edition),Peaches Plan,35,242741,0,0.797,0.622,6,-7.49,1,0.274,0.87,0.0,0.139,0.677,124.18,4,rock
+trk_1282,Ariana Grande,Sunflower Fantasy (Deluxe Edition),Sunflower Fantasy,69,146171,1,0.381,0.501,5,-13.67,1,0.2,0.515,0.0,0.314,0.502,148.71,4,pop
+trk_1283,Travis Scott,Humble Nights (Deluxe Edition),Humble Nights,85,230327,0,0.728,0.639,5,-8.59,0,0.095,0.294,0.3121,0.31,0.614,171.9,4,hip-hop
+trk_1284,Imagine Dragons,Greedy Fantasy (Deluxe Edition),Greedy Fantasy,94,184333,0,0.623,0.947,6,-5.56,0,0.077,0.659,0.0,0.059,0.473,113.5,4,rock
+trk_1285,Post Malone,Golden Hero (Deluxe Edition),Golden Hero,62,150539,0,0.389,0.397,2,-6.18,1,0.163,0.343,0.0,0.186,0.827,143.3,4,hip-hop
+trk_1286,Justin Bieber,Save Symphony (Deluxe Edition),Save Symphony,47,153938,1,0.553,0.354,5,-11.29,1,0.091,0.662,0.0,0.166,0.615,170.44,4,pop
+trk_1287,Dua Lipa,Levitating Summer (Deluxe Edition),Levitating Summer,68,226768,1,0.8,0.49,11,-12.18,0,0.177,0.186,0.0,0.153,0.705,88.1,4,dance-pop
+trk_1288,The Weeknd,Save Fantasy (Deluxe Edition),Save Fantasy,86,228949,0,0.384,0.657,1,-3.02,1,0.04,0.334,0.0,0.242,0.816,155.02,4,pop
+trk_1289,SZA,Lucid Chamber (Deluxe Edition),Lucid Chamber,47,209254,0,0.778,0.831,6,-9.47,0,0.284,0.119,0.0,0.322,0.198,101.98,4,r&b
+trk_1290,Kendrick Lamar,Cruel Tears (Deluxe Edition),Cruel Tears,54,199638,0,0.938,0.465,8,-7.33,0,0.273,0.297,0.0,0.07,0.896,131.92,4,hip-hop
+trk_1291,Imagine Dragons,Die Heart (Deluxe Edition),Die Heart,74,252555,1,0.836,0.535,0,-12.76,1,0.279,0.846,0.0,0.15,0.645,108.54,4,rock
+trk_1292,Doja Cat,God's Lights (Deluxe Edition),God's Lights,82,176365,0,0.878,0.309,0,-4.66,1,0.237,0.438,0.0,0.284,0.327,155.21,4,dance-pop
+trk_1293,Harry Styles,Espresso Plan (Deluxe Edition),Espresso Plan,100,183026,1,0.835,0.565,8,-7.64,0,0.271,0.254,0.0,0.262,0.191,89.09,4,pop-rock
+trk_1294,Doja Cat,As It Was Heart (Deluxe Edition),As It Was Heart,100,198597,0,0.504,0.499,2,-9.94,0,0.146,0.805,0.0,0.171,0.216,86.01,4,dance-pop
+trk_1295,Justin Bieber,Sunflower Chamber (Deluxe Edition),Sunflower Chamber,57,225321,0,0.777,0.457,8,-11.92,1,0.271,0.316,0.0,0.241,0.811,109.92,4,pop
+trk_1296,Bad Bunny,Espresso Lover (Deluxe Edition),Espresso Lover,74,256341,0,0.889,0.476,4,-8.69,1,0.299,0.207,0.0,0.31,0.711,136.49,4,reggaeton
+trk_1297,Olivia Rodrigo,Lucid You (Deluxe Edition),Lucid You,52,149184,1,0.476,0.808,11,-3.95,0,0.133,0.309,0.0,0.093,0.671,149.23,4,pop-rock
+trk_1298,Justin Bieber,Starboy Lover (Deluxe Edition),Starboy Lover,42,244447,1,0.779,0.593,4,-5.27,1,0.217,0.572,0.0,0.27,0.737,102.08,4,pop
+trk_1299,Harry Styles,God's Nights (Deluxe Edition),God's Nights,76,231428,0,0.531,0.647,10,-11.59,1,0.276,0.27,0.0,0.1,0.33,119.73,4,pop-rock
+trk_1300,Harry Styles,Greedy Parade (Deluxe Edition),Greedy Parade,71,236863,0,0.913,0.473,6,-12.42,1,0.218,0.017,0.3122,0.255,0.791,98.26,4,pop-rock
+trk_1301,Kendrick Lamar,Espresso Symphony (Deluxe Edition),Espresso Symphony,83,194484,0,0.554,0.96,9,-7.52,1,0.192,0.193,0.0,0.226,0.416,145.91,4,hip-hop
+trk_1302,Harry Styles,vampire Hour (Deluxe Edition),vampire Hour,44,223675,0,0.436,0.733,3,-10.62,0,0.123,0.333,0.0,0.072,0.594,147.04,4,pop-rock
+trk_1303,Billie Eilish,Die Echoes (Deluxe Edition),Die Echoes,72,220475,1,0.682,0.924,9,-4.32,0,0.12,0.477,0.0,0.169,0.413,117.89,4,alt-pop
+trk_1304,Kendrick Lamar,Midnight Symphony (Deluxe Edition),Midnight Symphony,100,158386,1,0.372,0.616,6,-6.37,1,0.268,0.605,0.0,0.35,0.252,147.73,4,hip-hop
+trk_1305,Drake,Peaches Hour (Deluxe Edition),Peaches Hour,58,198660,0,0.785,0.52,9,-6.88,1,0.033,0.15,0.0,0.274,0.466,168.19,4,hip-hop
+trk_1306,Taylor Swift,Flowers Waves (Deluxe Edition),Flowers Waves,60,229409,1,0.67,0.7,11,-6.73,1,0.253,0.372,0.0,0.195,0.656,152.45,4,pop
+trk_1307,Travis Scott,Humble Plan (Deluxe Edition),Humble Plan,68,179810,0,0.923,0.798,4,-13.15,0,0.135,0.023,0.0,0.169,0.559,106.22,4,hip-hop
+trk_1308,Bad Bunny,vampire Fantasy (Deluxe Edition),vampire Fantasy,71,225991,1,0.913,0.474,5,-10.26,1,0.175,0.116,0.1943,0.279,0.867,156.28,4,reggaeton
+trk_1309,Justin Bieber,Levitating Vibes (Deluxe Edition),Levitating Vibes,100,150157,0,0.919,0.614,0,-3.89,0,0.042,0.876,0.1733,0.14,0.711,140.41,4,pop
+trk_1310,Billie Eilish,Blinding Memories (Deluxe Edition),Blinding Memories,51,243920,1,0.854,0.699,8,-12.88,1,0.289,0.373,0.0,0.214,0.699,148.44,4,alt-pop
+trk_1311,Olivia Rodrigo,Humble Heart (Deluxe Edition),Humble Heart,79,167136,0,0.453,0.744,4,-11.68,1,0.25,0.56,0.0,0.107,0.509,157.25,4,pop-rock
+trk_1312,Kendrick Lamar,vampire World (Deluxe Edition),vampire World,76,151826,0,0.865,0.408,5,-3.94,0,0.222,0.864,0.0,0.088,0.563,144.48,4,hip-hop
+trk_1313,Ed Sheeran,Greedy Plan (Deluxe Edition),Greedy Plan,95,240073,0,0.538,0.578,3,-4.68,0,0.036,0.694,0.2037,0.207,0.202,87.67,4,pop
+trk_1314,Travis Scott,Starboy Waves (Deluxe Edition),Starboy Waves,76,245396,1,0.468,0.596,8,-8.46,0,0.172,0.053,0.0,0.056,0.661,85.95,4,hip-hop
+trk_1315,Bruno Mars,As It Was Lover (Deluxe Edition),As It Was Lover,52,239339,0,0.948,0.595,6,-13.28,1,0.323,0.033,0.0,0.166,0.77,152.33,4,r&b
+trk_1316,Harry Styles,Starboy Tears (Deluxe Edition),Starboy Tears,49,228654,0,0.694,0.478,2,-8.43,1,0.168,0.245,0.0,0.349,0.274,139.8,4,pop-rock
+trk_1317,Post Malone,Levitating Dreams (Deluxe Edition),Levitating Dreams,49,186559,0,0.395,0.885,3,-9.3,0,0.066,0.779,0.0,0.119,0.754,148.12,4,hip-hop
+trk_1318,Ariana Grande,Peaches You (Deluxe Edition),Peaches You,81,220689,0,0.561,0.927,5,-4.49,1,0.233,0.877,0.0,0.233,0.205,102.75,4,pop
+trk_1319,The Weeknd,Shape Waves (Deluxe Edition),Shape Waves,53,258315,0,0.859,0.666,8,-7.7,0,0.303,0.208,0.0,0.179,0.713,150.74,4,pop
+trk_1320,Ariana Grande,Golden You (Deluxe Edition),Golden You,84,216581,0,0.503,0.866,5,-6.39,1,0.26,0.064,0.0,0.304,0.297,88.2,4,pop
+trk_1321,Billie Eilish,Flowers Waves (Deluxe Edition),Flowers Waves,42,209575,0,0.731,0.674,8,-6.39,1,0.095,0.717,0.3764,0.062,0.782,123.62,4,alt-pop
+trk_1322,Eminem,As It Was Parade (Deluxe Edition),As It Was Parade,92,224065,1,0.691,0.611,3,-7.33,0,0.135,0.745,0.0,0.124,0.166,173.0,4,hip-hop
+trk_1323,SZA,Golden Chamber (Deluxe Edition),Golden Chamber,74,188180,1,0.843,0.97,7,-11.4,1,0.286,0.619,0.0,0.073,0.402,139.93,4,r&b
+trk_1324,Post Malone,Anti Summer (Deluxe Edition),Anti Summer,78,177649,1,0.389,0.657,9,-9.47,1,0.237,0.826,0.0,0.193,0.276,157.33,4,hip-hop
+trk_1325,Ariana Grande,Shape Waves (Deluxe Edition),Shape Waves,60,170417,0,0.664,0.549,2,-9.66,1,0.345,0.553,0.0,0.076,0.51,151.75,4,pop
+trk_1326,Doja Cat,Greedy Symphony (Deluxe Edition),Greedy Symphony,61,157393,1,0.387,0.704,3,-5.25,1,0.102,0.28,0.0,0.334,0.431,132.48,4,dance-pop
+trk_1327,Travis Scott,Espresso Heart (Deluxe Edition),Espresso Heart,88,243452,1,0.756,0.424,11,-10.54,0,0.138,0.501,0.0,0.184,0.763,123.84,4,hip-hop
+trk_1328,Doja Cat,Anti Lights (Deluxe Edition),Anti Lights,77,222407,1,0.832,0.318,8,-4.51,0,0.277,0.851,0.0,0.341,0.355,140.46,4,dance-pop
+trk_1329,Olivia Rodrigo,Greedy Hero (Deluxe Edition),Greedy Hero,100,143514,0,0.71,0.745,0,-13.2,1,0.241,0.664,0.0,0.226,0.382,172.0,4,pop-rock
+trk_1330,The Weeknd,Flowers Waves (Deluxe Edition),Flowers Waves,60,207622,1,0.853,0.818,11,-4.24,1,0.348,0.82,0.0,0.275,0.266,120.88,4,pop
+trk_1331,Dua Lipa,Save Tears (Deluxe Edition),Save Tears,82,159358,0,0.547,0.367,8,-7.1,1,0.121,0.746,0.0,0.243,0.866,141.67,4,dance-pop
+trk_1332,Eminem,Midnight You (Deluxe Edition),Midnight You,67,222081,1,0.661,0.952,9,-10.18,1,0.129,0.508,0.0,0.262,0.721,91.01,4,hip-hop
+trk_1333,Harry Styles,Save Chamber (Deluxe Edition),Save Chamber,59,217988,1,0.934,0.847,9,-12.71,1,0.041,0.331,0.0,0.163,0.663,99.86,4,pop-rock
+trk_1334,Imagine Dragons,Cruel Dreams (Deluxe Edition),Cruel Dreams,75,147689,0,0.841,0.403,2,-4.08,0,0.308,0.121,0.282,0.294,0.206,113.31,4,rock
+trk_1335,Ariana Grande,Greedy Dreams (Deluxe Edition),Greedy Dreams,53,172930,0,0.489,0.61,5,-6.43,1,0.14,0.103,0.2344,0.064,0.528,141.82,4,pop
+trk_1336,Kendrick Lamar,Midnight Memories (Deluxe Edition),Midnight Memories,89,174508,0,0.828,0.326,0,-8.54,0,0.119,0.752,0.0,0.195,0.497,130.27,4,hip-hop
+trk_1337,The Weeknd,Golden Nights (Deluxe Edition),Golden Nights,65,252694,1,0.797,0.796,5,-11.04,1,0.206,0.321,0.0,0.215,0.263,111.65,4,pop
+trk_1338,Ariana Grande,Espresso Summer (Deluxe Edition),Espresso Summer,52,203438,1,0.648,0.511,4,-10.75,1,0.173,0.393,0.0,0.215,0.282,88.98,4,pop
+trk_1339,Justin Bieber,Lucid Dreams (Deluxe Edition),Lucid Dreams,63,179649,1,0.75,0.625,9,-9.08,0,0.033,0.083,0.0,0.287,0.385,161.68,4,pop
+trk_1340,Bruno Mars,Greedy Fantasy (Deluxe Edition),Greedy Fantasy,69,181075,1,0.712,0.704,9,-8.36,1,0.07,0.351,0.0,0.335,0.701,140.68,4,r&b
+trk_1341,Bad Bunny,Anti Summer (Deluxe Edition),Anti Summer,76,185824,0,0.667,0.743,10,-4.91,1,0.307,0.2,0.0,0.339,0.915,89.88,4,reggaeton
+trk_1342,Ariana Grande,Blinding Lover (Deluxe Edition),Blinding Lover,78,245070,0,0.562,0.672,2,-11.86,0,0.117,0.848,0.0,0.204,0.538,143.95,4,pop
+trk_1343,SZA,Die Lover (Deluxe Edition),Die Lover,57,160221,1,0.875,0.698,0,-12.51,1,0.251,0.086,0.0,0.231,0.871,115.4,4,r&b
+trk_1344,Justin Bieber,Blinding Summer (Deluxe Edition),Blinding Summer,77,234205,1,0.817,0.9,8,-3.15,1,0.284,0.545,0.0,0.132,0.464,98.15,4,pop
+trk_1345,Travis Scott,Espresso World (Deluxe Edition),Espresso World,47,186585,1,0.629,0.305,6,-12.45,1,0.238,0.139,0.0,0.297,0.799,109.18,4,hip-hop
+trk_1346,Coldplay,Sunflower Heart (Deluxe Edition),Sunflower Heart,87,244428,1,0.863,0.616,3,-7.75,1,0.08,0.54,0.0,0.251,0.249,127.93,4,rock
+trk_1347,Kendrick Lamar,Greedy Heart (Deluxe Edition),Greedy Heart,81,231196,0,0.413,0.549,8,-7.72,1,0.168,0.826,0.0,0.205,0.168,154.75,4,hip-hop
+trk_1348,Ed Sheeran,Greedy Lights (Deluxe Edition),Greedy Lights,99,215251,0,0.382,0.396,10,-3.43,0,0.218,0.774,0.0,0.334,0.912,118.66,4,pop
+trk_1349,Doja Cat,As It Was Lover (Deluxe Edition),As It Was Lover,100,231338,0,0.458,0.845,3,-8.63,0,0.349,0.322,0.0,0.197,0.177,173.91,4,dance-pop
+trk_1350,Dua Lipa,Flowers Lover (Deluxe Edition),Flowers Lover,39,196691,0,0.414,0.35,10,-11.72,1,0.107,0.741,0.0,0.174,0.684,99.45,4,dance-pop
+trk_1351,Ariana Grande,Save Heart (Deluxe Edition),Save Heart,52,150058,1,0.583,0.413,10,-12.25,1,0.146,0.755,0.0,0.166,0.655,116.16,4,pop
+trk_1352,SZA,Save Vibes (Deluxe Edition),Save Vibes,60,142325,1,0.567,0.919,1,-13.07,0,0.125,0.647,0.1425,0.113,0.425,128.49,4,r&b
+trk_1353,Dua Lipa,Starboy Plan (Deluxe Edition),Starboy Plan,70,228759,1,0.507,0.606,4,-11.79,0,0.195,0.398,0.0,0.229,0.783,161.53,4,dance-pop
+trk_1354,Harry Styles,As It Was Symphony (Deluxe Edition),As It Was Symphony,79,191672,1,0.393,0.658,3,-9.64,0,0.313,0.869,0.0,0.21,0.897,140.62,4,pop-rock
+trk_1355,Imagine Dragons,Die Memories (Deluxe Edition),Die Memories,45,182063,0,0.659,0.411,4,-3.44,1,0.214,0.329,0.0,0.241,0.663,120.21,4,rock
+trk_1356,Post Malone,Sunflower Echoes (Deluxe Edition),Sunflower Echoes,75,171730,0,0.709,0.624,2,-7.35,1,0.221,0.175,0.0,0.306,0.18,157.12,4,hip-hop
+trk_1357,Imagine Dragons,God's You (Deluxe Edition),God's You,72,206890,0,0.948,0.815,11,-4.35,0,0.271,0.316,0.0,0.294,0.543,163.73,4,rock
+trk_1358,Bad Bunny,Espresso Summer (Deluxe Edition),Espresso Summer,42,219254,0,0.856,0.529,10,-4.45,0,0.212,0.169,0.0,0.076,0.399,141.39,4,reggaeton
+trk_1359,Bruno Mars,Cruel Dreams (Deluxe Edition),Cruel Dreams,95,185043,1,0.63,0.301,2,-13.04,1,0.038,0.709,0.0,0.346,0.726,113.33,4,r&b
+trk_1360,Harry Styles,Shape Symphony (Deluxe Edition),Shape Symphony,94,248379,1,0.526,0.482,1,-8.94,1,0.151,0.834,0.0,0.117,0.241,147.78,4,pop-rock
+trk_1361,Bad Bunny,Lucid Vibes (Deluxe Edition),Lucid Vibes,67,150513,1,0.671,0.746,5,-9.17,1,0.1,0.721,0.0,0.246,0.736,88.67,4,reggaeton
+trk_1362,Billie Eilish,Cruel Parade (Deluxe Edition),Cruel Parade,84,204743,0,0.574,0.568,9,-13.82,1,0.134,0.287,0.0,0.141,0.41,85.88,4,alt-pop
+trk_1363,Bruno Mars,Cruel Symphony (Deluxe Edition),Cruel Symphony,60,210324,0,0.697,0.594,7,-11.74,1,0.146,0.275,0.0,0.071,0.428,134.38,4,r&b
+trk_1364,Bad Bunny,Save Vibes (Deluxe Edition),Save Vibes,63,170847,1,0.794,0.571,11,-8.77,1,0.259,0.65,0.0,0.167,0.333,122.14,4,reggaeton
+trk_1365,Bruno Mars,Golden Echoes (Deluxe Edition),Golden Echoes,76,216771,1,0.363,0.864,5,-4.96,1,0.346,0.865,0.0,0.07,0.335,94.46,4,r&b
+trk_1366,Justin Bieber,Humble Vibes (Deluxe Edition),Humble Vibes,76,188597,0,0.768,0.682,10,-8.87,1,0.116,0.248,0.0,0.101,0.302,108.57,4,pop
+trk_1367,The Weeknd,Save Hour (Deluxe Edition),Save Hour,71,143917,0,0.367,0.512,2,-7.5,0,0.262,0.061,0.0,0.256,0.611,160.79,4,pop
+trk_1368,Eminem,Midnight Plan (Deluxe Edition),Midnight Plan,71,240632,1,0.866,0.837,8,-4.13,1,0.319,0.785,0.0,0.127,0.214,115.76,4,hip-hop
+trk_1369,Eminem,Die Vibes (Deluxe Edition),Die Vibes,35,217217,1,0.851,0.573,7,-9.11,1,0.291,0.44,0.0,0.065,0.538,94.62,4,hip-hop
+trk_1370,Harry Styles,Golden Chamber (Deluxe Edition),Golden Chamber,79,228033,0,0.656,0.405,0,-4.85,1,0.137,0.317,0.0,0.213,0.653,155.74,4,pop-rock
+trk_1371,Harry Styles,Cruel Lights (Deluxe Edition),Cruel Lights,61,190654,0,0.529,0.371,0,-8.67,1,0.151,0.117,0.0,0.338,0.294,100.25,4,pop-rock
+trk_1372,Kendrick Lamar,Shape Tears (Deluxe Edition),Shape Tears,98,221279,0,0.456,0.773,11,-12.64,0,0.205,0.408,0.2425,0.093,0.541,106.56,4,hip-hop
+trk_1373,Imagine Dragons,vampire Hero (Deluxe Edition),vampire Hero,75,180036,0,0.456,0.664,0,-3.49,0,0.225,0.34,0.0,0.105,0.726,159.45,4,rock
+trk_1374,Justin Bieber,Blinding Lover (Deluxe Edition),Blinding Lover,46,204985,0,0.698,0.703,10,-12.56,0,0.324,0.024,0.0,0.162,0.659,97.57,4,pop
+trk_1375,Drake,Flowers Waves (Deluxe Edition),Flowers Waves,73,185533,0,0.866,0.537,3,-11.68,0,0.076,0.07,0.0,0.17,0.662,87.37,4,hip-hop
+trk_1376,Drake,Save Lover (Deluxe Edition),Save Lover,74,162467,1,0.868,0.652,10,-10.55,1,0.088,0.672,0.1982,0.05,0.648,134.47,4,hip-hop
+trk_1377,Ariana Grande,Levitating Tears (Deluxe Edition),Levitating Tears,80,242387,0,0.724,0.448,5,-10.7,0,0.226,0.577,0.0,0.119,0.399,105.79,4,pop
+trk_1378,Ed Sheeran,Blinding You (Deluxe Edition),Blinding You,69,243717,1,0.825,0.4,8,-11.13,1,0.054,0.665,0.0,0.05,0.413,115.36,4,pop
+trk_1379,Olivia Rodrigo,Cruel World (Deluxe Edition),Cruel World,77,158177,0,0.757,0.311,1,-9.92,1,0.123,0.097,0.0,0.059,0.503,144.01,4,pop-rock
+trk_1380,Travis Scott,Sunflower Plan (Deluxe Edition),Sunflower Plan,69,225620,1,0.405,0.471,5,-11.08,0,0.136,0.019,0.0,0.061,0.162,149.11,4,hip-hop
+trk_1381,Bruno Mars,Starboy Hour (Deluxe Edition),Starboy Hour,78,242700,0,0.94,0.846,3,-4.12,0,0.295,0.617,0.0,0.334,0.172,158.03,4,r&b
+trk_1382,The Weeknd,Blinding Summer (Deluxe Edition),Blinding Summer,45,256582,1,0.769,0.368,4,-11.67,1,0.212,0.408,0.0,0.156,0.615,129.29,4,pop
+trk_1383,Olivia Rodrigo,As It Was World (Deluxe Edition),As It Was World,87,253769,0,0.795,0.506,9,-9.97,0,0.081,0.269,0.0,0.077,0.764,159.1,4,pop-rock
+trk_1384,Ed Sheeran,Humble Vibes (Deluxe Edition),Humble Vibes,33,203521,1,0.622,0.692,0,-11.85,0,0.337,0.055,0.0,0.271,0.546,132.61,4,pop
+trk_1385,SZA,God's Memories (Deluxe Edition),God's Memories,53,216980,0,0.862,0.644,6,-7.18,1,0.056,0.863,0.3155,0.129,0.789,85.31,4,r&b
+trk_1386,SZA,Peaches Hour (Deluxe Edition),Peaches Hour,80,141325,1,0.39,0.619,4,-4.11,1,0.084,0.474,0.0,0.194,0.745,165.92,4,r&b
+trk_1387,Travis Scott,Anti Hour (Deluxe Edition),Anti Hour,32,192403,0,0.63,0.335,3,-9.12,1,0.272,0.363,0.0261,0.198,0.697,114.75,4,hip-hop
+trk_1388,Eminem,Cruel Heart (Deluxe Edition),Cruel Heart,71,198382,0,0.78,0.615,2,-13.21,0,0.239,0.867,0.0,0.297,0.625,147.26,4,hip-hop
+trk_1389,Travis Scott,Save Echoes (Deluxe Edition),Save Echoes,49,171376,1,0.444,0.448,8,-13.8,1,0.082,0.042,0.1406,0.221,0.367,88.5,4,hip-hop
+trk_1390,Eminem,Flowers Hour (Deluxe Edition),Flowers Hour,72,151577,1,0.38,0.972,5,-4.56,0,0.284,0.236,0.0,0.164,0.913,108.98,4,hip-hop
+trk_1391,Justin Bieber,Flowers Chamber (Deluxe Edition),Flowers Chamber,57,176875,0,0.353,0.776,5,-4.8,1,0.221,0.136,0.0,0.314,0.668,168.96,4,pop
+trk_1392,Ed Sheeran,Die Chamber (Deluxe Edition),Die Chamber,94,211973,0,0.407,0.389,0,-5.12,0,0.331,0.385,0.0,0.189,0.326,106.28,4,pop
+trk_1393,Eminem,Cruel Hero (Deluxe Edition),Cruel Hero,63,243863,1,0.639,0.769,0,-11.42,0,0.282,0.012,0.0,0.126,0.423,126.04,4,hip-hop
+trk_1394,The Weeknd,Sunflower Hero (Deluxe Edition),Sunflower Hero,80,236494,0,0.363,0.627,6,-5.25,1,0.127,0.722,0.0,0.105,0.878,151.01,4,pop
+trk_1395,Harry Styles,Greedy Echoes (Deluxe Edition),Greedy Echoes,62,241791,1,0.474,0.765,5,-5.73,0,0.172,0.761,0.0,0.241,0.902,105.17,4,pop-rock
+trk_1396,Ariana Grande,Flowers World (Deluxe Edition),Flowers World,60,192901,0,0.631,0.747,0,-10.43,0,0.325,0.178,0.0,0.083,0.229,162.81,4,pop
+trk_1397,Drake,Starboy Summer (Deluxe Edition),Starboy Summer,69,179663,0,0.771,0.387,2,-5.56,0,0.241,0.535,0.0,0.186,0.908,97.5,4,hip-hop
+trk_1398,Ariana Grande,Golden Parade (Deluxe Edition),Golden Parade,75,231533,0,0.728,0.779,4,-4.62,0,0.323,0.047,0.0,0.338,0.868,160.54,4,pop
+trk_1399,Olivia Rodrigo,Golden Dreams (Deluxe Edition),Golden Dreams,36,238940,0,0.413,0.97,0,-6.02,1,0.22,0.858,0.0,0.333,0.654,95.15,4,pop-rock
+trk_1400,Dua Lipa,Midnight Heart (Deluxe Edition),Midnight Heart,77,174730,0,0.739,0.764,5,-3.34,1,0.275,0.158,0.0,0.22,0.261,152.78,4,dance-pop
+trk_1401,SZA,Anti Echoes (Deluxe Edition),Anti Echoes,66,213644,0,0.835,0.642,9,-5.71,0,0.277,0.708,0.0,0.065,0.463,106.9,4,r&b
+trk_1402,Ariana Grande,Golden Summer (Deluxe Edition),Golden Summer,62,235816,0,0.848,0.649,7,-6.55,0,0.274,0.794,0.0,0.102,0.338,108.94,4,pop
+trk_1403,Kendrick Lamar,Starboy Hero (Deluxe Edition),Starboy Hero,70,253106,1,0.468,0.924,1,-5.7,0,0.28,0.812,0.0,0.15,0.331,97.49,4,hip-hop
+trk_1404,Eminem,Cruel Chamber (Deluxe Edition),Cruel Chamber,60,181371,0,0.417,0.535,10,-4.0,0,0.193,0.282,0.0,0.274,0.887,128.34,4,hip-hop
+trk_1405,Imagine Dragons,Cruel Lover (Deluxe Edition),Cruel Lover,69,232456,0,0.63,0.585,6,-8.54,1,0.277,0.256,0.0,0.133,0.406,128.73,4,rock
+trk_1406,Kendrick Lamar,Starboy Lights (Deluxe Edition),Starboy Lights,75,233689,0,0.766,0.449,2,-9.89,0,0.114,0.146,0.3589,0.272,0.339,123.9,4,hip-hop
+trk_1407,Drake,Blinding Parade (Deluxe Edition),Blinding Parade,89,228818,0,0.811,0.889,4,-9.89,0,0.343,0.815,0.0,0.309,0.82,166.96,4,hip-hop
+trk_1408,Imagine Dragons,Save Summer (Deluxe Edition),Save Summer,96,143215,1,0.734,0.892,9,-3.3,1,0.342,0.669,0.0,0.215,0.908,160.0,4,rock
+trk_1409,Bad Bunny,Golden Parade (Deluxe Edition),Golden Parade,46,155423,0,0.936,0.497,4,-10.97,0,0.167,0.049,0.0,0.321,0.761,119.09,4,reggaeton
+trk_1410,Dua Lipa,Anti Chamber (Deluxe Edition),Anti Chamber,83,218611,1,0.835,0.638,3,-13.82,0,0.117,0.511,0.0,0.327,0.68,113.56,4,dance-pop
+trk_1411,Post Malone,Flowers Chamber (Deluxe Edition),Flowers Chamber,51,189314,0,0.703,0.427,2,-9.41,0,0.192,0.333,0.0,0.349,0.517,120.47,4,hip-hop
+trk_1412,Eminem,God's Memories (Deluxe Edition),God's Memories,73,185539,1,0.835,0.407,8,-12.72,0,0.037,0.343,0.0,0.252,0.595,151.0,4,hip-hop
+trk_1413,SZA,Cruel Summer (Deluxe Edition),Cruel Summer,61,199835,1,0.626,0.529,7,-11.2,1,0.261,0.636,0.0,0.215,0.528,156.83,4,r&b
+trk_1414,Bad Bunny,Levitating Fantasy (Deluxe Edition),Levitating Fantasy,46,203634,0,0.527,0.963,8,-12.81,0,0.226,0.634,0.0,0.323,0.491,146.63,4,reggaeton
+trk_1415,Dua Lipa,Save Hero (Deluxe Edition),Save Hero,36,194332,1,0.382,0.321,11,-13.47,0,0.273,0.671,0.0,0.202,0.642,129.53,4,dance-pop
+trk_1416,Travis Scott,Levitating Hero (Deluxe Edition),Levitating Hero,61,189463,1,0.816,0.531,5,-10.26,1,0.062,0.112,0.0,0.166,0.733,149.44,4,hip-hop
+trk_1417,Justin Bieber,Levitating Memories (Deluxe Edition),Levitating Memories,58,150132,0,0.385,0.509,9,-10.87,0,0.14,0.263,0.2832,0.195,0.163,168.84,4,pop
+trk_1418,Ariana Grande,Save Memories (Deluxe Edition),Save Memories,73,174340,1,0.79,0.757,4,-4.09,0,0.291,0.173,0.0,0.106,0.855,101.93,4,pop
+trk_1419,Dua Lipa,Espresso You (Deluxe Edition),Espresso You,49,210611,1,0.763,0.396,6,-11.22,0,0.061,0.389,0.0,0.331,0.579,101.19,4,dance-pop
+trk_1420,Post Malone,Shape Chamber (Deluxe Edition),Shape Chamber,60,171588,0,0.602,0.333,3,-8.55,1,0.191,0.228,0.0,0.28,0.402,126.91,4,hip-hop
+trk_1421,Taylor Swift,God's Lights (Deluxe Edition),God's Lights,48,199315,0,0.782,0.86,6,-4.6,1,0.278,0.136,0.0,0.284,0.567,128.16,4,pop
+trk_1422,The Weeknd,Sunflower Waves (Deluxe Edition),Sunflower Waves,74,259328,1,0.71,0.593,7,-11.17,0,0.271,0.019,0.0,0.134,0.291,109.96,4,pop
+trk_1423,Doja Cat,vampire Nights (Deluxe Edition),vampire Nights,67,162695,1,0.739,0.885,1,-10.23,0,0.142,0.73,0.0,0.228,0.204,114.99,4,dance-pop
+trk_1424,Taylor Swift,Peaches Heart (Deluxe Edition),Peaches Heart,63,200097,1,0.568,0.844,11,-11.97,1,0.047,0.537,0.0,0.101,0.425,168.64,4,pop
+trk_1425,Dua Lipa,Blinding Dreams (Deluxe Edition),Blinding Dreams,84,155612,1,0.356,0.414,7,-5.06,1,0.076,0.769,0.0,0.149,0.475,147.69,4,dance-pop
+trk_1426,Kendrick Lamar,vampire You (Deluxe Edition),vampire You,60,157915,1,0.664,0.749,8,-5.05,0,0.318,0.025,0.0,0.083,0.523,159.52,4,hip-hop
+trk_1427,Post Malone,Levitating World (Deluxe Edition),Levitating World,59,228846,1,0.556,0.914,0,-11.0,1,0.159,0.808,0.0,0.304,0.194,97.31,4,hip-hop
+trk_1428,Bruno Mars,Cruel Heart (Deluxe Edition),Cruel Heart,64,160119,0,0.613,0.891,7,-3.11,1,0.335,0.528,0.0,0.061,0.483,85.3,4,r&b
+trk_1429,Taylor Swift,vampire Lights (Deluxe Edition),vampire Lights,74,211912,1,0.89,0.455,6,-5.55,0,0.111,0.098,0.0,0.155,0.166,163.3,4,pop
+trk_1430,Dua Lipa,Anti You (Deluxe Edition),Anti You,75,164670,1,0.894,0.337,3,-11.53,1,0.269,0.337,0.0,0.275,0.181,158.87,4,dance-pop
+trk_1431,Doja Cat,Blinding Nights (Deluxe Edition),Blinding Nights,67,223777,0,0.931,0.616,4,-10.11,1,0.064,0.762,0.0,0.302,0.439,152.67,4,dance-pop
+trk_1432,Coldplay,Espresso Nights (Deluxe Edition),Espresso Nights,85,147001,1,0.852,0.647,0,-7.21,0,0.193,0.359,0.0,0.265,0.789,115.37,4,rock
+trk_1433,The Weeknd,God's Lights (Deluxe Edition),God's Lights,78,179432,1,0.432,0.887,1,-8.82,1,0.055,0.681,0.0,0.325,0.373,140.48,4,pop
+trk_1434,Ed Sheeran,Sunflower Symphony (Deluxe Edition),Sunflower Symphony,82,240066,0,0.867,0.771,1,-6.16,1,0.245,0.545,0.3644,0.186,0.407,93.48,4,pop
+trk_1435,Eminem,Lucid Lover (Deluxe Edition),Lucid Lover,21,191459,1,0.63,0.923,2,-7.88,0,0.269,0.309,0.1952,0.153,0.819,138.91,4,hip-hop
+trk_1436,SZA,As It Was Summer (Deluxe Edition),As It Was Summer,66,148793,1,0.551,0.977,6,-12.54,1,0.208,0.506,0.0,0.16,0.424,171.74,4,r&b
+trk_1437,Dua Lipa,Flowers Hero (Deluxe Edition),Flowers Hero,60,168522,0,0.779,0.651,8,-11.17,0,0.202,0.236,0.0,0.099,0.247,159.94,4,dance-pop
+trk_1438,Harry Styles,Cruel Plan (Deluxe Edition),Cruel Plan,92,152433,1,0.43,0.427,5,-11.48,0,0.348,0.339,0.0,0.132,0.571,114.75,4,pop-rock
+trk_1439,Coldplay,Anti Tears (Deluxe Edition),Anti Tears,39,182922,1,0.783,0.813,10,-5.73,1,0.055,0.636,0.0,0.275,0.595,94.82,4,rock
+trk_1440,Billie Eilish,Flowers Waves (Deluxe Edition),Flowers Waves,65,173278,1,0.693,0.831,10,-13.55,1,0.213,0.565,0.0,0.186,0.814,129.71,4,alt-pop
+trk_1441,Dua Lipa,Cruel Symphony (Deluxe Edition),Cruel Symphony,66,148340,0,0.376,0.802,9,-5.52,1,0.047,0.495,0.0,0.17,0.243,157.82,4,dance-pop
+trk_1442,Doja Cat,Sunflower You (Deluxe Edition),Sunflower You,47,191556,0,0.8,0.735,9,-6.36,1,0.041,0.154,0.1668,0.179,0.899,161.88,4,dance-pop
+trk_1443,Drake,Midnight Hero (Deluxe Edition),Midnight Hero,79,189955,1,0.528,0.844,11,-4.88,0,0.056,0.092,0.0,0.107,0.69,99.74,4,hip-hop
+trk_1444,SZA,Midnight Fantasy (Deluxe Edition),Midnight Fantasy,70,248174,0,0.936,0.897,0,-4.43,0,0.189,0.029,0.0,0.251,0.39,155.25,4,r&b
+trk_1445,Harry Styles,As It Was Nights (Deluxe Edition),As It Was Nights,61,181805,0,0.655,0.63,4,-6.07,0,0.161,0.409,0.3956,0.244,0.325,89.48,4,pop-rock
+trk_1446,Ed Sheeran,Anti Parade (Deluxe Edition),Anti Parade,49,241570,1,0.883,0.333,7,-5.56,1,0.264,0.177,0.0,0.126,0.739,123.17,4,pop
+trk_1447,Coldplay,Die Memories (Deluxe Edition),Die Memories,71,182731,1,0.543,0.962,3,-5.89,0,0.323,0.853,0.0,0.195,0.456,123.39,4,rock
+trk_1448,Justin Bieber,Lucid Hour (Deluxe Edition),Lucid Hour,53,232132,1,0.425,0.955,3,-13.96,0,0.275,0.597,0.0,0.135,0.822,135.75,4,pop
+trk_1449,Post Malone,God's Echoes (Deluxe Edition),God's Echoes,84,258287,0,0.93,0.389,8,-10.44,0,0.139,0.44,0.2916,0.343,0.529,134.63,4,hip-hop
+trk_1450,Bruno Mars,Lucid Plan (Deluxe Edition),Lucid Plan,83,200631,1,0.786,0.824,9,-10.22,0,0.137,0.094,0.0,0.255,0.449,158.25,4,r&b
+trk_1451,Imagine Dragons,Levitating Chamber (Deluxe Edition),Levitating Chamber,56,192262,0,0.364,0.69,5,-4.14,0,0.315,0.123,0.0,0.158,0.168,142.43,4,rock
+trk_1452,Billie Eilish,Levitating Echoes (Deluxe Edition),Levitating Echoes,73,238146,1,0.91,0.909,2,-6.43,1,0.114,0.527,0.0,0.209,0.357,106.48,4,alt-pop
+trk_1453,The Weeknd,Espresso Hour (Deluxe Edition),Espresso Hour,46,199123,1,0.826,0.75,10,-5.42,1,0.071,0.197,0.0,0.293,0.568,98.0,4,pop
+trk_1454,Eminem,Shape Summer (Deluxe Edition),Shape Summer,61,242743,0,0.742,0.611,8,-3.73,1,0.115,0.362,0.0,0.173,0.32,93.9,4,hip-hop
+trk_1455,Bruno Mars,Die Heart (Deluxe Edition),Die Heart,100,240378,1,0.451,0.778,9,-11.16,1,0.093,0.557,0.0,0.172,0.753,141.17,4,r&b
+trk_1456,Coldplay,Cruel Fantasy (Deluxe Edition),Cruel Fantasy,77,168583,0,0.827,0.379,11,-11.55,1,0.312,0.23,0.0108,0.285,0.716,154.71,4,rock
+trk_1457,Dua Lipa,Sunflower Heart (Deluxe Edition),Sunflower Heart,61,253355,1,0.517,0.595,3,-11.53,1,0.329,0.068,0.0,0.314,0.298,171.55,4,dance-pop
+trk_1458,Eminem,Golden World (Deluxe Edition),Golden World,90,192058,0,0.358,0.925,2,-4.8,0,0.203,0.303,0.0,0.343,0.583,163.0,4,hip-hop
+trk_1459,Travis Scott,As It Was Heart (Deluxe Edition),As It Was Heart,72,187157,1,0.883,0.785,8,-5.72,0,0.269,0.765,0.0,0.078,0.529,94.67,4,hip-hop
+trk_1460,Ariana Grande,Die Fantasy (Deluxe Edition),Die Fantasy,89,259965,1,0.509,0.652,5,-5.38,1,0.099,0.051,0.0,0.289,0.897,171.11,4,pop
+trk_1461,Doja Cat,vampire World (Deluxe Edition),vampire World,80,206398,1,0.734,0.618,7,-11.77,0,0.214,0.505,0.0,0.123,0.896,98.2,4,dance-pop
+trk_1462,Olivia Rodrigo,Sunflower Tears (Deluxe Edition),Sunflower Tears,41,203503,1,0.608,0.727,1,-13.11,1,0.283,0.455,0.0,0.334,0.654,124.73,4,pop-rock
+trk_1463,Doja Cat,Humble Fantasy (Deluxe Edition),Humble Fantasy,77,147867,1,0.763,0.573,10,-13.07,0,0.046,0.172,0.0,0.238,0.296,119.35,4,dance-pop
+trk_1464,Kendrick Lamar,As It Was Plan (Deluxe Edition),As It Was Plan,33,147220,1,0.392,0.839,10,-10.88,0,0.231,0.505,0.1521,0.138,0.678,150.9,4,hip-hop
+trk_1465,Doja Cat,Cruel Chamber (Deluxe Edition),Cruel Chamber,85,233534,0,0.682,0.745,8,-12.73,1,0.051,0.057,0.3478,0.244,0.483,170.43,4,dance-pop
+trk_1466,Harry Styles,Anti Hero (Deluxe Edition),Anti Hero,69,166982,1,0.95,0.859,11,-13.39,0,0.275,0.645,0.0,0.105,0.458,121.97,4,pop-rock
+trk_1467,Coldplay,Starboy Waves (Deluxe Edition),Starboy Waves,62,168252,0,0.572,0.323,1,-7.86,1,0.232,0.246,0.0,0.249,0.594,91.69,4,rock
+trk_1468,Drake,Levitating Hero (Deluxe Edition),Levitating Hero,75,168693,1,0.901,0.626,5,-3.87,1,0.2,0.445,0.2406,0.215,0.624,136.84,4,hip-hop
+trk_1469,Taylor Swift,Shape You (Deluxe Edition),Shape You,62,155927,1,0.725,0.531,7,-7.96,1,0.342,0.117,0.0,0.058,0.342,110.56,4,pop
+trk_1470,Taylor Swift,Starboy Chamber (Deluxe Edition),Starboy Chamber,62,196214,0,0.917,0.428,4,-12.43,0,0.108,0.78,0.0,0.071,0.174,162.99,4,pop
+trk_1471,Olivia Rodrigo,God's You (Deluxe Edition),God's You,98,203221,0,0.715,0.418,11,-11.17,1,0.217,0.775,0.0,0.166,0.235,102.45,4,pop-rock
+trk_1472,Dua Lipa,Lucid Waves (Deluxe Edition),Lucid Waves,85,213609,1,0.832,0.425,8,-12.22,0,0.09,0.112,0.3543,0.321,0.599,87.75,4,dance-pop
+trk_1473,Harry Styles,Die You (Deluxe Edition),Die You,66,207582,0,0.679,0.319,10,-6.07,0,0.248,0.327,0.0,0.333,0.212,104.11,4,pop-rock
+trk_1474,Bruno Mars,Flowers Lights (Deluxe Edition),Flowers Lights,88,148304,0,0.439,0.642,7,-10.79,0,0.15,0.573,0.0,0.12,0.764,155.65,4,r&b
+trk_1475,Kendrick Lamar,Midnight Echoes (Deluxe Edition),Midnight Echoes,69,172823,1,0.798,0.572,11,-10.07,0,0.174,0.203,0.0,0.287,0.224,165.98,4,hip-hop
+trk_1476,Ed Sheeran,Humble Symphony (Deluxe Edition),Humble Symphony,58,249707,1,0.442,0.77,6,-10.79,0,0.272,0.017,0.2907,0.332,0.328,161.34,4,pop
+trk_1477,Doja Cat,Starboy Hour (Deluxe Edition),Starboy Hour,48,237959,1,0.409,0.888,10,-10.44,1,0.303,0.754,0.0,0.193,0.236,114.25,4,dance-pop
+trk_1478,The Weeknd,Anti Symphony (Deluxe Edition),Anti Symphony,59,169672,1,0.741,0.567,11,-6.17,1,0.138,0.871,0.0,0.204,0.65,140.29,4,pop
+trk_1479,Billie Eilish,Espresso Summer (Deluxe Edition),Espresso Summer,61,156940,0,0.582,0.967,11,-9.32,0,0.133,0.841,0.0,0.146,0.851,174.31,4,alt-pop
+trk_1480,Bruno Mars,Anti Parade (Deluxe Edition),Anti Parade,84,140032,1,0.62,0.925,4,-11.74,0,0.091,0.381,0.0,0.256,0.191,146.36,4,r&b
+trk_1481,Doja Cat,Anti Tears (Deluxe Edition),Anti Tears,72,201428,0,0.75,0.612,2,-3.4,1,0.274,0.876,0.0434,0.221,0.7,118.85,4,dance-pop
+trk_1482,Bad Bunny,Flowers Heart (Deluxe Edition),Flowers Heart,81,234157,0,0.811,0.513,7,-12.34,1,0.344,0.536,0.0,0.11,0.373,104.48,4,reggaeton
+trk_1483,Harry Styles,Levitating World (Deluxe Edition),Levitating World,96,211923,1,0.515,0.761,3,-7.1,1,0.246,0.736,0.0,0.08,0.43,112.88,4,pop-rock
+trk_1484,Travis Scott,vampire Echoes (Deluxe Edition),vampire Echoes,54,189243,1,0.881,0.637,10,-8.28,1,0.057,0.788,0.0,0.288,0.504,133.67,4,hip-hop
+trk_1485,The Weeknd,Midnight Parade (Deluxe Edition),Midnight Parade,50,158957,0,0.403,0.977,0,-10.73,0,0.188,0.134,0.0,0.184,0.5,169.99,4,pop
+trk_1486,Bruno Mars,Espresso Symphony (Deluxe Edition),Espresso Symphony,87,180496,0,0.923,0.377,6,-7.51,1,0.158,0.211,0.0,0.265,0.281,131.37,4,r&b
+trk_1487,Kendrick Lamar,vampire Heart (Deluxe Edition),vampire Heart,75,254726,1,0.835,0.789,2,-11.73,0,0.206,0.201,0.0,0.239,0.185,89.69,4,hip-hop
+trk_1488,Bruno Mars,Espresso Tears (Deluxe Edition),Espresso Tears,54,170945,0,0.869,0.976,4,-6.29,1,0.331,0.662,0.0,0.244,0.703,160.2,4,r&b
+trk_1489,Eminem,Blinding Heart (Deluxe Edition),Blinding Heart,54,224271,1,0.917,0.363,1,-6.81,0,0.302,0.543,0.0,0.237,0.759,88.29,4,hip-hop
+trk_1490,Taylor Swift,Starboy Plan (Deluxe Edition),Starboy Plan,64,182635,0,0.698,0.501,6,-5.04,1,0.035,0.759,0.0,0.104,0.497,153.89,4,pop
+trk_1491,Travis Scott,Anti Lights (Deluxe Edition),Anti Lights,44,196158,1,0.44,0.509,6,-9.54,1,0.336,0.408,0.0,0.139,0.176,125.29,4,hip-hop
+trk_1492,Travis Scott,Peaches Hero (Deluxe Edition),Peaches Hero,57,193744,1,0.906,0.355,5,-6.56,1,0.216,0.534,0.0,0.198,0.913,173.69,4,hip-hop
+trk_1493,Ariana Grande,Sunflower Lover (Deluxe Edition),Sunflower Lover,78,215960,1,0.368,0.902,3,-9.97,1,0.036,0.026,0.0,0.117,0.472,165.92,4,pop
+trk_1494,Ariana Grande,Golden Parade (Deluxe Edition),Golden Parade,62,182209,1,0.386,0.503,10,-12.19,0,0.245,0.14,0.0,0.333,0.177,92.23,4,pop
+trk_1495,Bad Bunny,Sunflower You (Deluxe Edition),Sunflower You,85,160214,0,0.411,0.775,5,-11.9,1,0.188,0.844,0.0,0.118,0.911,174.59,4,reggaeton
+trk_1496,Ariana Grande,Die Lights (Deluxe Edition),Die Lights,42,224079,0,0.352,0.394,2,-10.73,0,0.288,0.157,0.0,0.321,0.704,104.31,4,pop
+trk_1497,Coldplay,Shape Memories (Deluxe Edition),Shape Memories,81,195569,0,0.414,0.668,10,-10.96,1,0.257,0.787,0.0,0.233,0.452,128.54,4,rock
+trk_1498,Olivia Rodrigo,Espresso Chamber (Deluxe Edition),Espresso Chamber,87,155168,0,0.651,0.311,7,-4.61,1,0.272,0.748,0.0394,0.312,0.197,104.27,4,pop-rock
+trk_1499,Eminem,Levitating Hero (Deluxe Edition),Levitating Hero,59,188209,1,0.63,0.521,2,-6.11,0,0.078,0.833,0.3526,0.151,0.471,173.71,4,hip-hop
+trk_1500,Justin Bieber,Greedy Lights (Deluxe Edition),Greedy Lights,59,210773,1,0.604,0.646,5,-7.42,1,0.268,0.263,0.0,0.061,0.676,143.05,4,pop
+trk_1501,Coldplay,As It Was Symphony (Deluxe Edition),As It Was Symphony,59,151354,1,0.867,0.547,6,-4.47,0,0.233,0.421,0.0,0.337,0.712,137.57,4,rock
+trk_1502,Dua Lipa,Sunflower Summer (Deluxe Edition),Sunflower Summer,79,193190,0,0.397,0.775,4,-4.72,0,0.203,0.61,0.0,0.334,0.367,164.86,4,dance-pop
+trk_1503,The Weeknd,Levitating Lover (Deluxe Edition),Levitating Lover,70,150441,1,0.751,0.959,10,-9.18,1,0.275,0.527,0.0,0.278,0.449,100.68,4,pop
+trk_1504,Drake,Shape Tears (Deluxe Edition),Shape Tears,87,147668,0,0.493,0.333,11,-7.65,0,0.172,0.403,0.0,0.057,0.338,111.68,4,hip-hop
+trk_1505,Drake,Cruel Lover (Deluxe Edition),Cruel Lover,40,151944,0,0.652,0.493,6,-11.85,0,0.214,0.562,0.0,0.15,0.576,170.19,4,hip-hop
+trk_1506,Justin Bieber,Starboy Tears (Deluxe Edition),Starboy Tears,88,200495,0,0.585,0.564,5,-4.82,0,0.335,0.693,0.0,0.328,0.759,171.42,4,pop
+trk_1507,Bruno Mars,Starboy Nights (Deluxe Edition),Starboy Nights,65,174083,1,0.815,0.563,7,-7.63,1,0.054,0.172,0.0,0.336,0.517,126.55,4,r&b
+trk_1508,SZA,Starboy Plan (Deluxe Edition),Starboy Plan,42,164226,0,0.495,0.543,2,-10.23,1,0.076,0.345,0.0,0.23,0.333,113.52,4,r&b
+trk_1509,Kendrick Lamar,Cruel Hour (Deluxe Edition),Cruel Hour,77,181322,1,0.408,0.47,7,-11.46,0,0.24,0.687,0.0384,0.334,0.81,90.02,4,hip-hop
+trk_1510,Bad Bunny,Levitating Dreams (Deluxe Edition),Levitating Dreams,56,209374,1,0.921,0.591,2,-5.85,0,0.178,0.341,0.3052,0.248,0.827,131.26,4,reggaeton
+trk_1511,Dua Lipa,Humble Tears (Deluxe Edition),Humble Tears,53,192916,1,0.601,0.595,4,-11.19,1,0.113,0.197,0.0,0.187,0.478,85.02,4,dance-pop
+trk_1512,Olivia Rodrigo,Midnight Plan (Deluxe Edition),Midnight Plan,43,177438,0,0.883,0.758,0,-6.99,1,0.263,0.183,0.1443,0.173,0.344,159.58,4,pop-rock
+trk_1513,Imagine Dragons,Save Plan (Deluxe Edition),Save Plan,45,240599,0,0.614,0.614,8,-10.11,1,0.276,0.733,0.0,0.289,0.461,114.49,4,rock
+trk_1514,Bad Bunny,Golden Vibes (Deluxe Edition),Golden Vibes,72,231356,1,0.596,0.872,8,-7.6,1,0.134,0.526,0.0,0.135,0.572,108.56,4,reggaeton
+trk_1515,Justin Bieber,Save Parade (Deluxe Edition),Save Parade,67,142020,1,0.739,0.627,5,-10.58,0,0.226,0.766,0.0,0.189,0.733,102.85,4,pop
+trk_1516,Imagine Dragons,Levitating Echoes (Deluxe Edition),Levitating Echoes,45,168651,1,0.815,0.474,2,-8.84,0,0.272,0.843,0.2579,0.231,0.257,105.8,4,rock
+trk_1517,Taylor Swift,Espresso Hour (Deluxe Edition),Espresso Hour,62,200592,0,0.556,0.413,10,-6.86,1,0.205,0.318,0.0,0.338,0.354,89.18,4,pop
+trk_1518,Taylor Swift,Espresso You (Deluxe Edition),Espresso You,88,143317,0,0.463,0.889,3,-4.11,1,0.341,0.737,0.0,0.296,0.313,154.62,4,pop
+trk_1519,Olivia Rodrigo,Starboy Summer (Deluxe Edition),Starboy Summer,74,249144,1,0.465,0.716,5,-3.99,0,0.069,0.045,0.0,0.083,0.548,142.42,4,pop-rock
+trk_1520,Drake,God's Chamber (Deluxe Edition),God's Chamber,76,221604,0,0.409,0.877,4,-13.42,1,0.253,0.602,0.0,0.106,0.163,154.23,4,hip-hop
+trk_1521,Dua Lipa,Peaches Heart (Deluxe Edition),Peaches Heart,63,184842,1,0.683,0.477,5,-7.52,1,0.206,0.712,0.1228,0.205,0.336,105.83,4,dance-pop
+trk_1522,SZA,Levitating Waves (Deluxe Edition),Levitating Waves,85,171940,0,0.589,0.483,7,-10.9,0,0.343,0.301,0.0,0.183,0.822,95.33,4,r&b
+trk_1523,Travis Scott,Sunflower Echoes (Deluxe Edition),Sunflower Echoes,60,186058,0,0.372,0.309,11,-7.65,0,0.201,0.286,0.0,0.177,0.45,153.53,4,hip-hop
+trk_1524,Dua Lipa,Sunflower Echoes (Deluxe Edition),Sunflower Echoes,20,221704,1,0.634,0.338,1,-10.3,1,0.317,0.735,0.0,0.228,0.384,114.74,4,dance-pop
+trk_1525,Ed Sheeran,God's Chamber (Deluxe Edition),God's Chamber,69,249470,1,0.753,0.922,2,-5.14,0,0.224,0.232,0.0082,0.165,0.796,130.41,4,pop
+trk_1526,Justin Bieber,Midnight Dreams (Deluxe Edition),Midnight Dreams,92,251679,1,0.638,0.641,9,-12.97,0,0.343,0.322,0.0,0.228,0.516,104.83,4,pop
+trk_1527,Kendrick Lamar,Shape Memories (Deluxe Edition),Shape Memories,64,154912,0,0.744,0.899,7,-4.21,0,0.256,0.604,0.0,0.262,0.19,125.23,4,hip-hop
+trk_1528,Harry Styles,Shape Lover (Deluxe Edition),Shape Lover,61,166764,0,0.779,0.561,3,-7.21,1,0.293,0.292,0.0,0.288,0.587,135.76,4,pop-rock
+trk_1529,SZA,Levitating Heart (Deluxe Edition),Levitating Heart,69,174688,1,0.622,0.656,3,-4.11,0,0.136,0.371,0.0,0.166,0.368,106.27,4,r&b
+trk_1530,Imagine Dragons,As It Was Chamber (Deluxe Edition),As It Was Chamber,66,196110,0,0.388,0.666,7,-13.13,0,0.334,0.543,0.0,0.308,0.559,168.07,4,rock
+trk_1531,Taylor Swift,Shape Dreams (Deluxe Edition),Shape Dreams,88,163396,0,0.72,0.667,7,-6.88,1,0.311,0.87,0.0,0.14,0.206,149.93,4,pop
+trk_1532,Eminem,Flowers Memories (Deluxe Edition),Flowers Memories,82,177147,1,0.439,0.824,3,-3.63,1,0.034,0.265,0.0,0.216,0.621,153.74,4,hip-hop
+trk_1533,Olivia Rodrigo,God's Hero (Deluxe Edition),God's Hero,57,258133,1,0.444,0.407,3,-4.66,1,0.136,0.451,0.2293,0.34,0.252,167.11,4,pop-rock
+trk_1534,Kendrick Lamar,Levitating Chamber (Deluxe Edition),Levitating Chamber,83,185877,0,0.668,0.955,8,-12.02,1,0.261,0.791,0.0,0.084,0.257,86.21,4,hip-hop
+trk_1535,Eminem,God's Hour (Deluxe Edition),God's Hour,44,143960,1,0.947,0.304,5,-7.51,1,0.056,0.733,0.057,0.222,0.477,156.72,4,hip-hop
+trk_1536,Billie Eilish,Lucid Summer (Deluxe Edition),Lucid Summer,60,228652,0,0.753,0.639,5,-13.8,0,0.122,0.752,0.0,0.285,0.67,156.55,4,alt-pop
+trk_1537,Drake,Sunflower Echoes (Deluxe Edition),Sunflower Echoes,60,251901,0,0.496,0.351,8,-13.75,0,0.27,0.366,0.0,0.162,0.578,157.26,4,hip-hop
+trk_1538,Bad Bunny,Anti Fantasy (Deluxe Edition),Anti Fantasy,55,140152,0,0.73,0.799,6,-12.51,0,0.037,0.349,0.0,0.34,0.806,98.75,4,reggaeton
+trk_1539,Olivia Rodrigo,Save Nights (Deluxe Edition),Save Nights,81,218605,1,0.932,0.767,1,-3.05,1,0.286,0.386,0.0,0.245,0.625,112.61,4,pop-rock
+trk_1540,Dua Lipa,vampire Waves (Deluxe Edition),vampire Waves,68,180474,1,0.481,0.766,4,-12.51,0,0.092,0.598,0.0,0.277,0.703,129.05,4,dance-pop
+trk_1541,Justin Bieber,Save Hero (Deluxe Edition),Save Hero,29,212497,0,0.404,0.349,6,-6.08,1,0.142,0.587,0.0,0.084,0.859,112.79,4,pop
+trk_1542,The Weeknd,Blinding Dreams (Deluxe Edition),Blinding Dreams,49,173071,0,0.713,0.485,9,-11.33,0,0.086,0.062,0.0,0.287,0.311,99.7,4,pop
+trk_1543,Doja Cat,Shape Nights (Deluxe Edition),Shape Nights,94,239830,0,0.841,0.92,7,-7.03,0,0.291,0.665,0.0,0.117,0.503,123.33,4,dance-pop
+trk_1544,Kendrick Lamar,Humble Hero (Deluxe Edition),Humble Hero,86,229059,1,0.4,0.624,0,-10.09,0,0.052,0.841,0.0,0.16,0.457,98.39,4,hip-hop
+trk_1545,Drake,Sunflower Memories (Deluxe Edition),Sunflower Memories,63,249564,0,0.793,0.655,5,-8.29,1,0.324,0.224,0.0,0.267,0.658,158.66,4,hip-hop
+trk_1546,Bruno Mars,vampire Lover (Deluxe Edition),vampire Lover,41,226300,0,0.387,0.882,1,-3.79,0,0.314,0.433,0.0,0.199,0.486,124.67,4,r&b
+trk_1547,SZA,Starboy Dreams (Deluxe Edition),Starboy Dreams,75,213095,1,0.837,0.629,7,-5.79,1,0.292,0.509,0.0,0.241,0.372,146.52,4,r&b
+trk_1548,SZA,Peaches Vibes (Deluxe Edition),Peaches Vibes,67,223002,1,0.783,0.729,7,-3.34,0,0.288,0.766,0.0,0.13,0.342,85.38,4,r&b
+trk_1549,Billie Eilish,As It Was Vibes (Deluxe Edition),As It Was Vibes,64,259580,0,0.798,0.593,10,-10.81,0,0.257,0.814,0.0,0.333,0.661,87.21,4,alt-pop
+trk_1550,Taylor Swift,As It Was Chamber (Deluxe Edition),As It Was Chamber,63,158438,0,0.902,0.451,0,-7.57,1,0.174,0.087,0.0,0.3,0.236,142.15,4,pop
+trk_1551,Coldplay,Shape Hour (Deluxe Edition),Shape Hour,65,234144,0,0.779,0.509,0,-13.87,0,0.322,0.354,0.0,0.084,0.168,107.41,4,rock
+trk_1552,Imagine Dragons,vampire Lights (Deluxe Edition),vampire Lights,35,181691,1,0.853,0.779,0,-5.13,0,0.083,0.053,0.0,0.225,0.638,121.45,4,rock
+trk_1553,Drake,Cruel Lover (Deluxe Edition),Cruel Lover,86,190353,0,0.824,0.304,10,-6.48,0,0.332,0.096,0.2958,0.332,0.461,173.21,4,hip-hop
+trk_1554,Imagine Dragons,Die Summer (Deluxe Edition),Die Summer,55,185057,1,0.627,0.322,6,-12.79,0,0.268,0.274,0.0,0.164,0.337,155.22,4,rock
+trk_1555,Bad Bunny,Anti Summer (Deluxe Edition),Anti Summer,69,193945,1,0.747,0.612,5,-6.39,0,0.118,0.337,0.0,0.19,0.765,120.97,4,reggaeton
+trk_1556,Travis Scott,Sunflower Lover (Deluxe Edition),Sunflower Lover,55,242335,0,0.526,0.595,1,-12.9,1,0.329,0.253,0.0,0.204,0.654,154.52,4,hip-hop
+trk_1557,Billie Eilish,Espresso Hero (Deluxe Edition),Espresso Hero,86,205759,1,0.417,0.524,6,-13.75,1,0.272,0.27,0.0,0.164,0.329,173.53,4,alt-pop
+trk_1558,Billie Eilish,vampire Parade (Deluxe Edition),vampire Parade,78,178497,0,0.616,0.73,6,-10.3,1,0.181,0.606,0.0,0.175,0.793,120.67,4,alt-pop
+trk_1559,Ed Sheeran,Sunflower Plan (Deluxe Edition),Sunflower Plan,60,173510,1,0.628,0.49,11,-12.95,1,0.348,0.744,0.0,0.186,0.687,86.54,4,pop
+trk_1560,Bad Bunny,Shape You (Deluxe Edition),Shape You,67,179127,1,0.779,0.795,10,-8.85,0,0.154,0.416,0.0,0.122,0.674,102.95,4,reggaeton
+trk_1561,Coldplay,Sunflower Symphony (Deluxe Edition),Sunflower Symphony,93,163136,0,0.594,0.884,6,-11.51,0,0.13,0.467,0.0,0.143,0.258,104.96,4,rock
+trk_1562,Doja Cat,vampire Waves (Deluxe Edition),vampire Waves,61,198851,1,0.387,0.707,1,-5.87,1,0.205,0.554,0.1432,0.147,0.855,123.2,4,dance-pop
+trk_1563,Harry Styles,Levitating Lights (Deluxe Edition),Levitating Lights,81,208889,1,0.525,0.558,1,-13.85,0,0.328,0.659,0.0,0.312,0.257,165.92,4,pop-rock
+trk_1564,Eminem,vampire Lights (Deluxe Edition),vampire Lights,57,175401,1,0.493,0.343,1,-12.54,1,0.076,0.607,0.0,0.116,0.518,102.7,4,hip-hop
+trk_1565,Bruno Mars,As It Was Fantasy (Deluxe Edition),As It Was Fantasy,79,190337,0,0.407,0.659,10,-4.46,1,0.148,0.216,0.0,0.119,0.227,138.02,4,r&b
+trk_1566,Billie Eilish,Cruel Echoes (Deluxe Edition),Cruel Echoes,66,179491,0,0.49,0.764,4,-9.46,0,0.229,0.765,0.0,0.293,0.839,153.98,4,alt-pop
+trk_1567,Dua Lipa,Flowers You (Deluxe Edition),Flowers You,90,233281,1,0.399,0.719,1,-11.58,0,0.141,0.549,0.0,0.225,0.228,156.85,4,dance-pop
+trk_1568,Ed Sheeran,Cruel Fantasy (Deluxe Edition),Cruel Fantasy,87,223448,1,0.936,0.756,1,-9.8,0,0.284,0.215,0.0,0.279,0.525,116.16,4,pop
+trk_1569,Doja Cat,Humble Plan (Deluxe Edition),Humble Plan,44,170832,0,0.62,0.894,8,-9.67,1,0.138,0.475,0.0,0.261,0.899,99.09,4,dance-pop
+trk_1570,Travis Scott,Save Dreams (Deluxe Edition),Save Dreams,51,254848,1,0.453,0.702,9,-13.04,0,0.097,0.573,0.0,0.275,0.796,105.38,4,hip-hop
+trk_1571,Doja Cat,Die Waves (Deluxe Edition),Die Waves,38,258666,1,0.532,0.863,6,-5.69,0,0.097,0.667,0.0,0.314,0.845,131.57,4,dance-pop
+trk_1572,Bruno Mars,As It Was Lover (Deluxe Edition),As It Was Lover,64,192431,0,0.86,0.608,6,-7.0,0,0.133,0.105,0.0,0.16,0.159,134.33,4,r&b
+trk_1573,Bruno Mars,Golden You (Deluxe Edition),Golden You,47,237456,0,0.69,0.595,0,-13.9,0,0.208,0.732,0.0,0.282,0.296,102.03,4,r&b
+trk_1574,Olivia Rodrigo,Cruel Tears (Deluxe Edition),Cruel Tears,64,158504,0,0.938,0.769,8,-8.19,1,0.03,0.692,0.0,0.235,0.398,161.16,4,pop-rock
+trk_1575,Taylor Swift,Midnight Fantasy (Deluxe Edition),Midnight Fantasy,100,211239,1,0.949,0.34,6,-9.93,1,0.245,0.724,0.0,0.338,0.708,138.74,4,pop
+trk_1576,Kendrick Lamar,Cruel Symphony (Deluxe Edition),Cruel Symphony,63,157037,1,0.757,0.6,5,-12.73,1,0.115,0.792,0.0,0.201,0.542,119.46,4,hip-hop
+trk_1577,Ed Sheeran,Humble Echoes (Deluxe Edition),Humble Echoes,63,147364,0,0.515,0.936,6,-3.1,0,0.3,0.554,0.0,0.057,0.653,130.41,4,pop
+trk_1578,Eminem,Golden Symphony (Deluxe Edition),Golden Symphony,60,157468,0,0.407,0.952,3,-12.67,1,0.041,0.026,0.0,0.204,0.366,101.06,4,hip-hop
+trk_1579,Olivia Rodrigo,Golden Fantasy (Deluxe Edition),Golden Fantasy,92,216489,0,0.922,0.353,3,-7.93,1,0.302,0.271,0.0211,0.19,0.268,123.48,4,pop-rock
+trk_1580,Coldplay,Save Tears (Deluxe Edition),Save Tears,56,236693,0,0.367,0.371,9,-8.47,1,0.217,0.874,0.3783,0.193,0.594,101.98,4,rock
+trk_1581,Travis Scott,Sunflower Symphony (Deluxe Edition),Sunflower Symphony,70,210429,1,0.567,0.596,0,-7.63,0,0.082,0.816,0.0,0.22,0.68,132.69,4,hip-hop
+trk_1582,Imagine Dragons,Save Parade (Deluxe Edition),Save Parade,76,225708,0,0.867,0.626,6,-3.5,0,0.317,0.098,0.2704,0.223,0.541,146.28,4,rock
+trk_1583,Kendrick Lamar,Shape Hour (Deluxe Edition),Shape Hour,72,154078,0,0.375,0.826,4,-10.83,0,0.16,0.531,0.0,0.224,0.253,101.57,4,hip-hop
+trk_1584,Billie Eilish,Cruel Parade (Deluxe Edition),Cruel Parade,72,176263,1,0.93,0.955,2,-4.68,1,0.253,0.068,0.0,0.11,0.166,144.66,4,alt-pop
+trk_1585,Travis Scott,Levitating Lover (Deluxe Edition),Levitating Lover,79,195863,1,0.473,0.498,2,-5.41,0,0.237,0.403,0.0,0.267,0.871,162.98,4,hip-hop
+trk_1586,Billie Eilish,Flowers Chamber (Deluxe Edition),Flowers Chamber,53,214016,0,0.723,0.863,5,-6.23,0,0.193,0.397,0.0,0.27,0.776,154.33,4,alt-pop
+trk_1587,Imagine Dragons,Cruel Memories (Deluxe Edition),Cruel Memories,70,231791,0,0.726,0.847,6,-7.85,0,0.206,0.675,0.0,0.137,0.491,116.33,4,rock
+trk_1588,Coldplay,Blinding Chamber (Deluxe Edition),Blinding Chamber,96,145979,0,0.623,0.6,6,-8.23,1,0.298,0.768,0.0,0.153,0.502,112.82,4,rock
+trk_1589,Imagine Dragons,Sunflower Heart (Deluxe Edition),Sunflower Heart,68,150619,1,0.414,0.419,3,-13.37,0,0.223,0.483,0.0,0.286,0.907,142.05,4,rock
+trk_1590,Bad Bunny,Peaches Vibes (Deluxe Edition),Peaches Vibes,69,147429,0,0.76,0.458,2,-11.4,0,0.203,0.374,0.0,0.188,0.83,95.67,4,reggaeton
+trk_1591,Kendrick Lamar,Midnight Dreams (Deluxe Edition),Midnight Dreams,61,236750,0,0.724,0.649,3,-6.86,0,0.188,0.303,0.0,0.081,0.283,102.52,4,hip-hop
+trk_1592,Bruno Mars,Cruel Summer (Deluxe Edition),Cruel Summer,35,181821,0,0.589,0.636,11,-7.35,0,0.241,0.428,0.0,0.072,0.749,165.4,4,r&b
+trk_1593,Post Malone,Blinding Lover (Deluxe Edition),Blinding Lover,62,255899,1,0.389,0.799,9,-5.46,1,0.053,0.096,0.0,0.069,0.274,121.42,4,hip-hop
+trk_1594,SZA,vampire World (Deluxe Edition),vampire World,84,249849,1,0.425,0.533,9,-7.73,0,0.28,0.641,0.0,0.218,0.154,165.51,4,r&b
+trk_1595,Dua Lipa,Starboy Hero (Deluxe Edition),Starboy Hero,70,210554,0,0.63,0.616,8,-12.15,0,0.17,0.775,0.0,0.275,0.784,156.24,4,dance-pop
+trk_1596,Drake,Lucid Hour (Deluxe Edition),Lucid Hour,59,249570,0,0.863,0.557,1,-8.16,0,0.103,0.719,0.0,0.274,0.735,164.5,4,hip-hop
+trk_1597,Taylor Swift,Die Symphony (Deluxe Edition),Die Symphony,57,201624,1,0.566,0.463,2,-3.51,1,0.092,0.22,0.0,0.287,0.846,172.79,4,pop
+trk_1598,Imagine Dragons,God's Dreams (Deluxe Edition),God's Dreams,79,220824,1,0.512,0.803,3,-12.9,1,0.259,0.212,0.0,0.258,0.75,102.42,4,rock
+trk_1599,Kendrick Lamar,Golden Plan (Deluxe Edition),Golden Plan,49,207814,1,0.905,0.543,8,-6.32,1,0.319,0.121,0.1791,0.208,0.464,111.62,4,hip-hop
+trk_1600,Eminem,Cruel Chamber (Deluxe Edition),Cruel Chamber,65,254342,0,0.61,0.628,4,-10.26,0,0.166,0.386,0.0,0.09,0.694,174.91,4,hip-hop
+trk_1601,Billie Eilish,Humble World (Deluxe Edition),Humble World,100,182946,1,0.764,0.516,4,-6.89,1,0.275,0.725,0.0,0.193,0.627,163.9,4,alt-pop
+trk_1602,Drake,Cruel Nights (Deluxe Edition),Cruel Nights,66,184325,0,0.465,0.342,0,-12.7,1,0.132,0.495,0.0,0.101,0.759,101.08,4,hip-hop
+trk_1603,Justin Bieber,Golden Waves (Deluxe Edition),Golden Waves,38,246782,1,0.48,0.837,6,-9.6,1,0.223,0.841,0.0,0.265,0.621,162.08,4,pop
+trk_1604,Bad Bunny,Greedy Hour (Deluxe Edition),Greedy Hour,65,243633,0,0.796,0.392,2,-11.06,1,0.125,0.09,0.0,0.095,0.377,117.98,4,reggaeton
+trk_1605,Dua Lipa,Golden Heart (Deluxe Edition),Golden Heart,60,148604,0,0.652,0.546,3,-12.99,1,0.238,0.486,0.0,0.083,0.583,162.31,4,dance-pop
+trk_1606,Bad Bunny,Levitating Hero (Deluxe Edition),Levitating Hero,79,202637,1,0.731,0.767,10,-4.09,0,0.191,0.64,0.0,0.066,0.674,150.85,4,reggaeton
+trk_1607,Imagine Dragons,vampire Vibes (Deluxe Edition),vampire Vibes,68,213940,0,0.464,0.622,1,-6.03,1,0.176,0.857,0.0,0.122,0.509,136.56,4,rock
+trk_1608,Post Malone,Die Heart (Deluxe Edition),Die Heart,56,192335,1,0.804,0.483,3,-11.89,0,0.321,0.343,0.0,0.186,0.406,110.72,4,hip-hop
+trk_1609,Ariana Grande,Starboy Memories (Deluxe Edition),Starboy Memories,65,168683,0,0.709,0.514,6,-10.5,1,0.04,0.47,0.0,0.138,0.241,155.4,4,pop
+trk_1610,Post Malone,Golden Heart (Deluxe Edition),Golden Heart,84,157891,0,0.753,0.669,5,-10.68,0,0.115,0.32,0.0,0.099,0.669,103.55,4,hip-hop
+trk_1611,Harry Styles,Peaches Summer (Deluxe Edition),Peaches Summer,86,151072,1,0.365,0.614,8,-5.93,0,0.197,0.191,0.0,0.096,0.572,167.74,4,pop-rock
+trk_1612,Kendrick Lamar,Anti Dreams (Deluxe Edition),Anti Dreams,84,216607,1,0.856,0.478,11,-10.73,1,0.233,0.869,0.0,0.304,0.212,93.7,4,hip-hop
+trk_1613,Imagine Dragons,Espresso Echoes (Deluxe Edition),Espresso Echoes,88,153396,1,0.711,0.377,3,-6.09,0,0.308,0.503,0.0,0.295,0.169,123.43,4,rock
+trk_1614,Bruno Mars,Midnight Symphony (Deluxe Edition),Midnight Symphony,63,190056,0,0.374,0.391,8,-5.49,0,0.311,0.814,0.2174,0.228,0.398,107.78,4,r&b
+trk_1615,Harry Styles,vampire World (Deluxe Edition),vampire World,56,213230,1,0.683,0.912,6,-9.81,0,0.068,0.203,0.0,0.272,0.186,166.93,4,pop-rock
+trk_1616,Travis Scott,Flowers Lover (Deluxe Edition),Flowers Lover,68,218268,0,0.495,0.627,10,-13.28,1,0.219,0.524,0.0,0.256,0.276,127.88,4,hip-hop
+trk_1617,Doja Cat,Levitating Fantasy (Deluxe Edition),Levitating Fantasy,62,239688,0,0.928,0.305,8,-8.88,0,0.256,0.14,0.0,0.201,0.498,139.46,4,dance-pop
+trk_1618,Doja Cat,Die Echoes (Deluxe Edition),Die Echoes,54,237301,0,0.424,0.33,2,-12.24,1,0.33,0.46,0.0,0.162,0.898,89.19,4,dance-pop
+trk_1619,Travis Scott,Midnight Summer (Deluxe Edition),Midnight Summer,79,228589,1,0.512,0.472,10,-10.84,0,0.057,0.175,0.0,0.26,0.72,112.02,4,hip-hop
+trk_1620,SZA,Espresso World (Deluxe Edition),Espresso World,70,179750,1,0.545,0.779,2,-11.43,0,0.218,0.496,0.0,0.338,0.851,172.86,4,r&b
+trk_1621,Olivia Rodrigo,Flowers Tears (Deluxe Edition),Flowers Tears,63,241453,0,0.432,0.799,10,-11.51,1,0.128,0.556,0.0,0.219,0.518,85.78,4,pop-rock
+trk_1622,Dua Lipa,Blinding Tears (Deluxe Edition),Blinding Tears,76,253235,1,0.587,0.915,4,-8.26,1,0.302,0.813,0.0,0.116,0.381,165.1,4,dance-pop
+trk_1623,Olivia Rodrigo,Espresso Heart (Deluxe Edition),Espresso Heart,68,227646,1,0.543,0.67,4,-10.69,0,0.177,0.306,0.0,0.106,0.751,113.57,4,pop-rock
+trk_1624,Doja Cat,Shape You (Deluxe Edition),Shape You,84,213765,0,0.482,0.578,11,-6.14,0,0.119,0.344,0.2796,0.235,0.657,95.6,4,dance-pop
+trk_1625,Drake,Midnight Summer (Deluxe Edition),Midnight Summer,78,151471,1,0.599,0.455,7,-13.46,0,0.273,0.253,0.0,0.179,0.892,131.7,4,hip-hop
+trk_1626,Bad Bunny,Flowers Memories (Deluxe Edition),Flowers Memories,43,186119,1,0.784,0.805,1,-9.25,0,0.041,0.263,0.0,0.111,0.758,107.06,4,reggaeton
+trk_1627,Kendrick Lamar,Die Lights (Deluxe Edition),Die Lights,48,140376,0,0.893,0.478,8,-12.79,0,0.112,0.321,0.0,0.242,0.222,86.5,4,hip-hop
+trk_1628,SZA,Greedy Memories (Deluxe Edition),Greedy Memories,75,245488,1,0.942,0.692,2,-12.26,0,0.088,0.106,0.0,0.251,0.422,115.47,4,r&b
+trk_1629,Travis Scott,God's Tears (Deluxe Edition),God's Tears,56,179674,0,0.671,0.967,1,-6.42,0,0.224,0.178,0.1519,0.115,0.785,143.12,4,hip-hop
+trk_1630,Travis Scott,Midnight You (Deluxe Edition),Midnight You,83,248940,0,0.363,0.808,3,-3.61,1,0.052,0.598,0.323,0.211,0.606,131.74,4,hip-hop
+trk_1631,Bruno Mars,God's Tears (Deluxe Edition),God's Tears,57,169171,1,0.62,0.441,5,-12.56,1,0.194,0.204,0.0,0.096,0.536,110.02,4,r&b
+trk_1632,Ariana Grande,Peaches Symphony (Deluxe Edition),Peaches Symphony,61,162174,1,0.553,0.544,8,-4.22,1,0.274,0.535,0.0,0.33,0.401,157.58,4,pop
+trk_1633,Doja Cat,Lucid Chamber (Deluxe Edition),Lucid Chamber,52,259151,0,0.595,0.727,0,-3.4,1,0.254,0.269,0.0,0.128,0.507,123.3,4,dance-pop
+trk_1634,Imagine Dragons,Anti Hour (Deluxe Edition),Anti Hour,87,188136,1,0.677,0.979,0,-3.54,1,0.168,0.556,0.0,0.052,0.226,157.02,4,rock
+trk_1635,The Weeknd,Save Nights (Deluxe Edition),Save Nights,64,147867,0,0.495,0.947,1,-7.01,0,0.33,0.338,0.0,0.228,0.883,128.89,4,pop
+trk_1636,Bad Bunny,Flowers Lover (Deluxe Edition),Flowers Lover,70,208285,1,0.802,0.809,9,-11.51,1,0.084,0.278,0.0,0.227,0.159,145.65,4,reggaeton
+trk_1637,Ed Sheeran,Espresso Heart (Deluxe Edition),Espresso Heart,54,204872,0,0.404,0.684,5,-10.67,0,0.33,0.844,0.0,0.288,0.878,88.78,4,pop
+trk_1638,Billie Eilish,Midnight Echoes (Deluxe Edition),Midnight Echoes,68,228857,1,0.445,0.551,4,-12.54,1,0.124,0.195,0.0,0.123,0.55,135.24,4,alt-pop
+trk_1639,Ariana Grande,God's Fantasy (Deluxe Edition),God's Fantasy,63,191110,1,0.446,0.824,3,-13.3,0,0.33,0.426,0.0,0.146,0.877,144.85,4,pop
+trk_1640,The Weeknd,Flowers Plan (Deluxe Edition),Flowers Plan,83,187237,0,0.568,0.848,9,-4.5,0,0.218,0.629,0.0,0.185,0.163,121.34,4,pop
+trk_1641,Ed Sheeran,Humble Parade (Deluxe Edition),Humble Parade,100,174038,1,0.648,0.436,9,-7.96,1,0.287,0.405,0.0,0.331,0.768,136.33,4,pop
+trk_1642,Kendrick Lamar,Levitating World (Deluxe Edition),Levitating World,58,195159,0,0.714,0.737,9,-6.31,1,0.274,0.368,0.0,0.307,0.638,102.75,4,hip-hop
+trk_1643,SZA,vampire Hour (Deluxe Edition),vampire Hour,85,209233,1,0.688,0.816,3,-3.29,1,0.058,0.243,0.0,0.123,0.873,133.02,4,r&b
+trk_1644,Dua Lipa,Save Heart (Deluxe Edition),Save Heart,37,223134,1,0.594,0.437,8,-12.11,0,0.123,0.854,0.0,0.145,0.37,93.44,4,dance-pop
+trk_1645,Harry Styles,Save Tears (Deluxe Edition),Save Tears,86,227195,1,0.415,0.897,2,-4.86,1,0.15,0.64,0.0,0.072,0.908,133.13,4,pop-rock
+trk_1646,Drake,God's Heart (Deluxe Edition),God's Heart,86,217250,1,0.725,0.513,3,-6.2,1,0.052,0.454,0.0,0.278,0.548,129.43,4,hip-hop
+trk_1647,Justin Bieber,Espresso Waves (Deluxe Edition),Espresso Waves,60,257091,1,0.528,0.813,2,-12.75,0,0.101,0.809,0.0,0.056,0.523,85.43,4,pop
+trk_1648,The Weeknd,Humble Hour (Deluxe Edition),Humble Hour,56,181539,0,0.584,0.606,10,-11.47,0,0.201,0.456,0.0,0.329,0.845,118.29,4,pop
+trk_1649,Bad Bunny,Levitating Chamber (Deluxe Edition),Levitating Chamber,88,236231,0,0.468,0.768,11,-8.88,0,0.12,0.054,0.0,0.07,0.282,117.54,4,reggaeton
+trk_1650,Kendrick Lamar,Sunflower Vibes (Deluxe Edition),Sunflower Vibes,44,248885,1,0.811,0.76,5,-5.31,0,0.277,0.541,0.0,0.257,0.432,114.29,4,hip-hop
+trk_1651,Eminem,Starboy Fantasy (Deluxe Edition),Starboy Fantasy,54,160403,0,0.886,0.522,4,-4.47,1,0.086,0.65,0.0,0.166,0.431,169.5,4,hip-hop
+trk_1652,Travis Scott,As It Was Parade (Deluxe Edition),As It Was Parade,48,227090,0,0.356,0.385,11,-6.03,1,0.35,0.189,0.0,0.152,0.841,133.85,4,hip-hop
+trk_1653,Eminem,Sunflower Echoes (Deluxe Edition),Sunflower Echoes,84,191850,0,0.5,0.569,4,-10.71,0,0.239,0.428,0.0,0.27,0.274,167.78,4,hip-hop
+trk_1654,Kendrick Lamar,Greedy Chamber (Deluxe Edition),Greedy Chamber,42,247647,0,0.82,0.508,9,-10.99,0,0.052,0.61,0.0,0.341,0.487,173.31,4,hip-hop
+trk_1655,Dua Lipa,Starboy Summer (Deluxe Edition),Starboy Summer,68,257270,0,0.756,0.829,4,-7.77,0,0.2,0.512,0.0,0.164,0.515,170.18,4,dance-pop
+trk_1656,Harry Styles,Peaches Lover (Deluxe Edition),Peaches Lover,62,231191,0,0.862,0.775,3,-11.45,1,0.074,0.818,0.0,0.301,0.258,148.08,4,pop-rock
+trk_1657,Post Malone,God's Tears (Deluxe Edition),God's Tears,57,174069,1,0.836,0.471,1,-9.15,0,0.159,0.429,0.0,0.081,0.594,91.7,4,hip-hop
+trk_1658,Travis Scott,Peaches Lights (Deluxe Edition),Peaches Lights,42,215657,0,0.416,0.466,10,-12.89,1,0.215,0.53,0.0,0.081,0.748,120.93,4,hip-hop
+trk_1659,Ed Sheeran,Sunflower You (Deluxe Edition),Sunflower You,84,176837,0,0.947,0.43,5,-13.79,1,0.057,0.177,0.0,0.158,0.464,122.75,4,pop
+trk_1660,Doja Cat,Lucid Fantasy (Deluxe Edition),Lucid Fantasy,91,239790,0,0.686,0.689,2,-7.23,1,0.192,0.658,0.0,0.223,0.242,132.98,4,dance-pop
+trk_1661,Ed Sheeran,Greedy Memories (Deluxe Edition),Greedy Memories,80,238972,1,0.949,0.419,2,-4.67,0,0.053,0.263,0.0,0.293,0.266,101.29,4,pop
+trk_1662,Olivia Rodrigo,Flowers Chamber (Deluxe Edition),Flowers Chamber,56,172363,1,0.679,0.886,11,-11.91,1,0.114,0.712,0.0,0.111,0.457,115.18,4,pop-rock
+trk_1663,Bruno Mars,Die Tears (Deluxe Edition),Die Tears,60,191841,0,0.414,0.55,5,-8.91,0,0.252,0.278,0.0,0.09,0.389,90.74,4,r&b
+trk_1664,Post Malone,Midnight Waves (Deluxe Edition),Midnight Waves,88,203345,1,0.615,0.964,2,-12.87,1,0.069,0.231,0.0,0.229,0.791,85.07,4,hip-hop
+trk_1665,Doja Cat,Blinding Echoes (Deluxe Edition),Blinding Echoes,53,201719,0,0.623,0.614,4,-8.19,1,0.253,0.016,0.0,0.14,0.624,102.07,4,dance-pop
+trk_1666,Ed Sheeran,Flowers Vibes (Deluxe Edition),Flowers Vibes,80,176417,0,0.599,0.629,8,-7.93,1,0.072,0.36,0.0,0.204,0.501,111.09,4,pop
+trk_1667,Doja Cat,Flowers You (Deluxe Edition),Flowers You,78,197634,0,0.62,0.46,3,-12.92,1,0.256,0.483,0.1679,0.144,0.29,116.33,4,dance-pop
+trk_1668,Harry Styles,Peaches Dreams (Deluxe Edition),Peaches Dreams,40,245057,0,0.88,0.423,1,-3.55,1,0.175,0.766,0.376,0.078,0.414,165.87,4,pop-rock
+trk_1669,Billie Eilish,Blinding Symphony (Deluxe Edition),Blinding Symphony,90,141832,0,0.394,0.887,5,-6.67,0,0.059,0.059,0.0,0.173,0.159,105.39,4,alt-pop
+trk_1670,Dua Lipa,Peaches Tears (Deluxe Edition),Peaches Tears,75,257069,1,0.599,0.385,6,-8.93,0,0.101,0.501,0.0,0.16,0.505,151.64,4,dance-pop
+trk_1671,Bad Bunny,God's Dreams (Deluxe Edition),God's Dreams,84,185743,0,0.766,0.485,10,-7.7,0,0.15,0.689,0.0,0.262,0.313,105.66,4,reggaeton
+trk_1672,Imagine Dragons,Sunflower You (Deluxe Edition),Sunflower You,100,151352,1,0.44,0.533,5,-8.07,1,0.2,0.616,0.0,0.23,0.434,172.08,4,rock
+trk_1673,SZA,Golden Fantasy (Deluxe Edition),Golden Fantasy,53,223687,1,0.49,0.878,5,-9.2,1,0.323,0.178,0.0,0.095,0.594,130.69,4,r&b
+trk_1674,Travis Scott,Cruel Memories (Deluxe Edition),Cruel Memories,46,244333,0,0.877,0.916,6,-9.88,1,0.198,0.081,0.0,0.252,0.782,125.95,4,hip-hop
+trk_1675,Travis Scott,Lucid Parade (Deluxe Edition),Lucid Parade,73,203351,0,0.468,0.371,10,-8.75,0,0.254,0.711,0.0,0.248,0.705,107.34,4,hip-hop
+trk_1676,Justin Bieber,Midnight Fantasy (Deluxe Edition),Midnight Fantasy,64,143044,1,0.578,0.51,7,-10.91,1,0.047,0.173,0.0,0.135,0.861,96.24,4,pop
+trk_1677,Doja Cat,Sunflower Memories (Deluxe Edition),Sunflower Memories,58,256293,0,0.458,0.613,3,-7.88,1,0.187,0.105,0.0,0.348,0.708,153.92,4,dance-pop
+trk_1678,Coldplay,vampire Dreams (Deluxe Edition),vampire Dreams,61,182347,0,0.629,0.735,5,-8.44,1,0.154,0.733,0.0,0.317,0.417,115.14,4,rock
+trk_1679,Billie Eilish,Save Memories (Deluxe Edition),Save Memories,81,157896,1,0.724,0.662,5,-13.12,0,0.3,0.631,0.2127,0.112,0.36,140.67,4,alt-pop
+trk_1680,Bad Bunny,Shape Hour (Deluxe Edition),Shape Hour,90,224720,1,0.716,0.577,11,-11.09,0,0.222,0.496,0.0,0.252,0.287,154.08,4,reggaeton
+trk_1681,SZA,Midnight Symphony (Deluxe Edition),Midnight Symphony,46,186292,0,0.476,0.805,3,-6.58,0,0.234,0.463,0.0,0.153,0.868,114.35,4,r&b
+trk_1682,Drake,God's Vibes (Deluxe Edition),God's Vibes,52,171305,0,0.476,0.384,5,-5.18,1,0.126,0.406,0.0,0.11,0.818,124.45,4,hip-hop
+trk_1683,Olivia Rodrigo,God's Memories (Deluxe Edition),God's Memories,67,222377,0,0.46,0.383,5,-4.79,1,0.302,0.505,0.0044,0.138,0.523,168.68,4,pop-rock
+trk_1684,Post Malone,Shape Summer (Deluxe Edition),Shape Summer,62,256740,0,0.587,0.959,4,-11.89,0,0.189,0.366,0.0,0.061,0.914,160.38,4,hip-hop
+trk_1685,Post Malone,Shape Parade (Deluxe Edition),Shape Parade,77,140898,1,0.66,0.611,3,-4.54,1,0.06,0.309,0.0,0.08,0.741,132.82,4,hip-hop
+trk_1686,Drake,Greedy Tears (Deluxe Edition),Greedy Tears,70,255758,1,0.885,0.773,7,-7.76,0,0.244,0.22,0.0,0.069,0.254,108.05,4,hip-hop
+trk_1687,Eminem,Blinding Vibes (Deluxe Edition),Blinding Vibes,80,140269,0,0.503,0.417,1,-4.89,1,0.033,0.145,0.0,0.339,0.638,122.03,4,hip-hop
+trk_1688,Travis Scott,Cruel Dreams (Deluxe Edition),Cruel Dreams,82,168395,0,0.523,0.854,6,-7.79,1,0.131,0.012,0.0,0.303,0.538,132.31,4,hip-hop
+trk_1689,Olivia Rodrigo,vampire Plan (Deluxe Edition),vampire Plan,79,259850,1,0.782,0.699,7,-5.01,0,0.049,0.115,0.0,0.104,0.886,96.65,4,pop-rock
+trk_1690,Bruno Mars,Humble Chamber (Deluxe Edition),Humble Chamber,69,163646,1,0.937,0.369,9,-6.96,1,0.268,0.671,0.0,0.089,0.19,145.16,4,r&b
+trk_1691,Post Malone,Midnight Heart (Deluxe Edition),Midnight Heart,97,203297,0,0.824,0.546,4,-8.19,1,0.232,0.512,0.0,0.302,0.827,136.77,4,hip-hop
+trk_1692,Taylor Swift,Sunflower Dreams (Deluxe Edition),Sunflower Dreams,49,220511,0,0.557,0.394,8,-8.67,1,0.134,0.865,0.0,0.199,0.649,86.71,4,pop
+trk_1693,Bad Bunny,Espresso Lover (Deluxe Edition),Espresso Lover,51,211425,0,0.759,0.8,3,-11.81,1,0.332,0.207,0.0,0.306,0.227,124.24,4,reggaeton
+trk_1694,Ed Sheeran,As It Was Lights (Deluxe Edition),As It Was Lights,60,168341,1,0.644,0.329,8,-5.95,0,0.35,0.618,0.0,0.139,0.404,107.04,4,pop
+trk_1695,Eminem,Flowers Hour (Deluxe Edition),Flowers Hour,43,235992,1,0.744,0.559,9,-13.47,0,0.055,0.798,0.0,0.132,0.355,131.26,4,hip-hop
+trk_1696,Harry Styles,Espresso Dreams (Deluxe Edition),Espresso Dreams,61,152399,0,0.533,0.752,4,-12.77,1,0.121,0.498,0.0,0.223,0.761,115.4,4,pop-rock
+trk_1697,Kendrick Lamar,Anti Parade (Deluxe Edition),Anti Parade,61,145429,1,0.672,0.361,6,-9.08,0,0.154,0.599,0.0,0.227,0.847,164.62,4,hip-hop
+trk_1698,Olivia Rodrigo,Levitating Parade (Deluxe Edition),Levitating Parade,53,186475,1,0.7,0.663,5,-10.35,1,0.042,0.818,0.0,0.119,0.377,150.55,4,pop-rock
+trk_1699,Bruno Mars,Lucid Hour (Deluxe Edition),Lucid Hour,63,154484,0,0.58,0.479,2,-8.6,0,0.201,0.197,0.0,0.255,0.5,111.1,4,r&b
+trk_1700,Ariana Grande,vampire Nights (Deluxe Edition),vampire Nights,94,229817,0,0.719,0.443,8,-8.02,0,0.251,0.439,0.0,0.263,0.622,88.39,4,pop
+trk_1701,Ed Sheeran,God's Plan (Deluxe Edition),God's Plan,100,170801,1,0.493,0.436,11,-7.21,0,0.117,0.455,0.0,0.301,0.366,151.64,4,pop
+trk_1702,Ariana Grande,Levitating Lights (Deluxe Edition),Levitating Lights,69,231931,0,0.624,0.621,5,-10.31,1,0.202,0.495,0.0,0.252,0.426,156.37,4,pop
+trk_1703,Bruno Mars,Shape Echoes (Deluxe Edition),Shape Echoes,45,154059,1,0.558,0.849,3,-13.27,1,0.339,0.73,0.0,0.324,0.699,152.47,4,r&b
+trk_1704,Taylor Swift,As It Was Memories (Deluxe Edition),As It Was Memories,59,219219,0,0.853,0.692,6,-8.38,1,0.262,0.529,0.0,0.144,0.176,107.39,4,pop
+trk_1705,Bad Bunny,Die You (Deluxe Edition),Die You,59,169504,1,0.857,0.853,2,-10.0,1,0.279,0.338,0.0,0.267,0.683,90.43,4,reggaeton
+trk_1706,Bad Bunny,Save Fantasy (Deluxe Edition),Save Fantasy,79,224886,0,0.416,0.836,10,-5.58,0,0.202,0.797,0.0,0.347,0.792,120.44,4,reggaeton
+trk_1707,Ariana Grande,Die Memories (Deluxe Edition),Die Memories,63,251483,0,0.699,0.479,10,-13.59,1,0.332,0.206,0.0,0.251,0.9,85.61,4,pop
+trk_1708,Ariana Grande,Greedy Hero (Deluxe Edition),Greedy Hero,61,188053,0,0.657,0.333,10,-13.78,0,0.033,0.483,0.0,0.335,0.237,156.84,4,pop
+trk_1709,Taylor Swift,Blinding Heart (Deluxe Edition),Blinding Heart,83,228334,0,0.798,0.64,5,-9.66,1,0.172,0.871,0.0,0.178,0.335,150.02,4,pop
+trk_1710,Bruno Mars,Die Fantasy (Deluxe Edition),Die Fantasy,83,245874,0,0.765,0.507,5,-11.22,0,0.22,0.489,0.1531,0.195,0.247,138.51,4,r&b
+trk_1711,Imagine Dragons,As It Was Hero (Deluxe Edition),As It Was Hero,55,165628,0,0.516,0.581,10,-5.91,0,0.076,0.348,0.0,0.268,0.228,124.24,4,rock
+trk_1712,Justin Bieber,Save Fantasy (Deluxe Edition),Save Fantasy,82,232084,1,0.59,0.886,2,-7.6,0,0.034,0.722,0.0,0.285,0.324,133.81,4,pop
+trk_1713,Imagine Dragons,Blinding Lover (Deluxe Edition),Blinding Lover,79,183327,0,0.438,0.503,11,-8.85,1,0.138,0.801,0.0,0.234,0.844,166.78,4,rock
+trk_1714,Coldplay,God's Parade (Deluxe Edition),God's Parade,63,159286,1,0.569,0.878,8,-7.07,0,0.145,0.607,0.0,0.118,0.609,118.33,4,rock
+trk_1715,Travis Scott,As It Was Parade (Deluxe Edition),As It Was Parade,80,214147,0,0.783,0.809,0,-8.52,0,0.031,0.093,0.0,0.277,0.595,103.77,4,hip-hop
+trk_1716,Drake,Anti Plan (Deluxe Edition),Anti Plan,58,144722,1,0.683,0.508,2,-3.28,1,0.136,0.713,0.0,0.323,0.665,142.35,4,hip-hop
+trk_1717,Taylor Swift,Midnight Vibes (Deluxe Edition),Midnight Vibes,79,230782,0,0.794,0.902,10,-4.07,1,0.172,0.725,0.0,0.261,0.801,145.16,4,pop
+trk_1718,Kendrick Lamar,Blinding Waves (Deluxe Edition),Blinding Waves,97,249087,0,0.749,0.847,5,-9.85,0,0.134,0.226,0.0,0.196,0.642,114.87,4,hip-hop
+trk_1719,Billie Eilish,Levitating Waves (Deluxe Edition),Levitating Waves,58,232805,1,0.883,0.914,5,-3.62,1,0.298,0.074,0.0,0.208,0.347,110.61,4,alt-pop
+trk_1720,Ed Sheeran,Humble Symphony (Deluxe Edition),Humble Symphony,51,251573,1,0.392,0.923,5,-5.51,1,0.167,0.74,0.0,0.075,0.909,98.77,4,pop
+trk_1721,Post Malone,Peaches Lights (Deluxe Edition),Peaches Lights,80,172124,0,0.916,0.938,8,-12.34,1,0.253,0.286,0.3776,0.254,0.687,127.11,4,hip-hop
+trk_1722,Travis Scott,Shape Plan (Deluxe Edition),Shape Plan,48,257618,0,0.917,0.658,6,-5.17,0,0.076,0.082,0.0,0.246,0.824,136.77,4,hip-hop
+trk_1723,Eminem,Levitating Hour (Deluxe Edition),Levitating Hour,77,176089,1,0.374,0.935,4,-8.07,0,0.1,0.045,0.0,0.275,0.733,136.55,4,hip-hop
+trk_1724,Taylor Swift,Cruel Chamber (Deluxe Edition),Cruel Chamber,37,243319,1,0.475,0.435,3,-11.76,0,0.222,0.109,0.0,0.255,0.866,168.03,4,pop
+trk_1725,Coldplay,Shape Summer (Deluxe Edition),Shape Summer,70,162245,1,0.701,0.913,10,-4.38,0,0.159,0.155,0.0,0.065,0.832,126.93,4,rock
+trk_1726,Doja Cat,Levitating World (Deluxe Edition),Levitating World,47,218728,0,0.749,0.53,10,-5.61,1,0.149,0.455,0.0,0.211,0.513,134.51,4,dance-pop
+trk_1727,Post Malone,God's Lover (Deluxe Edition),God's Lover,39,252054,1,0.605,0.921,5,-6.96,0,0.049,0.836,0.0,0.252,0.522,109.12,4,hip-hop
+trk_1728,SZA,Die World (Deluxe Edition),Die World,55,225864,0,0.916,0.706,0,-12.2,1,0.033,0.528,0.0,0.126,0.285,97.19,4,r&b
+trk_1729,Kendrick Lamar,Die Waves (Deluxe Edition),Die Waves,80,164450,1,0.56,0.939,5,-5.1,0,0.057,0.336,0.0,0.267,0.567,173.59,4,hip-hop
+trk_1730,Post Malone,Die Hero (Deluxe Edition),Die Hero,75,146610,1,0.426,0.56,2,-8.79,0,0.156,0.277,0.0,0.288,0.384,95.08,4,hip-hop
+trk_1731,Billie Eilish,Anti Waves (Deluxe Edition),Anti Waves,89,172362,0,0.65,0.741,2,-6.47,0,0.282,0.697,0.0,0.236,0.351,87.74,4,alt-pop
+trk_1732,Ed Sheeran,vampire Lover (Deluxe Edition),vampire Lover,50,198102,0,0.67,0.878,5,-10.67,1,0.35,0.091,0.0,0.108,0.271,106.99,4,pop
+trk_1733,SZA,Espresso Tears (Deluxe Edition),Espresso Tears,79,217131,0,0.69,0.893,11,-11.39,1,0.067,0.283,0.0,0.149,0.517,170.44,4,r&b
+trk_1734,Taylor Swift,Save Memories (Deluxe Edition),Save Memories,42,259792,0,0.395,0.799,1,-12.0,0,0.168,0.816,0.0,0.097,0.474,156.6,4,pop
+trk_1735,Drake,Die Symphony (Deluxe Edition),Die Symphony,75,218672,1,0.551,0.405,11,-9.62,0,0.104,0.588,0.2715,0.207,0.191,170.87,4,hip-hop
+trk_1736,Doja Cat,Shape Memories (Deluxe Edition),Shape Memories,90,216695,0,0.66,0.39,5,-12.8,0,0.098,0.535,0.0,0.058,0.687,88.74,4,dance-pop
+trk_1737,The Weeknd,Humble Tears (Deluxe Edition),Humble Tears,52,242498,0,0.521,0.903,1,-7.13,0,0.096,0.176,0.0,0.145,0.513,107.44,4,pop
+trk_1738,Drake,Greedy Dreams (Deluxe Edition),Greedy Dreams,64,239766,1,0.916,0.532,11,-6.72,0,0.269,0.453,0.066,0.148,0.64,128.11,4,hip-hop
+trk_1739,Eminem,vampire Lover (Deluxe Edition),vampire Lover,89,205860,0,0.549,0.56,1,-11.62,1,0.213,0.778,0.0,0.305,0.302,113.26,4,hip-hop
+trk_1740,Doja Cat,God's Dreams (Deluxe Edition),God's Dreams,42,230115,0,0.51,0.612,6,-6.03,1,0.295,0.288,0.0,0.065,0.366,102.7,4,dance-pop
+trk_1741,Olivia Rodrigo,God's Fantasy (Deluxe Edition),God's Fantasy,45,212442,1,0.592,0.841,9,-7.94,1,0.085,0.235,0.0,0.266,0.784,112.28,4,pop-rock
+trk_1742,Ariana Grande,Cruel Symphony (Deluxe Edition),Cruel Symphony,72,200136,0,0.592,0.386,7,-8.15,0,0.048,0.359,0.3481,0.131,0.506,146.6,4,pop
+trk_1743,Bad Bunny,Espresso Chamber (Deluxe Edition),Espresso Chamber,54,244814,0,0.355,0.755,2,-11.4,0,0.232,0.763,0.0,0.112,0.776,104.69,4,reggaeton
+trk_1744,Kendrick Lamar,Save World (Deluxe Edition),Save World,82,257445,1,0.555,0.941,7,-8.48,0,0.212,0.64,0.0,0.165,0.398,97.44,4,hip-hop
+trk_1745,Justin Bieber,Midnight Tears (Deluxe Edition),Midnight Tears,55,200544,1,0.56,0.937,9,-5.77,0,0.299,0.564,0.0,0.293,0.773,146.27,4,pop
+trk_1746,Taylor Swift,Greedy Memories (Deluxe Edition),Greedy Memories,77,195720,0,0.354,0.606,2,-4.79,1,0.101,0.046,0.0,0.296,0.443,157.19,4,pop
+trk_1747,Taylor Swift,Lucid Summer (Deluxe Edition),Lucid Summer,93,166563,1,0.673,0.688,11,-7.28,0,0.246,0.595,0.0,0.216,0.697,148.88,4,pop
+trk_1748,Coldplay,Levitating Waves (Deluxe Edition),Levitating Waves,68,147018,0,0.769,0.959,9,-6.41,0,0.069,0.107,0.0,0.228,0.768,165.07,4,rock
+trk_1749,Travis Scott,Shape Parade (Deluxe Edition),Shape Parade,58,252534,0,0.673,0.423,1,-7.51,1,0.316,0.426,0.0,0.18,0.688,111.38,4,hip-hop
+trk_1750,Imagine Dragons,Greedy Echoes (Deluxe Edition),Greedy Echoes,51,220202,1,0.353,0.316,9,-11.19,1,0.095,0.418,0.0,0.31,0.254,136.84,4,rock
+trk_1751,Ed Sheeran,God's Echoes (Deluxe Edition),God's Echoes,76,212397,1,0.378,0.833,5,-4.17,0,0.321,0.633,0.0,0.183,0.42,166.98,4,pop
+trk_1752,The Weeknd,Levitating Waves (Deluxe Edition),Levitating Waves,54,179164,0,0.744,0.861,6,-9.93,1,0.216,0.167,0.3425,0.118,0.278,143.69,4,pop
+trk_1753,Billie Eilish,Cruel Fantasy (Deluxe Edition),Cruel Fantasy,62,252683,0,0.592,0.554,7,-13.03,1,0.168,0.719,0.0,0.321,0.577,168.48,4,alt-pop
+trk_1754,Imagine Dragons,Blinding Symphony (Deluxe Edition),Blinding Symphony,39,235198,1,0.557,0.38,8,-12.69,1,0.161,0.324,0.0,0.131,0.619,155.5,4,rock
+trk_1755,Imagine Dragons,Starboy Hero (Deluxe Edition),Starboy Hero,82,251842,0,0.44,0.538,10,-12.09,1,0.173,0.249,0.0,0.062,0.194,101.4,4,rock
+trk_1756,Travis Scott,Lucid Plan (Deluxe Edition),Lucid Plan,84,160797,0,0.368,0.327,6,-12.15,0,0.073,0.795,0.0,0.155,0.224,98.19,4,hip-hop
+trk_1757,Taylor Swift,Greedy Tears (Deluxe Edition),Greedy Tears,74,239317,1,0.552,0.479,6,-4.99,1,0.141,0.263,0.0,0.213,0.276,95.5,4,pop
+trk_1758,SZA,Lucid Chamber (Deluxe Edition),Lucid Chamber,72,225884,1,0.406,0.842,1,-10.23,0,0.345,0.429,0.0,0.295,0.855,89.83,4,r&b
+trk_1759,Harry Styles,vampire Nights (Deluxe Edition),vampire Nights,78,218705,0,0.724,0.715,11,-11.51,1,0.047,0.307,0.0,0.237,0.785,109.62,4,pop-rock
+trk_1760,Drake,Save Plan (Deluxe Edition),Save Plan,36,234080,1,0.405,0.958,11,-6.27,1,0.085,0.658,0.0,0.269,0.178,92.97,4,hip-hop
+trk_1761,Olivia Rodrigo,Greedy Dreams (Deluxe Edition),Greedy Dreams,84,199609,1,0.62,0.829,8,-10.02,1,0.335,0.732,0.0,0.23,0.895,115.52,4,pop-rock
+trk_1762,Harry Styles,Greedy Hour (Deluxe Edition),Greedy Hour,33,189272,0,0.683,0.536,5,-10.58,0,0.233,0.081,0.0,0.186,0.366,140.38,4,pop-rock
+trk_1763,Drake,Levitating Lights (Deluxe Edition),Levitating Lights,73,251196,1,0.508,0.678,11,-10.6,1,0.302,0.863,0.0,0.059,0.715,122.61,4,hip-hop
+trk_1764,Drake,Anti Nights (Deluxe Edition),Anti Nights,56,243223,0,0.771,0.591,1,-11.74,1,0.243,0.142,0.0,0.335,0.516,93.5,4,hip-hop
+trk_1765,Billie Eilish,Greedy Summer (Deluxe Edition),Greedy Summer,84,142671,1,0.737,0.724,6,-5.09,1,0.334,0.16,0.0,0.161,0.782,126.18,4,alt-pop
+trk_1766,Taylor Swift,Save Echoes (Deluxe Edition),Save Echoes,79,240226,1,0.554,0.861,2,-8.79,0,0.235,0.737,0.0604,0.341,0.246,117.09,4,pop
+trk_1767,Doja Cat,vampire Summer (Deluxe Edition),vampire Summer,67,181946,1,0.846,0.67,8,-3.17,1,0.202,0.303,0.0,0.213,0.636,129.97,4,dance-pop
+trk_1768,Drake,Die You (Deluxe Edition),Die You,70,164907,1,0.747,0.5,3,-12.28,0,0.244,0.149,0.0,0.179,0.363,106.23,4,hip-hop
+trk_1769,The Weeknd,Sunflower Dreams (Deluxe Edition),Sunflower Dreams,63,211187,1,0.544,0.835,0,-11.33,1,0.303,0.737,0.0,0.195,0.179,90.53,4,pop
+trk_1770,Bad Bunny,Greedy Summer (Deluxe Edition),Greedy Summer,70,246135,1,0.592,0.568,3,-10.25,1,0.054,0.227,0.1578,0.192,0.26,128.32,4,reggaeton
+trk_1771,The Weeknd,Blinding Tears (Deluxe Edition),Blinding Tears,74,197817,0,0.424,0.872,4,-12.28,0,0.15,0.557,0.0,0.092,0.284,89.07,4,pop
+trk_1772,Travis Scott,Levitating Hour (Deluxe Edition),Levitating Hour,100,191809,0,0.393,0.95,9,-11.35,1,0.276,0.135,0.0,0.199,0.157,139.94,4,hip-hop
+trk_1773,Olivia Rodrigo,Greedy Echoes (Deluxe Edition),Greedy Echoes,100,215706,1,0.686,0.77,0,-5.95,1,0.163,0.841,0.0,0.267,0.91,166.22,4,pop-rock
+trk_1774,The Weeknd,Flowers Memories (Deluxe Edition),Flowers Memories,83,220558,1,0.858,0.971,7,-3.98,0,0.225,0.166,0.0,0.205,0.233,162.3,4,pop
+trk_1775,Drake,Espresso Tears (Deluxe Edition),Espresso Tears,38,244571,0,0.803,0.448,10,-5.51,0,0.238,0.258,0.0,0.076,0.552,110.41,4,hip-hop
+trk_1776,Bad Bunny,Sunflower Lights (Deluxe Edition),Sunflower Lights,96,176772,0,0.942,0.887,1,-7.05,1,0.318,0.667,0.0,0.15,0.621,146.32,4,reggaeton
+trk_1777,Travis Scott,Anti Echoes (Deluxe Edition),Anti Echoes,100,152599,1,0.9,0.566,11,-8.91,0,0.17,0.803,0.0,0.117,0.528,131.93,4,hip-hop
+trk_1778,SZA,As It Was Lights (Deluxe Edition),As It Was Lights,70,249360,0,0.904,0.852,4,-3.64,1,0.312,0.828,0.0,0.284,0.54,93.7,4,r&b
+trk_1779,SZA,Blinding Waves (Deluxe Edition),Blinding Waves,56,154307,0,0.417,0.532,6,-4.11,1,0.332,0.735,0.0,0.064,0.671,138.92,4,r&b
+trk_1780,Bruno Mars,Save You (Deluxe Edition),Save You,58,158189,0,0.731,0.347,6,-8.61,1,0.347,0.224,0.0,0.101,0.511,147.22,4,r&b
+trk_1781,Billie Eilish,Greedy Hour (Deluxe Edition),Greedy Hour,57,219945,1,0.701,0.658,10,-12.86,0,0.246,0.465,0.0,0.269,0.278,104.54,4,alt-pop
+trk_1782,SZA,vampire Memories (Deluxe Edition),vampire Memories,92,214781,0,0.66,0.345,1,-3.66,0,0.06,0.68,0.0,0.329,0.864,87.55,4,r&b
+trk_1783,Ariana Grande,Golden Memories (Deluxe Edition),Golden Memories,63,166007,1,0.728,0.581,4,-6.03,0,0.308,0.52,0.0,0.274,0.651,95.84,4,pop
+trk_1784,Ariana Grande,God's Nights (Deluxe Edition),God's Nights,70,206755,0,0.458,0.601,8,-6.64,0,0.242,0.736,0.2513,0.072,0.733,139.48,4,pop
+trk_1785,Bruno Mars,Die Hour (Deluxe Edition),Die Hour,69,160072,0,0.883,0.803,4,-10.32,1,0.214,0.317,0.0,0.317,0.342,93.95,4,r&b
+trk_1786,The Weeknd,Levitating Dreams (Deluxe Edition),Levitating Dreams,70,141335,0,0.383,0.585,5,-10.03,1,0.112,0.446,0.0,0.257,0.82,139.0,4,pop
+trk_1787,Bad Bunny,Save Chamber (Deluxe Edition),Save Chamber,50,155527,1,0.526,0.785,10,-5.19,0,0.047,0.698,0.0,0.124,0.694,109.2,4,reggaeton
+trk_1788,Post Malone,vampire Memories (Deluxe Edition),vampire Memories,51,158875,0,0.358,0.333,7,-8.58,0,0.155,0.628,0.0,0.132,0.611,155.97,4,hip-hop
+trk_1789,Bad Bunny,Levitating Heart (Deluxe Edition),Levitating Heart,73,172643,0,0.872,0.649,0,-13.7,1,0.074,0.059,0.0,0.258,0.895,137.34,4,reggaeton
+trk_1790,The Weeknd,Greedy Hero (Deluxe Edition),Greedy Hero,85,242312,1,0.841,0.406,1,-8.37,1,0.14,0.147,0.0,0.166,0.732,120.26,4,pop
+trk_1791,Justin Bieber,Levitating Echoes (Deluxe Edition),Levitating Echoes,58,245799,0,0.505,0.717,2,-13.12,1,0.115,0.552,0.026,0.331,0.801,107.34,4,pop
+trk_1792,Dua Lipa,God's Tears (Deluxe Edition),God's Tears,65,153021,1,0.449,0.39,6,-11.16,0,0.292,0.556,0.0,0.057,0.57,120.18,4,dance-pop
+trk_1793,Kendrick Lamar,Midnight Tears (Deluxe Edition),Midnight Tears,58,205742,1,0.455,0.678,11,-13.25,1,0.195,0.089,0.0011,0.111,0.384,121.52,4,hip-hop
+trk_1794,Kendrick Lamar,Greedy Fantasy (Deluxe Edition),Greedy Fantasy,64,256851,1,0.713,0.978,6,-10.06,0,0.15,0.182,0.0,0.24,0.789,150.07,4,hip-hop
+trk_1795,Kendrick Lamar,Midnight Vibes (Deluxe Edition),Midnight Vibes,76,223115,1,0.792,0.542,1,-9.61,1,0.089,0.71,0.0,0.299,0.502,99.49,4,hip-hop
+trk_1796,Billie Eilish,As It Was Vibes (Deluxe Edition),As It Was Vibes,72,167009,1,0.57,0.697,3,-12.22,1,0.194,0.741,0.0,0.346,0.891,102.67,4,alt-pop
+trk_1797,Imagine Dragons,Lucid Plan (Deluxe Edition),Lucid Plan,62,221206,1,0.653,0.378,10,-7.38,0,0.264,0.811,0.0,0.252,0.793,100.99,4,rock
+trk_1798,Justin Bieber,God's Tears (Deluxe Edition),God's Tears,61,179659,0,0.626,0.98,2,-3.52,0,0.209,0.675,0.0,0.196,0.218,142.64,4,pop
+trk_1799,Olivia Rodrigo,As It Was Fantasy (Deluxe Edition),As It Was Fantasy,71,251771,0,0.878,0.579,6,-9.79,0,0.151,0.284,0.0,0.328,0.632,127.39,4,pop-rock
+trk_1800,Harry Styles,God's Waves (Deluxe Edition),God's Waves,54,148338,0,0.423,0.5,2,-8.02,0,0.045,0.712,0.2708,0.19,0.839,114.97,4,pop-rock
+trk_1801,Kendrick Lamar,Save Lights (Deluxe Edition),Save Lights,82,238839,1,0.812,0.717,11,-7.02,0,0.249,0.844,0.0,0.12,0.844,123.11,4,hip-hop
+trk_1802,The Weeknd,Starboy Echoes (Deluxe Edition),Starboy Echoes,93,225396,1,0.793,0.485,6,-5.19,1,0.112,0.628,0.0,0.292,0.169,150.33,4,pop
+trk_1803,Billie Eilish,Peaches Tears (Deluxe Edition),Peaches Tears,47,153425,1,0.363,0.406,8,-6.26,0,0.22,0.102,0.0,0.229,0.707,155.54,4,alt-pop
+trk_1804,Harry Styles,Blinding Vibes (Deluxe Edition),Blinding Vibes,85,220054,1,0.518,0.518,3,-11.4,0,0.204,0.78,0.2549,0.218,0.228,170.16,4,pop-rock
+trk_1805,Billie Eilish,Cruel Memories (Deluxe Edition),Cruel Memories,39,155527,1,0.745,0.751,10,-3.09,0,0.198,0.768,0.0,0.055,0.335,151.34,4,alt-pop
+trk_1806,Doja Cat,vampire Heart (Deluxe Edition),vampire Heart,84,238166,1,0.491,0.566,1,-12.97,1,0.348,0.229,0.0,0.158,0.295,122.51,4,dance-pop
+trk_1807,Justin Bieber,Save Memories (Deluxe Edition),Save Memories,66,177311,0,0.413,0.636,4,-4.19,1,0.264,0.298,0.0,0.23,0.17,111.4,4,pop
+trk_1808,The Weeknd,Greedy World (Deluxe Edition),Greedy World,54,247233,0,0.927,0.62,5,-4.31,0,0.313,0.371,0.0,0.115,0.236,164.7,4,pop
+trk_1809,The Weeknd,Golden You (Deluxe Edition),Golden You,72,244095,1,0.469,0.582,5,-3.35,1,0.122,0.672,0.0,0.242,0.663,135.62,4,pop
+trk_1810,Coldplay,Starboy Waves (Deluxe Edition),Starboy Waves,61,195465,0,0.945,0.45,4,-13.37,0,0.12,0.029,0.0843,0.271,0.53,136.13,4,rock
+trk_1811,Imagine Dragons,Starboy You (Deluxe Edition),Starboy You,69,228363,1,0.822,0.353,8,-12.52,0,0.314,0.582,0.0,0.055,0.654,91.54,4,rock
+trk_1812,Taylor Swift,Shape Lover (Deluxe Edition),Shape Lover,55,174018,1,0.621,0.961,6,-9.12,1,0.328,0.384,0.0,0.064,0.389,171.29,4,pop
+trk_1813,Drake,Levitating Lover (Deluxe Edition),Levitating Lover,59,220766,0,0.888,0.914,1,-7.17,0,0.051,0.355,0.1953,0.263,0.254,144.22,4,hip-hop
+trk_1814,Bad Bunny,Cruel Waves (Deluxe Edition),Cruel Waves,50,253868,0,0.581,0.496,2,-11.04,1,0.078,0.801,0.0,0.056,0.191,168.65,4,reggaeton
+trk_1815,Imagine Dragons,Flowers Tears (Deluxe Edition),Flowers Tears,64,259231,0,0.824,0.641,3,-5.85,1,0.071,0.348,0.0,0.158,0.43,117.53,4,rock
+trk_1816,Coldplay,Lucid Chamber (Deluxe Edition),Lucid Chamber,65,187847,1,0.513,0.679,9,-3.84,1,0.345,0.137,0.0,0.221,0.67,170.35,4,rock
+trk_1817,Drake,Levitating Echoes (Deluxe Edition),Levitating Echoes,60,252604,1,0.914,0.777,2,-13.06,0,0.041,0.231,0.0,0.223,0.446,100.71,4,hip-hop
+trk_1818,Justin Bieber,Levitating Lover (Deluxe Edition),Levitating Lover,42,243516,0,0.886,0.388,9,-10.86,1,0.077,0.722,0.0,0.26,0.654,104.51,4,pop
+trk_1819,Ariana Grande,Peaches Nights (Deluxe Edition),Peaches Nights,51,250586,0,0.626,0.489,3,-3.88,0,0.288,0.69,0.0,0.246,0.902,133.34,4,pop
+trk_1820,Justin Bieber,Save Parade (Deluxe Edition),Save Parade,58,252249,0,0.769,0.575,8,-13.94,1,0.223,0.46,0.0,0.317,0.904,167.59,4,pop
+trk_1821,SZA,Starboy Symphony (Deluxe Edition),Starboy Symphony,76,212033,0,0.789,0.729,8,-10.32,0,0.296,0.832,0.0,0.165,0.448,99.29,4,r&b
+trk_1822,Billie Eilish,Save World (Deluxe Edition),Save World,56,150090,0,0.474,0.847,5,-5.81,0,0.242,0.834,0.0,0.317,0.854,110.38,4,alt-pop
+trk_1823,Olivia Rodrigo,Humble Vibes (Deluxe Edition),Humble Vibes,66,244444,1,0.924,0.687,9,-5.57,1,0.345,0.029,0.0,0.33,0.787,93.2,4,pop-rock
+trk_1824,The Weeknd,Cruel World (Deluxe Edition),Cruel World,58,176502,1,0.656,0.402,1,-11.7,1,0.164,0.319,0.0,0.15,0.684,166.47,4,pop
+trk_1825,Dua Lipa,Anti Echoes (Deluxe Edition),Anti Echoes,71,210450,1,0.941,0.95,3,-12.0,1,0.169,0.801,0.0,0.14,0.518,140.92,4,dance-pop
+trk_1826,Bruno Mars,Golden Hour (Deluxe Edition),Golden Hour,64,204356,0,0.739,0.472,7,-6.18,0,0.264,0.562,0.0,0.062,0.324,114.48,4,r&b
+trk_1827,Dua Lipa,Greedy World (Deluxe Edition),Greedy World,70,212060,0,0.544,0.432,0,-4.97,0,0.259,0.113,0.0,0.138,0.48,171.33,4,dance-pop
+trk_1828,Drake,Levitating Waves (Deluxe Edition),Levitating Waves,72,229094,1,0.663,0.31,7,-3.14,1,0.234,0.862,0.0,0.059,0.512,135.12,4,hip-hop
+trk_1829,Bad Bunny,As It Was World (Deluxe Edition),As It Was World,65,156846,1,0.881,0.74,7,-3.38,0,0.168,0.621,0.0,0.339,0.665,105.39,4,reggaeton
+trk_1830,Coldplay,Greedy Dreams (Deluxe Edition),Greedy Dreams,40,191764,0,0.66,0.518,4,-9.2,0,0.229,0.679,0.0,0.292,0.207,134.8,4,rock
+trk_1831,Travis Scott,Die You (Deluxe Edition),Die You,71,196934,0,0.486,0.837,2,-3.33,0,0.149,0.763,0.0,0.123,0.692,150.54,4,hip-hop
+trk_1832,Dua Lipa,Espresso Nights (Deluxe Edition),Espresso Nights,70,179480,0,0.864,0.578,5,-8.95,0,0.126,0.31,0.0768,0.308,0.896,165.05,4,dance-pop
+trk_1833,The Weeknd,Greedy You (Deluxe Edition),Greedy You,70,237132,1,0.451,0.612,2,-8.98,1,0.19,0.643,0.3801,0.154,0.462,99.58,4,pop
+trk_1834,Ariana Grande,Save Heart (Deluxe Edition),Save Heart,50,188690,0,0.717,0.465,5,-9.16,1,0.211,0.14,0.0264,0.194,0.197,95.85,4,pop
+trk_1835,Justin Bieber,As It Was Nights (Deluxe Edition),As It Was Nights,81,140407,1,0.86,0.328,4,-12.53,0,0.237,0.801,0.0,0.277,0.531,97.63,4,pop
+trk_1836,Bruno Mars,Midnight Chamber (Deluxe Edition),Midnight Chamber,39,228572,0,0.352,0.744,0,-5.21,1,0.285,0.68,0.0,0.071,0.651,129.47,4,r&b
+trk_1837,SZA,Levitating Lights (Deluxe Edition),Levitating Lights,58,236645,0,0.902,0.64,3,-11.15,1,0.196,0.253,0.1865,0.118,0.387,123.72,4,r&b
+trk_1838,Ariana Grande,Levitating Chamber (Deluxe Edition),Levitating Chamber,51,185826,0,0.56,0.658,0,-3.56,0,0.09,0.262,0.0,0.055,0.62,89.37,4,pop
+trk_1839,The Weeknd,Lucid Chamber (Deluxe Edition),Lucid Chamber,50,250086,1,0.729,0.659,10,-9.74,1,0.077,0.435,0.0,0.201,0.297,123.34,4,pop
+trk_1840,Harry Styles,Save Hero (Deluxe Edition),Save Hero,50,142677,1,0.902,0.356,7,-7.26,1,0.253,0.271,0.0,0.233,0.279,122.18,4,pop-rock
+trk_1841,Kendrick Lamar,Die Parade (Deluxe Edition),Die Parade,67,174940,1,0.771,0.517,3,-8.75,0,0.058,0.538,0.0,0.199,0.4,111.39,4,hip-hop
+trk_1842,Ariana Grande,Espresso Memories (Deluxe Edition),Espresso Memories,67,196151,0,0.648,0.668,6,-7.34,0,0.186,0.176,0.0,0.32,0.174,89.03,4,pop
+trk_1843,Dua Lipa,Die Lights (Deluxe Edition),Die Lights,73,222113,0,0.376,0.602,3,-12.32,1,0.105,0.575,0.0,0.233,0.531,167.63,4,dance-pop
+trk_1844,Drake,Espresso Chamber (Deluxe Edition),Espresso Chamber,71,215247,0,0.852,0.328,1,-13.92,0,0.226,0.579,0.0,0.079,0.394,173.35,4,hip-hop
+trk_1845,Imagine Dragons,Save Vibes (Deluxe Edition),Save Vibes,76,194991,0,0.693,0.665,4,-6.16,0,0.336,0.012,0.0,0.056,0.349,164.18,4,rock
+trk_1846,Justin Bieber,Flowers World (Deluxe Edition),Flowers World,51,162267,0,0.782,0.531,8,-12.76,0,0.177,0.504,0.0,0.074,0.451,117.38,4,pop
+trk_1847,The Weeknd,Save Plan (Deluxe Edition),Save Plan,100,212467,1,0.596,0.572,0,-8.6,1,0.145,0.694,0.1108,0.153,0.779,149.55,4,pop
+trk_1848,Drake,Save Lights (Deluxe Edition),Save Lights,93,251866,0,0.694,0.616,6,-10.98,0,0.33,0.341,0.0,0.313,0.757,108.13,4,hip-hop
+trk_1849,Travis Scott,Blinding World (Deluxe Edition),Blinding World,97,234838,0,0.85,0.434,3,-3.52,0,0.224,0.391,0.0,0.166,0.53,141.04,4,hip-hop
+trk_1850,Travis Scott,Shape Tears (Deluxe Edition),Shape Tears,36,254351,1,0.596,0.511,9,-9.21,0,0.331,0.534,0.0,0.193,0.478,90.86,4,hip-hop
+trk_1851,Eminem,God's You (Deluxe Edition),God's You,52,203660,1,0.404,0.422,1,-9.87,1,0.284,0.225,0.0,0.123,0.617,132.72,4,hip-hop
+trk_1852,Post Malone,Flowers Tears (Deluxe Edition),Flowers Tears,40,214389,1,0.523,0.455,0,-13.58,0,0.115,0.411,0.0,0.152,0.786,173.4,4,hip-hop
+trk_1853,Kendrick Lamar,Greedy Fantasy (Deluxe Edition),Greedy Fantasy,65,219794,0,0.366,0.934,1,-9.29,1,0.081,0.293,0.0,0.249,0.864,166.88,4,hip-hop
+trk_1854,SZA,Espresso Parade (Deluxe Edition),Espresso Parade,32,217786,0,0.591,0.652,1,-5.48,0,0.22,0.273,0.1509,0.252,0.481,172.89,4,r&b
+trk_1855,Dua Lipa,Golden Chamber (Deluxe Edition),Golden Chamber,67,202698,0,0.884,0.97,9,-7.13,1,0.343,0.099,0.0,0.063,0.503,162.81,4,dance-pop
+trk_1856,Bruno Mars,Die Lights (Deluxe Edition),Die Lights,75,163584,0,0.859,0.305,5,-12.9,0,0.181,0.401,0.0,0.051,0.389,115.1,4,r&b
+trk_1857,Imagine Dragons,Lucid World (Deluxe Edition),Lucid World,71,197500,0,0.46,0.58,10,-4.2,0,0.076,0.655,0.0,0.339,0.255,165.12,4,rock
+trk_1858,Taylor Swift,Levitating Echoes (Deluxe Edition),Levitating Echoes,79,196702,1,0.368,0.447,11,-6.1,1,0.319,0.141,0.0,0.284,0.553,160.7,4,pop
+trk_1859,Taylor Swift,Blinding Echoes (Deluxe Edition),Blinding Echoes,33,215883,0,0.94,0.336,4,-12.65,0,0.294,0.119,0.0,0.271,0.479,144.59,4,pop
+trk_1860,Harry Styles,Flowers Lights (Deluxe Edition),Flowers Lights,83,205326,1,0.41,0.894,11,-6.93,1,0.157,0.396,0.0,0.157,0.576,149.47,4,pop-rock
+trk_1861,Drake,Anti You (Deluxe Edition),Anti You,100,148445,0,0.426,0.678,0,-6.13,1,0.284,0.679,0.0,0.218,0.334,138.13,4,hip-hop
+trk_1862,Travis Scott,Lucid Summer (Deluxe Edition),Lucid Summer,25,153493,0,0.357,0.566,11,-11.3,0,0.076,0.548,0.0,0.177,0.581,149.32,4,hip-hop
+trk_1863,Harry Styles,Save You (Deluxe Edition),Save You,82,172588,0,0.67,0.642,5,-13.73,0,0.032,0.665,0.0,0.163,0.785,141.2,4,pop-rock
+trk_1864,Kendrick Lamar,God's Lover (Deluxe Edition),God's Lover,69,155936,1,0.777,0.826,3,-6.36,1,0.105,0.495,0.0,0.115,0.293,164.94,4,hip-hop
+trk_1865,Dua Lipa,Shape Summer (Deluxe Edition),Shape Summer,50,178888,0,0.469,0.886,10,-6.44,1,0.053,0.04,0.0,0.055,0.836,97.51,4,dance-pop
+trk_1866,Bad Bunny,vampire Parade (Deluxe Edition),vampire Parade,70,202723,0,0.816,0.692,8,-7.41,1,0.152,0.2,0.0,0.175,0.699,150.28,4,reggaeton
+trk_1867,Harry Styles,Anti Heart (Deluxe Edition),Anti Heart,81,230709,0,0.516,0.953,3,-5.77,1,0.093,0.743,0.0,0.138,0.863,151.65,4,pop-rock
+trk_1868,Bruno Mars,Golden Dreams (Deluxe Edition),Golden Dreams,81,246350,0,0.849,0.872,4,-7.66,1,0.293,0.669,0.0,0.179,0.581,99.12,4,r&b
+trk_1869,Ariana Grande,Anti Parade (Deluxe Edition),Anti Parade,60,177342,1,0.856,0.621,11,-10.9,1,0.317,0.335,0.0,0.144,0.538,158.6,4,pop
+trk_1870,Taylor Swift,Shape Nights (Deluxe Edition),Shape Nights,63,250378,0,0.822,0.928,8,-13.12,0,0.294,0.657,0.0,0.069,0.527,159.13,4,pop
+trk_1871,Eminem,Starboy Fantasy (Deluxe Edition),Starboy Fantasy,93,167038,1,0.866,0.635,7,-8.45,0,0.29,0.385,0.0,0.132,0.919,144.29,4,hip-hop
+trk_1872,Ed Sheeran,Shape Lights (Deluxe Edition),Shape Lights,55,158831,0,0.889,0.581,8,-7.75,1,0.039,0.025,0.0,0.278,0.631,125.23,4,pop
+trk_1873,Eminem,Cruel Waves (Deluxe Edition),Cruel Waves,60,199937,0,0.487,0.931,6,-13.88,1,0.272,0.225,0.0,0.277,0.156,146.94,4,hip-hop
+trk_1874,Eminem,Die World (Deluxe Edition),Die World,83,206876,0,0.392,0.721,7,-4.11,1,0.159,0.264,0.0,0.169,0.836,169.68,4,hip-hop
+trk_1875,Travis Scott,Blinding Memories (Deluxe Edition),Blinding Memories,68,188600,1,0.382,0.519,6,-7.28,1,0.236,0.189,0.0,0.135,0.446,130.21,4,hip-hop
+trk_1876,Bruno Mars,Levitating You (Deluxe Edition),Levitating You,88,163856,0,0.824,0.808,1,-5.65,0,0.212,0.111,0.0,0.094,0.604,144.21,4,r&b
+trk_1877,Justin Bieber,Flowers Hero (Deluxe Edition),Flowers Hero,71,233451,0,0.686,0.468,3,-7.16,1,0.096,0.367,0.0,0.186,0.668,173.44,4,pop
+trk_1878,Eminem,Flowers You (Deluxe Edition),Flowers You,100,184635,0,0.742,0.718,9,-3.19,0,0.168,0.308,0.0,0.115,0.81,129.47,4,hip-hop
+trk_1879,Eminem,Levitating Hour (Deluxe Edition),Levitating Hour,73,206508,1,0.941,0.694,4,-11.45,0,0.135,0.016,0.0,0.203,0.208,172.48,4,hip-hop
+trk_1880,Imagine Dragons,Save Chamber (Deluxe Edition),Save Chamber,49,146941,0,0.793,0.908,5,-9.27,1,0.259,0.123,0.0,0.137,0.271,152.37,4,rock
+trk_1881,SZA,Greedy Waves (Deluxe Edition),Greedy Waves,64,248843,1,0.946,0.486,2,-5.18,1,0.048,0.144,0.0,0.345,0.642,116.74,4,r&b
+trk_1882,SZA,Cruel Hero (Deluxe Edition),Cruel Hero,75,250082,0,0.686,0.959,11,-7.3,0,0.077,0.867,0.049,0.228,0.797,101.02,4,r&b
+trk_1883,Travis Scott,Cruel Lover (Deluxe Edition),Cruel Lover,35,202341,1,0.564,0.718,7,-9.36,1,0.17,0.161,0.0,0.113,0.887,89.21,4,hip-hop
+trk_1884,Taylor Swift,Blinding Fantasy (Deluxe Edition),Blinding Fantasy,73,224065,1,0.926,0.782,3,-10.54,0,0.061,0.812,0.0,0.344,0.384,92.31,4,pop
+trk_1885,Justin Bieber,Save Hero (Deluxe Edition),Save Hero,75,234954,1,0.757,0.439,9,-5.92,1,0.107,0.251,0.0,0.16,0.409,131.44,4,pop
+trk_1886,Drake,Save Fantasy (Deluxe Edition),Save Fantasy,58,187330,1,0.433,0.587,5,-11.89,1,0.087,0.013,0.0,0.269,0.818,123.82,4,hip-hop
+trk_1887,Drake,Golden You (Deluxe Edition),Golden You,69,150950,1,0.845,0.541,8,-4.87,0,0.161,0.053,0.0,0.299,0.271,144.33,4,hip-hop
+trk_1888,Bruno Mars,Sunflower Lights (Deluxe Edition),Sunflower Lights,33,208695,0,0.794,0.952,8,-9.27,0,0.092,0.774,0.0,0.325,0.859,154.19,4,r&b
+trk_1889,Post Malone,Flowers Vibes (Deluxe Edition),Flowers Vibes,51,140812,0,0.423,0.412,11,-5.22,0,0.295,0.246,0.0,0.27,0.629,103.27,4,hip-hop
+trk_1890,Dua Lipa,Peaches Tears (Deluxe Edition),Peaches Tears,90,193822,0,0.434,0.443,11,-9.68,0,0.343,0.152,0.0,0.167,0.3,170.08,4,dance-pop
+trk_1891,Olivia Rodrigo,vampire Parade (Deluxe Edition),vampire Parade,82,205996,0,0.778,0.675,4,-13.54,1,0.19,0.797,0.0,0.19,0.631,171.2,4,pop-rock
+trk_1892,Bad Bunny,Espresso Lights (Deluxe Edition),Espresso Lights,89,145707,0,0.558,0.718,4,-3.33,1,0.083,0.739,0.0,0.059,0.714,173.07,4,reggaeton
+trk_1893,Post Malone,vampire Echoes (Deluxe Edition),vampire Echoes,66,237346,1,0.563,0.467,8,-4.48,0,0.277,0.86,0.0,0.147,0.917,167.97,4,hip-hop
+trk_1894,Dua Lipa,Flowers Hero (Deluxe Edition),Flowers Hero,91,160225,0,0.865,0.887,5,-3.3,1,0.27,0.683,0.0,0.293,0.747,124.35,4,dance-pop
+trk_1895,Ed Sheeran,Lucid Nights (Deluxe Edition),Lucid Nights,58,186280,1,0.737,0.787,3,-12.89,1,0.148,0.699,0.0,0.265,0.885,118.06,4,pop
+trk_1896,Bad Bunny,Flowers Vibes (Deluxe Edition),Flowers Vibes,41,182606,0,0.488,0.894,6,-8.68,0,0.15,0.694,0.0,0.097,0.821,113.79,4,reggaeton
+trk_1897,Ed Sheeran,Golden Echoes (Deluxe Edition),Golden Echoes,58,255916,0,0.642,0.964,2,-9.7,0,0.074,0.876,0.0,0.341,0.356,134.56,4,pop
+trk_1898,Ariana Grande,Humble Plan (Deluxe Edition),Humble Plan,18,162393,1,0.744,0.55,10,-11.9,0,0.17,0.346,0.0039,0.114,0.597,144.1,4,pop
+trk_1899,Harry Styles,Sunflower Lover (Deluxe Edition),Sunflower Lover,84,188923,0,0.848,0.359,2,-13.97,1,0.255,0.134,0.0747,0.348,0.694,87.83,4,pop-rock
+trk_1900,Eminem,Golden Hero (Deluxe Edition),Golden Hero,57,141188,1,0.394,0.52,2,-4.9,1,0.05,0.817,0.0,0.241,0.819,107.82,4,hip-hop
+trk_1901,Bruno Mars,Golden Parade (Deluxe Edition),Golden Parade,65,259530,1,0.88,0.572,4,-9.22,1,0.263,0.159,0.0,0.18,0.295,113.3,4,r&b
+trk_1902,Billie Eilish,God's Echoes (Deluxe Edition),God's Echoes,53,197035,0,0.585,0.549,8,-4.87,0,0.198,0.493,0.2523,0.159,0.382,150.7,4,alt-pop
+trk_1903,Bad Bunny,As It Was Memories (Deluxe Edition),As It Was Memories,24,145470,1,0.358,0.755,5,-9.59,1,0.092,0.831,0.0,0.258,0.837,157.55,4,reggaeton
+trk_1904,Drake,Greedy Lover (Deluxe Edition),Greedy Lover,83,237406,1,0.556,0.394,4,-13.14,1,0.245,0.099,0.0,0.08,0.317,123.51,4,hip-hop
+trk_1905,Post Malone,Anti Fantasy (Deluxe Edition),Anti Fantasy,79,155325,1,0.468,0.594,3,-11.26,0,0.305,0.716,0.0,0.142,0.459,106.04,4,hip-hop
+trk_1906,Olivia Rodrigo,Sunflower Hour (Deluxe Edition),Sunflower Hour,69,167428,1,0.541,0.731,4,-10.6,1,0.07,0.336,0.0,0.27,0.913,155.59,4,pop-rock
+trk_1907,Olivia Rodrigo,Cruel Summer (Deluxe Edition),Cruel Summer,59,255694,1,0.436,0.593,0,-9.76,1,0.22,0.217,0.0491,0.064,0.475,112.85,4,pop-rock
+trk_1908,Harry Styles,Sunflower World (Deluxe Edition),Sunflower World,81,163919,1,0.544,0.715,9,-4.79,1,0.058,0.747,0.0,0.35,0.308,137.16,4,pop-rock
+trk_1909,Kendrick Lamar,Save Fantasy (Deluxe Edition),Save Fantasy,72,163664,1,0.468,0.771,0,-9.26,1,0.31,0.388,0.0,0.217,0.386,148.0,4,hip-hop
+trk_1910,The Weeknd,Espresso Nights (Deluxe Edition),Espresso Nights,61,206687,1,0.499,0.778,6,-6.78,1,0.11,0.458,0.0,0.086,0.674,157.99,4,pop
+trk_1911,Kendrick Lamar,Shape Symphony (Deluxe Edition),Shape Symphony,70,164543,1,0.854,0.492,8,-10.96,0,0.138,0.389,0.0,0.208,0.328,157.65,4,hip-hop
+trk_1912,Justin Bieber,Sunflower Fantasy (Deluxe Edition),Sunflower Fantasy,83,217783,1,0.745,0.383,9,-8.47,0,0.244,0.197,0.0,0.234,0.394,92.28,4,pop
+trk_1913,Imagine Dragons,Peaches Hour (Deluxe Edition),Peaches Hour,37,146799,0,0.687,0.6,0,-13.65,1,0.239,0.581,0.0,0.14,0.732,119.25,4,rock
+trk_1914,Imagine Dragons,Anti Plan (Deluxe Edition),Anti Plan,97,164809,0,0.835,0.64,2,-3.87,1,0.043,0.124,0.0727,0.288,0.163,174.84,4,rock
+trk_1915,Taylor Swift,Shape Nights (Deluxe Edition),Shape Nights,56,252018,0,0.753,0.313,9,-11.16,0,0.254,0.551,0.0,0.34,0.75,111.08,4,pop
+trk_1916,The Weeknd,Die Dreams (Deluxe Edition),Die Dreams,39,259106,0,0.91,0.423,6,-11.8,0,0.241,0.816,0.0,0.222,0.329,138.75,4,pop
+trk_1917,Bad Bunny,God's Plan (Deluxe Edition),God's Plan,83,184871,1,0.89,0.669,2,-6.3,1,0.182,0.084,0.0,0.151,0.819,137.8,4,reggaeton
+trk_1918,Doja Cat,Flowers Lover (Deluxe Edition),Flowers Lover,36,227238,0,0.79,0.844,3,-6.21,0,0.203,0.069,0.0,0.062,0.205,156.43,4,dance-pop
+trk_1919,Imagine Dragons,Die Parade (Deluxe Edition),Die Parade,95,171119,0,0.874,0.815,5,-7.46,0,0.156,0.381,0.0,0.101,0.213,88.38,4,rock
+trk_1920,Olivia Rodrigo,Humble Echoes (Deluxe Edition),Humble Echoes,97,193011,1,0.376,0.934,8,-9.58,1,0.104,0.176,0.0,0.216,0.225,107.32,4,pop-rock
+trk_1921,Eminem,Lucid Echoes (Deluxe Edition),Lucid Echoes,63,159506,0,0.882,0.649,4,-12.62,1,0.201,0.687,0.0,0.226,0.4,102.05,4,hip-hop
+trk_1922,Drake,Peaches Echoes (Deluxe Edition),Peaches Echoes,33,217523,0,0.527,0.76,8,-6.07,1,0.18,0.411,0.0,0.301,0.293,143.43,4,hip-hop
+trk_1923,Bruno Mars,God's Hero (Deluxe Edition),God's Hero,73,188475,0,0.419,0.403,6,-11.36,1,0.185,0.027,0.0,0.097,0.727,85.25,4,r&b
+trk_1924,Eminem,Lucid Lights (Deluxe Edition),Lucid Lights,73,215079,1,0.612,0.665,4,-7.88,0,0.181,0.745,0.0,0.177,0.895,147.58,4,hip-hop
+trk_1925,Taylor Swift,Shape Memories (Deluxe Edition),Shape Memories,57,170039,0,0.713,0.375,11,-5.24,0,0.081,0.679,0.0,0.062,0.456,103.84,4,pop
+trk_1926,Kendrick Lamar,Sunflower Memories (Deluxe Edition),Sunflower Memories,41,165698,1,0.676,0.657,2,-12.79,0,0.031,0.428,0.0,0.097,0.827,166.22,4,hip-hop
+trk_1927,Imagine Dragons,Blinding Memories (Deluxe Edition),Blinding Memories,89,255611,1,0.93,0.401,1,-3.61,1,0.1,0.622,0.0,0.223,0.842,158.28,4,rock
+trk_1928,Bruno Mars,Golden Nights (Deluxe Edition),Golden Nights,64,154059,1,0.775,0.509,0,-6.5,1,0.302,0.542,0.0,0.236,0.503,90.56,4,r&b
+trk_1929,Bad Bunny,Shape Symphony (Deluxe Edition),Shape Symphony,67,210353,1,0.712,0.376,6,-11.72,1,0.075,0.018,0.0,0.308,0.851,167.15,4,reggaeton
+trk_1930,Imagine Dragons,Cruel World (Deluxe Edition),Cruel World,74,233989,0,0.793,0.618,3,-7.56,0,0.272,0.115,0.0,0.132,0.698,119.04,4,rock
+trk_1931,Justin Bieber,Sunflower Vibes (Deluxe Edition),Sunflower Vibes,67,193762,0,0.661,0.723,10,-7.3,0,0.132,0.717,0.0,0.185,0.521,115.89,4,pop
+trk_1932,Justin Bieber,Cruel Heart (Deluxe Edition),Cruel Heart,39,150511,0,0.939,0.726,4,-10.56,1,0.264,0.036,0.3817,0.143,0.553,118.59,4,pop
+trk_1933,Justin Bieber,As It Was Dreams (Deluxe Edition),As It Was Dreams,73,163558,1,0.4,0.588,3,-11.97,1,0.214,0.531,0.0,0.064,0.691,170.87,4,pop
+trk_1934,Dua Lipa,Peaches Lover (Deluxe Edition),Peaches Lover,63,219144,0,0.507,0.621,9,-6.12,0,0.037,0.541,0.0,0.053,0.175,145.07,4,dance-pop
+trk_1935,Drake,Humble Waves (Deluxe Edition),Humble Waves,36,160126,0,0.934,0.383,0,-11.41,1,0.182,0.439,0.0,0.326,0.83,109.36,4,hip-hop
+trk_1936,Bruno Mars,Flowers Symphony (Deluxe Edition),Flowers Symphony,72,225254,1,0.511,0.321,11,-6.41,1,0.292,0.588,0.0,0.285,0.543,166.49,4,r&b
+trk_1937,Kendrick Lamar,Midnight Nights (Deluxe Edition),Midnight Nights,87,239006,1,0.388,0.855,2,-11.77,0,0.241,0.496,0.0,0.186,0.825,137.85,4,hip-hop
+trk_1938,Travis Scott,Flowers Plan (Deluxe Edition),Flowers Plan,63,259311,1,0.553,0.75,2,-9.07,1,0.31,0.125,0.0,0.149,0.331,87.4,4,hip-hop
+trk_1939,Dua Lipa,God's Plan (Deluxe Edition),God's Plan,95,143179,1,0.841,0.827,8,-6.92,1,0.069,0.547,0.0,0.136,0.566,98.59,4,dance-pop
+trk_1940,Doja Cat,Greedy Chamber (Deluxe Edition),Greedy Chamber,73,187369,1,0.766,0.943,4,-4.81,1,0.159,0.377,0.0,0.176,0.203,108.14,4,dance-pop
+trk_1941,Billie Eilish,Midnight World (Deluxe Edition),Midnight World,74,189833,0,0.378,0.427,4,-7.94,1,0.051,0.418,0.0304,0.094,0.802,155.9,4,alt-pop
+trk_1942,Post Malone,Golden Hour (Deluxe Edition),Golden Hour,53,154918,0,0.664,0.429,5,-8.77,0,0.242,0.49,0.0,0.28,0.455,115.88,4,hip-hop
+trk_1943,Post Malone,As It Was Waves (Deluxe Edition),As It Was Waves,59,248774,0,0.762,0.671,0,-9.58,0,0.329,0.775,0.0,0.163,0.516,101.65,4,hip-hop
+trk_1944,Eminem,Levitating Heart (Deluxe Edition),Levitating Heart,87,233945,1,0.534,0.874,3,-10.46,0,0.042,0.657,0.0,0.144,0.641,134.78,4,hip-hop
+trk_1945,Travis Scott,Greedy World (Deluxe Edition),Greedy World,59,182263,1,0.516,0.823,2,-4.52,1,0.055,0.016,0.1779,0.328,0.82,117.81,4,hip-hop
+trk_1946,Drake,Shape Plan (Deluxe Edition),Shape Plan,70,198716,0,0.569,0.71,6,-5.35,0,0.314,0.64,0.0,0.09,0.44,127.88,4,hip-hop
+trk_1947,Harry Styles,Die Plan (Deluxe Edition),Die Plan,63,211257,1,0.769,0.905,4,-12.73,1,0.161,0.011,0.0,0.273,0.766,173.04,4,pop-rock
+trk_1948,Harry Styles,Midnight Vibes (Deluxe Edition),Midnight Vibes,77,145500,0,0.661,0.793,2,-3.03,0,0.189,0.329,0.0,0.136,0.531,171.86,4,pop-rock
+trk_1949,Coldplay,Shape Tears (Deluxe Edition),Shape Tears,83,211416,0,0.855,0.705,5,-13.85,1,0.056,0.227,0.1066,0.08,0.246,137.18,4,rock
+trk_1950,Justin Bieber,Flowers Waves (Deluxe Edition),Flowers Waves,33,150364,1,0.567,0.638,10,-3.38,0,0.187,0.784,0.0,0.29,0.892,132.55,4,pop
+trk_1951,Taylor Swift,Lucid Fantasy (Deluxe Edition),Lucid Fantasy,88,200675,1,0.767,0.481,11,-11.85,1,0.072,0.645,0.1431,0.073,0.4,110.37,4,pop
+trk_1952,SZA,Flowers Lights (Deluxe Edition),Flowers Lights,82,169248,1,0.916,0.709,1,-5.46,0,0.055,0.69,0.0,0.224,0.519,94.77,4,r&b
+trk_1953,Travis Scott,Starboy Symphony (Deluxe Edition),Starboy Symphony,97,184325,0,0.63,0.562,11,-3.16,0,0.276,0.19,0.0,0.104,0.896,101.81,4,hip-hop
+trk_1954,The Weeknd,Lucid Chamber (Deluxe Edition),Lucid Chamber,66,259082,1,0.943,0.85,8,-8.54,1,0.166,0.775,0.0,0.265,0.598,115.15,4,pop
+trk_1955,Travis Scott,Cruel Lights (Deluxe Edition),Cruel Lights,56,163828,0,0.859,0.35,9,-4.21,0,0.246,0.37,0.118,0.334,0.445,154.96,4,hip-hop
+trk_1956,Kendrick Lamar,Starboy Chamber (Deluxe Edition),Starboy Chamber,34,158004,1,0.799,0.599,9,-8.4,1,0.22,0.193,0.0,0.305,0.884,130.3,4,hip-hop
+trk_1957,Kendrick Lamar,Anti Summer (Deluxe Edition),Anti Summer,72,233685,1,0.37,0.566,5,-13.52,1,0.339,0.288,0.0,0.067,0.715,101.06,4,hip-hop
+trk_1958,Travis Scott,Anti Nights (Deluxe Edition),Anti Nights,86,153092,0,0.919,0.604,8,-4.1,0,0.052,0.312,0.0,0.296,0.168,92.03,4,hip-hop
+trk_1959,Taylor Swift,Espresso Hero (Deluxe Edition),Espresso Hero,41,141587,0,0.731,0.452,11,-12.95,0,0.306,0.16,0.0,0.301,0.548,162.31,4,pop
+trk_1960,Ed Sheeran,Starboy Waves (Deluxe Edition),Starboy Waves,45,228991,1,0.73,0.318,4,-7.6,1,0.205,0.163,0.0,0.283,0.282,111.25,4,pop
+trk_1961,Travis Scott,Cruel Tears (Deluxe Edition),Cruel Tears,46,200510,1,0.782,0.956,11,-13.66,0,0.092,0.703,0.0,0.3,0.226,135.47,4,hip-hop
+trk_1962,Bad Bunny,Golden Echoes (Deluxe Edition),Golden Echoes,100,173863,0,0.379,0.584,4,-3.29,1,0.075,0.394,0.0,0.136,0.666,107.89,4,reggaeton
+trk_1963,Olivia Rodrigo,Starboy World (Deluxe Edition),Starboy World,46,219514,0,0.904,0.741,2,-13.06,1,0.186,0.399,0.0,0.34,0.631,111.54,4,pop-rock
+trk_1964,Travis Scott,Anti Tears (Deluxe Edition),Anti Tears,60,176336,0,0.793,0.617,1,-6.71,1,0.273,0.669,0.0,0.218,0.373,108.2,4,hip-hop
+trk_1965,Drake,vampire Dreams (Deluxe Edition),vampire Dreams,76,197906,1,0.643,0.761,11,-6.12,1,0.286,0.397,0.0,0.224,0.897,150.08,4,hip-hop
+trk_1966,Kendrick Lamar,Die Symphony (Deluxe Edition),Die Symphony,77,225379,1,0.762,0.65,0,-5.4,1,0.27,0.564,0.0,0.243,0.478,88.9,4,hip-hop
+trk_1967,Doja Cat,Greedy Tears (Deluxe Edition),Greedy Tears,77,204227,1,0.649,0.746,6,-10.52,1,0.179,0.091,0.0,0.054,0.268,122.06,4,dance-pop
+trk_1968,SZA,As It Was Hero (Deluxe Edition),As It Was Hero,95,190814,1,0.56,0.927,1,-12.69,0,0.129,0.17,0.0,0.103,0.428,125.37,4,r&b
+trk_1969,Post Malone,God's Parade (Deluxe Edition),God's Parade,69,193954,1,0.42,0.305,7,-12.3,1,0.063,0.575,0.1536,0.23,0.742,174.92,4,hip-hop
+trk_1970,The Weeknd,Levitating World (Deluxe Edition),Levitating World,65,140344,0,0.756,0.585,6,-4.83,1,0.281,0.648,0.0,0.147,0.726,140.93,4,pop
+trk_1971,Ariana Grande,As It Was Hour (Deluxe Edition),As It Was Hour,36,183978,1,0.892,0.633,9,-9.18,1,0.272,0.172,0.2109,0.116,0.657,95.68,4,pop
+trk_1972,Billie Eilish,Lucid Lover (Deluxe Edition),Lucid Lover,64,202304,0,0.947,0.553,7,-8.35,1,0.077,0.497,0.0,0.214,0.579,119.45,4,alt-pop
+trk_1973,Ariana Grande,Lucid Vibes (Deluxe Edition),Lucid Vibes,79,229427,0,0.836,0.624,9,-5.19,0,0.215,0.32,0.0,0.183,0.857,135.4,4,pop
+trk_1974,Coldplay,Midnight World (Deluxe Edition),Midnight World,33,254124,1,0.435,0.361,0,-6.11,0,0.121,0.643,0.0,0.091,0.74,94.05,4,rock
+trk_1975,Doja Cat,Shape Echoes (Deluxe Edition),Shape Echoes,81,144970,0,0.914,0.94,1,-4.27,0,0.19,0.126,0.0,0.337,0.626,119.05,4,dance-pop
+trk_1976,The Weeknd,vampire Symphony (Deluxe Edition),vampire Symphony,84,149226,0,0.82,0.691,0,-11.31,1,0.283,0.643,0.0,0.323,0.807,129.78,4,pop
+trk_1977,Kendrick Lamar,Levitating Fantasy (Deluxe Edition),Levitating Fantasy,56,188211,1,0.637,0.522,3,-10.21,1,0.054,0.527,0.3244,0.316,0.202,144.41,4,hip-hop
+trk_1978,Travis Scott,Starboy Summer (Deluxe Edition),Starboy Summer,83,239231,0,0.618,0.653,10,-10.23,0,0.301,0.259,0.0,0.349,0.829,85.95,4,hip-hop
+trk_1979,Bad Bunny,Blinding Lover (Deluxe Edition),Blinding Lover,79,206323,1,0.476,0.667,10,-7.97,1,0.246,0.605,0.0,0.269,0.58,142.47,4,reggaeton
+trk_1980,Justin Bieber,Shape Parade (Deluxe Edition),Shape Parade,98,155805,1,0.632,0.7,6,-8.42,0,0.26,0.343,0.2561,0.16,0.773,137.69,4,pop
+trk_1981,Olivia Rodrigo,Shape Lover (Deluxe Edition),Shape Lover,86,247558,0,0.516,0.835,6,-9.7,1,0.34,0.45,0.0,0.081,0.235,172.23,4,pop-rock
+trk_1982,Ariana Grande,Starboy Vibes (Deluxe Edition),Starboy Vibes,36,158233,0,0.816,0.623,1,-8.39,1,0.061,0.688,0.0,0.065,0.822,162.85,4,pop
+trk_1983,Bad Bunny,Shape You (Deluxe Edition),Shape You,97,257367,0,0.495,0.316,0,-8.8,1,0.122,0.285,0.0,0.1,0.554,122.04,4,reggaeton
+trk_1984,Harry Styles,Die Tears (Deluxe Edition),Die Tears,52,206674,1,0.849,0.583,6,-6.07,0,0.043,0.781,0.313,0.315,0.216,87.16,4,pop-rock
+trk_1985,Bruno Mars,Greedy Hero (Deluxe Edition),Greedy Hero,65,230482,1,0.911,0.595,4,-8.75,0,0.35,0.804,0.0,0.073,0.234,108.25,4,r&b
+trk_1986,Kendrick Lamar,Save Lover (Deluxe Edition),Save Lover,64,151514,0,0.662,0.507,1,-3.22,0,0.268,0.513,0.0,0.068,0.768,90.65,4,hip-hop
+trk_1987,Harry Styles,vampire Lights (Deluxe Edition),vampire Lights,91,164555,0,0.417,0.302,10,-7.1,1,0.037,0.167,0.0,0.09,0.254,155.63,4,pop-rock
+trk_1988,Billie Eilish,Shape Memories (Deluxe Edition),Shape Memories,54,144149,1,0.461,0.871,2,-13.21,1,0.191,0.573,0.1792,0.321,0.645,86.01,4,alt-pop
+trk_1989,Travis Scott,Golden Hour (Deluxe Edition),Golden Hour,61,173291,1,0.798,0.976,4,-7.8,0,0.122,0.777,0.0,0.307,0.672,171.34,4,hip-hop
+trk_1990,Travis Scott,Shape Waves (Deluxe Edition),Shape Waves,86,239341,1,0.945,0.432,4,-9.82,0,0.224,0.578,0.0,0.255,0.203,155.47,4,hip-hop
+trk_1991,Justin Bieber,Save Hero (Deluxe Edition),Save Hero,83,189372,1,0.361,0.403,0,-3.94,0,0.061,0.511,0.0,0.22,0.585,165.8,4,pop
+trk_1992,Billie Eilish,Die Symphony (Deluxe Edition),Die Symphony,78,201179,1,0.446,0.526,7,-4.79,0,0.056,0.781,0.0,0.139,0.397,89.02,4,alt-pop
+trk_1993,Bruno Mars,Midnight Summer (Deluxe Edition),Midnight Summer,89,259018,1,0.947,0.62,5,-6.0,1,0.14,0.779,0.0,0.065,0.278,166.57,4,r&b
+trk_1994,Eminem,Humble Memories (Deluxe Edition),Humble Memories,69,188358,1,0.737,0.472,5,-7.4,0,0.234,0.584,0.0,0.209,0.307,92.9,4,hip-hop
+trk_1995,Kendrick Lamar,vampire Tears (Deluxe Edition),vampire Tears,67,141779,1,0.59,0.455,1,-13.42,0,0.296,0.449,0.3458,0.242,0.553,143.57,4,hip-hop
+trk_1996,Ariana Grande,God's Chamber (Deluxe Edition),God's Chamber,51,245208,0,0.477,0.775,2,-9.36,1,0.303,0.424,0.0,0.309,0.204,114.17,4,pop
+trk_1997,Olivia Rodrigo,Die Nights (Deluxe Edition),Die Nights,66,201901,0,0.662,0.907,2,-11.98,0,0.032,0.339,0.0,0.291,0.368,144.46,4,pop-rock
+trk_1998,Travis Scott,Save Symphony (Deluxe Edition),Save Symphony,81,184130,0,0.363,0.661,3,-8.35,0,0.285,0.272,0.0,0.176,0.17,160.84,4,hip-hop
+trk_1999,Bruno Mars,Greedy Plan (Deluxe Edition),Greedy Plan,64,250796,1,0.535,0.677,9,-6.85,0,0.299,0.663,0.0,0.185,0.404,146.74,4,r&b
+trk_2000,Olivia Rodrigo,Greedy Heart (Deluxe Edition),Greedy Heart,43,176622,0,0.889,0.689,3,-10.69,0,0.11,0.15,0.0,0.124,0.881,147.44,4,pop-rock
+trk_2001,Coldplay,Die Waves (Deluxe Edition),Die Waves,93,171563,1,0.668,0.499,3,-10.5,0,0.34,0.197,0.0,0.076,0.421,91.74,4,rock
+trk_2002,Travis Scott,As It Was Fantasy (Deluxe Edition),As It Was Fantasy,21,236305,0,0.928,0.799,7,-10.57,0,0.245,0.201,0.0,0.225,0.234,146.55,4,hip-hop
+trk_2003,Drake,Save Echoes (Deluxe Edition),Save Echoes,69,246169,0,0.605,0.389,11,-3.61,0,0.286,0.361,0.0,0.106,0.206,144.62,4,hip-hop
+trk_2004,Coldplay,Espresso Summer (Deluxe Edition),Espresso Summer,81,184599,1,0.812,0.788,7,-6.49,0,0.065,0.261,0.0,0.232,0.77,99.7,4,rock
+trk_2005,Post Malone,Lucid Hero (Deluxe Edition),Lucid Hero,97,182473,1,0.462,0.712,2,-10.34,1,0.198,0.856,0.1952,0.264,0.799,117.74,4,hip-hop
+trk_2006,Ariana Grande,God's Heart (Deluxe Edition),God's Heart,79,175489,1,0.422,0.92,1,-8.25,0,0.23,0.663,0.0,0.135,0.635,148.79,4,pop
+trk_2007,Ed Sheeran,Shape Vibes (Deluxe Edition),Shape Vibes,60,214848,1,0.687,0.391,7,-4.46,0,0.084,0.231,0.0,0.334,0.553,86.04,4,pop
+trk_2008,Dua Lipa,Flowers Hero (Deluxe Edition),Flowers Hero,95,169125,1,0.469,0.712,1,-8.17,1,0.108,0.482,0.0,0.259,0.859,160.78,4,dance-pop
+trk_2009,Dua Lipa,Midnight Nights (Deluxe Edition),Midnight Nights,45,257158,1,0.658,0.497,9,-12.87,1,0.24,0.359,0.0,0.238,0.248,93.05,4,dance-pop
+trk_2010,Bruno Mars,Lucid Echoes (Deluxe Edition),Lucid Echoes,60,217291,0,0.576,0.691,8,-3.11,1,0.195,0.474,0.0,0.297,0.384,139.44,4,r&b
+trk_2011,Justin Bieber,Starboy Plan (Deluxe Edition),Starboy Plan,51,163275,0,0.443,0.563,1,-6.99,1,0.077,0.288,0.0,0.255,0.53,117.59,4,pop
+trk_2012,Post Malone,Anti Chamber (Deluxe Edition),Anti Chamber,92,169295,1,0.509,0.646,0,-13.66,1,0.197,0.801,0.0,0.238,0.562,160.64,4,hip-hop
+trk_2013,Bad Bunny,Levitating Symphony (Deluxe Edition),Levitating Symphony,69,214898,0,0.422,0.628,4,-11.66,0,0.321,0.677,0.0,0.286,0.86,86.1,4,reggaeton
+trk_2014,Travis Scott,Flowers World (Deluxe Edition),Flowers World,78,172862,0,0.85,0.889,9,-5.49,1,0.14,0.878,0.0,0.195,0.469,157.33,4,hip-hop
+trk_2015,Billie Eilish,vampire Tears (Deluxe Edition),vampire Tears,73,155297,0,0.84,0.621,10,-3.65,0,0.321,0.536,0.0,0.113,0.437,96.99,4,alt-pop
+trk_2016,Drake,Espresso Plan (Deluxe Edition),Espresso Plan,68,253234,1,0.529,0.678,1,-5.22,0,0.205,0.683,0.0485,0.134,0.774,170.06,4,hip-hop
+trk_2017,Eminem,Peaches World (Deluxe Edition),Peaches World,68,217531,0,0.922,0.979,11,-3.21,0,0.213,0.527,0.0,0.105,0.251,102.23,4,hip-hop
+trk_2018,Eminem,Starboy Summer (Deluxe Edition),Starboy Summer,83,162861,1,0.904,0.875,10,-10.62,0,0.298,0.495,0.0,0.107,0.467,113.92,4,hip-hop
+trk_2019,Bruno Mars,Greedy Tears (Deluxe Edition),Greedy Tears,84,228647,0,0.948,0.803,11,-3.65,0,0.07,0.115,0.0,0.161,0.829,122.98,4,r&b
+trk_2020,Bruno Mars,Blinding Parade (Deluxe Edition),Blinding Parade,97,226520,0,0.636,0.647,9,-7.32,1,0.273,0.111,0.0,0.131,0.233,94.73,4,r&b
+trk_2021,Imagine Dragons,Greedy Memories (Deluxe Edition),Greedy Memories,66,170108,1,0.479,0.454,5,-7.43,1,0.312,0.191,0.0,0.341,0.18,158.48,4,rock
+trk_2022,Imagine Dragons,Golden Hero (Deluxe Edition),Golden Hero,58,240566,1,0.786,0.738,4,-10.81,0,0.34,0.832,0.0,0.113,0.465,135.36,4,rock
+trk_2023,Kendrick Lamar,Lucid You (Deluxe Edition),Lucid You,100,197393,1,0.554,0.41,11,-13.37,0,0.038,0.802,0.081,0.161,0.491,121.97,4,hip-hop
+trk_2024,Olivia Rodrigo,Golden Fantasy (Deluxe Edition),Golden Fantasy,73,152441,0,0.645,0.794,9,-10.6,0,0.11,0.026,0.0,0.136,0.314,127.06,4,pop-rock
+trk_2025,Drake,Sunflower Nights (Deluxe Edition),Sunflower Nights,87,257974,1,0.832,0.483,8,-5.14,0,0.296,0.522,0.0,0.224,0.398,154.76,4,hip-hop
+trk_2026,Ariana Grande,Flowers Hero (Deluxe Edition),Flowers Hero,61,192719,0,0.898,0.605,0,-6.68,1,0.051,0.12,0.0,0.237,0.854,94.91,4,pop
+trk_2027,Imagine Dragons,Peaches Memories (Deluxe Edition),Peaches Memories,34,240909,1,0.576,0.502,0,-11.09,1,0.339,0.782,0.0,0.211,0.271,152.75,4,rock
+trk_2028,Travis Scott,Lucid Dreams (Deluxe Edition),Lucid Dreams,86,213167,1,0.393,0.687,1,-3.31,0,0.271,0.434,0.0,0.249,0.629,92.54,4,hip-hop
+trk_2029,Billie Eilish,Blinding Fantasy (Deluxe Edition),Blinding Fantasy,58,193242,0,0.655,0.721,7,-6.31,1,0.261,0.372,0.0,0.303,0.642,94.5,4,alt-pop
+trk_2030,Olivia Rodrigo,Flowers Memories (Deluxe Edition),Flowers Memories,43,254249,1,0.789,0.406,7,-10.85,0,0.12,0.626,0.0,0.31,0.224,128.73,4,pop-rock
+trk_2031,Ariana Grande,Golden Plan (Deluxe Edition),Golden Plan,46,214723,1,0.808,0.723,11,-3.55,0,0.125,0.236,0.2741,0.323,0.49,173.4,4,pop
+trk_2032,Dua Lipa,Sunflower Fantasy (Deluxe Edition),Sunflower Fantasy,87,255597,0,0.437,0.413,7,-12.56,1,0.083,0.097,0.0,0.321,0.472,110.68,4,dance-pop
+trk_2033,Doja Cat,Flowers Vibes (Deluxe Edition),Flowers Vibes,54,177646,0,0.526,0.725,8,-8.48,1,0.05,0.115,0.0545,0.071,0.724,124.42,4,dance-pop
+trk_2034,Post Malone,Midnight World (Deluxe Edition),Midnight World,59,149248,0,0.488,0.662,3,-8.86,1,0.214,0.188,0.0,0.239,0.744,155.34,4,hip-hop
+trk_2035,Olivia Rodrigo,Golden Nights (Deluxe Edition),Golden Nights,58,184938,0,0.413,0.539,2,-11.68,1,0.136,0.81,0.0,0.342,0.669,104.34,4,pop-rock
+trk_2036,Drake,Lucid Dreams (Deluxe Edition),Lucid Dreams,63,181460,1,0.665,0.893,5,-13.86,0,0.272,0.229,0.0,0.244,0.248,119.02,4,hip-hop
+trk_2037,Imagine Dragons,Starboy Summer (Deluxe Edition),Starboy Summer,41,251095,0,0.583,0.516,1,-10.78,1,0.223,0.759,0.0,0.259,0.782,98.88,4,rock
+trk_2038,Post Malone,Peaches World (Deluxe Edition),Peaches World,47,150874,0,0.656,0.79,6,-10.91,1,0.312,0.23,0.0,0.13,0.423,100.55,4,hip-hop
+trk_2039,SZA,Lucid Hour (Deluxe Edition),Lucid Hour,83,236939,1,0.54,0.97,2,-11.23,0,0.328,0.421,0.0,0.236,0.876,134.71,4,r&b
+trk_2040,Bruno Mars,Flowers Nights (Deluxe Edition),Flowers Nights,80,158116,0,0.82,0.588,0,-9.27,1,0.234,0.595,0.0,0.179,0.8,98.02,4,r&b
+trk_2041,Harry Styles,Sunflower Plan (Deluxe Edition),Sunflower Plan,41,259935,0,0.631,0.406,7,-10.57,0,0.277,0.352,0.0,0.106,0.805,132.96,4,pop-rock
+trk_2042,Bad Bunny,Humble Fantasy (Deluxe Edition),Humble Fantasy,68,244401,1,0.556,0.907,4,-8.13,1,0.323,0.784,0.0,0.236,0.331,125.2,4,reggaeton
+trk_2043,Billie Eilish,Humble Plan (Deluxe Edition),Humble Plan,91,201464,0,0.668,0.592,5,-3.44,1,0.193,0.811,0.0,0.312,0.667,115.27,4,alt-pop
+trk_2044,Doja Cat,Greedy Summer (Deluxe Edition),Greedy Summer,80,151760,1,0.474,0.521,4,-3.16,1,0.07,0.635,0.0,0.335,0.154,121.0,4,dance-pop
+trk_2045,Ariana Grande,Flowers World (Deluxe Edition),Flowers World,92,207139,1,0.874,0.609,11,-11.48,0,0.347,0.164,0.0,0.156,0.551,119.69,4,pop
+trk_2046,The Weeknd,As It Was Summer (Deluxe Edition),As It Was Summer,67,167423,1,0.418,0.313,6,-8.11,0,0.275,0.567,0.0,0.248,0.735,155.87,4,pop
+trk_2047,Travis Scott,Sunflower Heart (Deluxe Edition),Sunflower Heart,78,175785,0,0.739,0.731,11,-10.0,1,0.178,0.247,0.0,0.14,0.732,104.36,4,hip-hop
+trk_2048,SZA,Peaches Hero (Deluxe Edition),Peaches Hero,35,237973,1,0.926,0.538,0,-7.46,1,0.177,0.232,0.0,0.197,0.626,147.15,4,r&b
+trk_2049,Ed Sheeran,Golden Summer (Deluxe Edition),Golden Summer,71,217780,1,0.615,0.967,1,-8.42,1,0.194,0.401,0.0,0.142,0.222,138.02,4,pop
+trk_2050,Harry Styles,Flowers Waves (Deluxe Edition),Flowers Waves,69,172710,0,0.412,0.474,9,-6.11,1,0.305,0.127,0.0,0.207,0.872,143.69,4,pop-rock
+trk_2051,Billie Eilish,Levitating World (Deluxe Edition),Levitating World,54,168671,1,0.874,0.586,7,-8.67,1,0.208,0.054,0.0,0.184,0.858,101.54,4,alt-pop
+trk_2052,Harry Styles,Cruel Hour (Deluxe Edition),Cruel Hour,35,257035,0,0.857,0.945,3,-4.39,1,0.21,0.12,0.0,0.329,0.24,155.8,4,pop-rock
+trk_2053,Post Malone,Greedy Plan (Deluxe Edition),Greedy Plan,61,252228,0,0.518,0.661,9,-8.35,1,0.14,0.647,0.0,0.275,0.556,91.13,4,hip-hop
+trk_2054,Ariana Grande,As It Was Parade (Deluxe Edition),As It Was Parade,95,234827,0,0.407,0.829,8,-13.21,0,0.071,0.252,0.0,0.058,0.697,87.89,4,pop
+trk_2055,Kendrick Lamar,Shape Dreams (Deluxe Edition),Shape Dreams,100,251666,1,0.488,0.843,2,-9.87,0,0.082,0.519,0.0,0.199,0.625,89.83,4,hip-hop
+trk_2056,Bruno Mars,God's Memories (Deluxe Edition),God's Memories,30,160463,1,0.789,0.696,6,-12.69,0,0.315,0.694,0.0,0.326,0.765,92.89,4,r&b
+trk_2057,Ariana Grande,Golden Symphony (Deluxe Edition),Golden Symphony,93,255572,0,0.419,0.863,11,-12.45,0,0.218,0.841,0.0,0.262,0.851,133.07,4,pop
+trk_2058,Coldplay,Flowers Dreams (Deluxe Edition),Flowers Dreams,53,214875,1,0.834,0.399,7,-9.74,1,0.167,0.394,0.0,0.301,0.546,92.08,4,rock
+trk_2059,Travis Scott,Starboy Symphony (Deluxe Edition),Starboy Symphony,28,150633,1,0.678,0.34,6,-12.29,0,0.316,0.452,0.2338,0.192,0.687,92.05,4,hip-hop
+trk_2060,Drake,As It Was Heart (Deluxe Edition),As It Was Heart,55,256973,1,0.678,0.547,1,-5.56,0,0.229,0.016,0.0,0.162,0.903,150.6,4,hip-hop
+trk_2061,Doja Cat,Peaches Heart (Deluxe Edition),Peaches Heart,46,212945,0,0.906,0.952,8,-3.71,0,0.221,0.612,0.0,0.082,0.77,92.79,4,dance-pop
+trk_2062,Bruno Mars,Blinding Dreams (Deluxe Edition),Blinding Dreams,50,196230,1,0.713,0.819,3,-13.47,1,0.153,0.76,0.0,0.316,0.65,109.2,4,r&b
+trk_2063,Doja Cat,Flowers Hero (Deluxe Edition),Flowers Hero,76,190409,0,0.922,0.482,6,-8.79,1,0.332,0.76,0.0,0.243,0.401,104.61,4,dance-pop
+trk_2064,Kendrick Lamar,vampire Heart (Deluxe Edition),vampire Heart,45,220332,1,0.868,0.75,9,-6.37,0,0.149,0.609,0.0,0.281,0.266,151.14,4,hip-hop
+trk_2065,Justin Bieber,Greedy You (Deluxe Edition),Greedy You,65,235557,0,0.781,0.515,9,-13.57,0,0.127,0.127,0.0,0.304,0.808,167.79,4,pop
+trk_2066,Post Malone,Peaches You (Deluxe Edition),Peaches You,77,248561,0,0.811,0.733,8,-3.44,1,0.052,0.58,0.0,0.153,0.748,130.06,4,hip-hop
+trk_2067,Doja Cat,Shape Vibes (Deluxe Edition),Shape Vibes,40,182428,0,0.687,0.392,9,-8.72,0,0.232,0.497,0.0,0.309,0.397,168.66,4,dance-pop
+trk_2068,Justin Bieber,Sunflower Summer (Deluxe Edition),Sunflower Summer,64,141883,1,0.579,0.732,3,-8.11,0,0.047,0.101,0.0,0.187,0.623,156.12,4,pop
+trk_2069,Imagine Dragons,Anti Chamber (Deluxe Edition),Anti Chamber,75,231283,1,0.534,0.924,9,-9.26,0,0.18,0.694,0.0,0.239,0.221,137.56,4,rock
+trk_2070,Ariana Grande,Humble Waves (Deluxe Edition),Humble Waves,70,172030,1,0.649,0.386,10,-11.35,0,0.117,0.273,0.0,0.141,0.337,111.55,4,pop
+trk_2071,Olivia Rodrigo,Midnight Echoes (Deluxe Edition),Midnight Echoes,76,173686,0,0.643,0.747,3,-5.28,0,0.149,0.177,0.0,0.223,0.341,159.74,4,pop-rock
+trk_2072,SZA,Starboy Lights (Deluxe Edition),Starboy Lights,50,259681,1,0.766,0.381,11,-11.97,1,0.1,0.54,0.0,0.18,0.207,171.55,4,r&b
+trk_2073,Drake,Lucid Fantasy (Deluxe Edition),Lucid Fantasy,49,215220,1,0.511,0.373,11,-3.09,1,0.041,0.85,0.0017,0.33,0.161,165.77,4,hip-hop
+trk_2074,The Weeknd,Golden Symphony (Deluxe Edition),Golden Symphony,82,225194,1,0.931,0.92,0,-6.21,1,0.034,0.607,0.0,0.115,0.908,150.63,4,pop
+trk_2075,Coldplay,Sunflower Tears (Deluxe Edition),Sunflower Tears,35,227342,1,0.51,0.867,7,-9.28,1,0.113,0.482,0.0,0.161,0.255,173.53,4,rock
+trk_2076,Bruno Mars,Cruel Heart (Deluxe Edition),Cruel Heart,65,191746,0,0.74,0.425,11,-4.59,1,0.269,0.864,0.0,0.184,0.79,135.86,4,r&b
+trk_2077,Bad Bunny,Blinding Nights (Deluxe Edition),Blinding Nights,70,186808,1,0.471,0.391,8,-4.38,1,0.271,0.803,0.0,0.117,0.535,127.03,4,reggaeton
+trk_2078,Olivia Rodrigo,Levitating Waves (Deluxe Edition),Levitating Waves,66,242922,1,0.41,0.877,6,-11.85,1,0.218,0.264,0.0,0.269,0.226,123.05,4,pop-rock
+trk_2079,Billie Eilish,Blinding Symphony (Deluxe Edition),Blinding Symphony,91,182949,0,0.427,0.421,11,-12.84,0,0.1,0.873,0.0,0.11,0.762,140.52,4,alt-pop
+trk_2080,Bad Bunny,Save Vibes (Deluxe Edition),Save Vibes,59,233659,0,0.938,0.547,9,-3.82,0,0.246,0.88,0.0,0.171,0.354,119.49,4,reggaeton
+trk_2081,Eminem,Golden World (Deluxe Edition),Golden World,62,156872,0,0.521,0.838,0,-5.58,0,0.13,0.857,0.0,0.125,0.256,161.17,4,hip-hop
+trk_2082,Olivia Rodrigo,Shape You (Deluxe Edition),Shape You,26,258505,0,0.372,0.536,10,-13.68,1,0.115,0.813,0.0,0.084,0.328,153.78,4,pop-rock
+trk_2083,Harry Styles,God's Parade (Deluxe Edition),God's Parade,47,249438,0,0.588,0.809,5,-4.56,0,0.136,0.556,0.0376,0.224,0.504,166.86,4,pop-rock
+trk_2084,Taylor Swift,vampire Vibes (Deluxe Edition),vampire Vibes,72,182457,1,0.687,0.756,9,-9.9,1,0.234,0.423,0.0,0.297,0.239,130.51,4,pop
+trk_2085,Olivia Rodrigo,Blinding Hour (Deluxe Edition),Blinding Hour,84,169867,1,0.783,0.495,11,-5.41,0,0.044,0.704,0.0,0.349,0.341,113.44,4,pop-rock
+trk_2086,Dua Lipa,Espresso Summer (Deluxe Edition),Espresso Summer,84,228938,0,0.938,0.604,8,-3.58,1,0.09,0.03,0.3994,0.152,0.807,115.01,4,dance-pop
+trk_2087,Billie Eilish,Humble Memories (Deluxe Edition),Humble Memories,45,184177,1,0.924,0.444,11,-7.32,1,0.317,0.665,0.2315,0.108,0.889,91.47,4,alt-pop
+trk_2088,Travis Scott,Greedy Chamber (Deluxe Edition),Greedy Chamber,72,228371,0,0.612,0.63,11,-5.28,1,0.304,0.222,0.218,0.319,0.811,158.98,4,hip-hop
+trk_2089,Harry Styles,Midnight Nights (Deluxe Edition),Midnight Nights,85,255367,0,0.388,0.816,8,-5.53,1,0.304,0.565,0.0,0.173,0.824,139.59,4,pop-rock
+trk_2090,Ariana Grande,Lucid Heart (Deluxe Edition),Lucid Heart,46,207688,0,0.849,0.917,10,-4.87,1,0.311,0.41,0.0,0.214,0.72,120.11,4,pop
+trk_2091,SZA,Midnight Vibes (Deluxe Edition),Midnight Vibes,62,148788,0,0.918,0.396,7,-13.35,0,0.122,0.836,0.0,0.292,0.571,140.43,4,r&b
+trk_2092,Imagine Dragons,Humble Fantasy (Deluxe Edition),Humble Fantasy,71,178258,0,0.92,0.518,7,-4.68,1,0.052,0.63,0.0,0.178,0.201,91.13,4,rock
+trk_2093,SZA,Save Vibes (Deluxe Edition),Save Vibes,54,255941,0,0.636,0.867,3,-5.97,0,0.166,0.1,0.0,0.169,0.476,135.15,4,r&b
+trk_2094,Billie Eilish,Flowers Hero (Deluxe Edition),Flowers Hero,45,142548,1,0.767,0.539,1,-3.75,1,0.337,0.839,0.0,0.126,0.912,112.6,4,alt-pop
+trk_2095,Coldplay,As It Was Lover (Deluxe Edition),As It Was Lover,57,254303,1,0.907,0.706,1,-7.76,0,0.255,0.544,0.0,0.157,0.786,133.05,4,rock
+trk_2096,Imagine Dragons,As It Was Summer (Deluxe Edition),As It Was Summer,59,181651,0,0.68,0.411,10,-3.97,0,0.142,0.557,0.3542,0.305,0.622,165.28,4,rock
+trk_2097,Drake,Greedy Summer (Deluxe Edition),Greedy Summer,40,147678,1,0.511,0.82,6,-9.87,1,0.258,0.572,0.0,0.144,0.191,125.55,4,hip-hop
+trk_2098,Dua Lipa,Humble Parade (Deluxe Edition),Humble Parade,69,205369,1,0.377,0.542,11,-5.82,1,0.277,0.382,0.0,0.235,0.49,108.17,4,dance-pop
+trk_2099,Eminem,Golden Lights (Deluxe Edition),Golden Lights,67,169160,1,0.948,0.852,9,-5.21,0,0.253,0.46,0.0,0.139,0.594,95.63,4,hip-hop
+trk_2100,Ariana Grande,Levitating World (Deluxe Edition),Levitating World,61,257568,0,0.445,0.915,8,-4.07,0,0.056,0.54,0.0,0.134,0.45,125.95,4,pop
+trk_2101,The Weeknd,Humble Tears (Deluxe Edition),Humble Tears,65,258945,1,0.662,0.44,1,-10.76,1,0.038,0.721,0.2052,0.06,0.292,104.34,4,pop
+trk_2102,Harry Styles,Save Vibes (Deluxe Edition),Save Vibes,57,245354,0,0.881,0.779,11,-12.94,1,0.336,0.662,0.0,0.114,0.464,153.55,4,pop-rock
+trk_2103,Dua Lipa,Cruel Parade (Deluxe Edition),Cruel Parade,75,183207,0,0.735,0.648,10,-9.78,1,0.29,0.807,0.0,0.07,0.712,137.41,4,dance-pop
+trk_2104,Harry Styles,Sunflower Heart (Deluxe Edition),Sunflower Heart,76,245167,1,0.612,0.647,3,-3.76,1,0.104,0.336,0.0,0.292,0.235,95.74,4,pop-rock
+trk_2105,Taylor Swift,Peaches Parade (Deluxe Edition),Peaches Parade,62,203765,1,0.779,0.664,1,-13.55,0,0.117,0.383,0.0,0.193,0.78,158.54,4,pop
+trk_2106,Drake,Shape You (Deluxe Edition),Shape You,93,233665,1,0.52,0.751,6,-12.75,1,0.153,0.198,0.0,0.224,0.893,126.46,4,hip-hop
+trk_2107,Imagine Dragons,Save You (Deluxe Edition),Save You,82,154503,1,0.442,0.377,8,-10.47,0,0.066,0.338,0.0,0.151,0.666,98.59,4,rock
+trk_2108,Doja Cat,Shape You (Deluxe Edition),Shape You,59,198175,1,0.865,0.785,11,-10.28,1,0.265,0.335,0.0,0.143,0.555,130.1,4,dance-pop
+trk_2109,Post Malone,Shape You (Deluxe Edition),Shape You,52,222560,1,0.861,0.516,7,-5.99,1,0.057,0.075,0.0,0.296,0.27,109.47,4,hip-hop
+trk_2110,Olivia Rodrigo,Humble Plan (Deluxe Edition),Humble Plan,92,247845,1,0.368,0.54,10,-4.48,0,0.117,0.872,0.0,0.2,0.289,153.55,4,pop-rock
+trk_2111,Bad Bunny,vampire Hour (Deluxe Edition),vampire Hour,100,246271,1,0.439,0.701,6,-6.57,0,0.328,0.292,0.0,0.166,0.429,129.18,4,reggaeton
+trk_2112,Justin Bieber,Midnight Vibes (Deluxe Edition),Midnight Vibes,70,143674,1,0.392,0.413,9,-5.81,0,0.153,0.834,0.0,0.101,0.361,93.05,4,pop
+trk_2113,Ariana Grande,Espresso Hour (Deluxe Edition),Espresso Hour,67,241405,0,0.83,0.641,0,-5.75,0,0.234,0.817,0.2317,0.084,0.335,95.14,4,pop
+trk_2114,Kendrick Lamar,Starboy World (Deluxe Edition),Starboy World,72,254709,1,0.923,0.705,1,-10.1,0,0.098,0.399,0.0,0.257,0.183,142.28,4,hip-hop
+trk_2115,Travis Scott,Peaches Heart (Deluxe Edition),Peaches Heart,69,205189,1,0.927,0.552,9,-4.35,1,0.158,0.718,0.0,0.098,0.606,94.13,4,hip-hop
+trk_2116,Kendrick Lamar,Midnight Lover (Deluxe Edition),Midnight Lover,99,218671,1,0.775,0.657,4,-5.56,0,0.318,0.576,0.0,0.183,0.892,173.14,4,hip-hop
+trk_2117,Eminem,Levitating Nights (Deluxe Edition),Levitating Nights,78,253312,0,0.351,0.631,5,-3.6,0,0.267,0.34,0.1839,0.236,0.695,96.6,4,hip-hop
+trk_2118,Taylor Swift,Peaches Symphony (Deluxe Edition),Peaches Symphony,78,158381,1,0.411,0.683,10,-3.06,1,0.318,0.865,0.0,0.23,0.748,114.03,4,pop
+trk_2119,Drake,Sunflower Lights (Deluxe Edition),Sunflower Lights,63,220660,0,0.642,0.314,5,-12.35,1,0.307,0.825,0.0,0.277,0.66,132.76,4,hip-hop
+trk_2120,Travis Scott,God's Parade (Deluxe Edition),God's Parade,36,158307,1,0.685,0.417,2,-13.04,0,0.096,0.376,0.0,0.345,0.482,133.26,4,hip-hop
+trk_2121,Taylor Swift,God's Tears (Deluxe Edition),God's Tears,59,202103,1,0.588,0.565,11,-7.78,1,0.231,0.383,0.0,0.256,0.904,150.84,4,pop
+trk_2122,Doja Cat,Cruel Tears (Deluxe Edition),Cruel Tears,52,251727,1,0.443,0.383,1,-9.47,1,0.179,0.827,0.0,0.237,0.631,147.72,4,dance-pop
+trk_2123,Bad Bunny,Anti Tears (Deluxe Edition),Anti Tears,70,229641,1,0.69,0.839,9,-9.73,0,0.139,0.496,0.0,0.325,0.872,85.84,4,reggaeton
+trk_2124,Taylor Swift,Midnight Dreams (Deluxe Edition),Midnight Dreams,72,242837,0,0.38,0.575,2,-12.86,1,0.314,0.393,0.0,0.331,0.527,126.3,4,pop
+trk_2125,Ed Sheeran,Shape Heart (Deluxe Edition),Shape Heart,51,256029,0,0.823,0.481,1,-9.82,1,0.047,0.781,0.0,0.107,0.697,94.95,4,pop
+trk_2126,Bruno Mars,Starboy Nights (Deluxe Edition),Starboy Nights,46,232295,1,0.859,0.375,9,-11.72,1,0.308,0.219,0.0,0.24,0.245,125.73,4,r&b
+trk_2127,Olivia Rodrigo,Die You (Deluxe Edition),Die You,46,154176,1,0.486,0.732,10,-12.82,1,0.223,0.503,0.0,0.345,0.214,85.72,4,pop-rock
+trk_2128,Billie Eilish,vampire Chamber (Deluxe Edition),vampire Chamber,67,248700,1,0.516,0.472,5,-9.22,1,0.073,0.269,0.0,0.067,0.878,121.77,4,alt-pop
+trk_2129,Ed Sheeran,Save Summer (Deluxe Edition),Save Summer,58,178794,1,0.772,0.881,8,-9.4,0,0.107,0.637,0.0,0.211,0.383,161.86,4,pop
+trk_2130,SZA,Midnight Memories (Deluxe Edition),Midnight Memories,87,150757,1,0.548,0.697,7,-4.58,0,0.187,0.707,0.0,0.326,0.753,111.7,4,r&b
+trk_2131,SZA,Anti World (Deluxe Edition),Anti World,64,179437,1,0.926,0.379,10,-8.35,1,0.074,0.179,0.0,0.129,0.841,127.37,4,r&b
+trk_2132,Bruno Mars,Shape Vibes (Deluxe Edition),Shape Vibes,97,229464,1,0.74,0.537,8,-8.12,0,0.181,0.417,0.0816,0.159,0.26,130.14,4,r&b
+trk_2133,Bruno Mars,Golden Summer (Deluxe Edition),Golden Summer,100,241838,0,0.882,0.733,10,-3.79,1,0.222,0.229,0.0,0.349,0.743,105.87,4,r&b
+trk_2134,Ariana Grande,Espresso Dreams (Deluxe Edition),Espresso Dreams,68,211183,1,0.795,0.845,5,-8.45,0,0.23,0.704,0.0,0.265,0.315,95.99,4,pop
+trk_2135,Ed Sheeran,Die You (Deluxe Edition),Die You,19,251816,0,0.665,0.618,9,-10.56,0,0.224,0.395,0.0,0.155,0.269,110.0,4,pop
+trk_2136,Imagine Dragons,Anti Plan (Deluxe Edition),Anti Plan,49,217843,0,0.476,0.688,2,-6.77,1,0.053,0.832,0.0,0.056,0.304,112.07,4,rock
+trk_2137,Bruno Mars,Greedy Lights (Deluxe Edition),Greedy Lights,40,225756,1,0.834,0.599,9,-6.1,1,0.14,0.117,0.2313,0.187,0.748,93.54,4,r&b
+trk_2138,Justin Bieber,Midnight Parade (Deluxe Edition),Midnight Parade,53,149866,1,0.529,0.524,8,-4.25,0,0.305,0.447,0.0,0.137,0.596,138.42,4,pop
+trk_2139,Doja Cat,Golden Tears (Deluxe Edition),Golden Tears,61,229668,1,0.466,0.431,0,-5.52,1,0.152,0.821,0.0,0.29,0.856,98.4,4,dance-pop
+trk_2140,The Weeknd,As It Was Waves (Deluxe Edition),As It Was Waves,33,236568,1,0.815,0.553,6,-11.09,0,0.191,0.446,0.0,0.209,0.686,89.23,4,pop
+trk_2141,Billie Eilish,Sunflower Symphony (Deluxe Edition),Sunflower Symphony,67,203529,0,0.916,0.644,7,-10.25,1,0.296,0.585,0.0,0.101,0.263,102.34,4,alt-pop
+trk_2142,The Weeknd,Die Lights (Deluxe Edition),Die Lights,60,253462,0,0.668,0.965,2,-7.67,0,0.162,0.118,0.0,0.101,0.768,152.61,4,pop
+trk_2143,Ariana Grande,Starboy Hero (Deluxe Edition),Starboy Hero,74,233796,1,0.519,0.708,2,-9.88,0,0.101,0.57,0.0405,0.264,0.409,157.86,4,pop
+trk_2144,Doja Cat,Golden Nights (Deluxe Edition),Golden Nights,82,222747,0,0.859,0.594,8,-3.27,0,0.323,0.486,0.0,0.343,0.69,157.76,4,dance-pop
+trk_2145,SZA,Espresso Lover (Deluxe Edition),Espresso Lover,88,235024,1,0.925,0.818,7,-5.48,1,0.23,0.793,0.0,0.343,0.551,148.39,4,r&b
+trk_2146,SZA,Save Lights (Deluxe Edition),Save Lights,87,169353,1,0.85,0.31,5,-4.41,0,0.112,0.788,0.3938,0.319,0.721,115.94,4,r&b
+trk_2147,Ed Sheeran,Peaches Plan (Deluxe Edition),Peaches Plan,72,185760,0,0.811,0.667,4,-13.1,0,0.072,0.694,0.0,0.267,0.578,108.53,4,pop
+trk_2148,Dua Lipa,vampire Waves (Deluxe Edition),vampire Waves,72,213825,0,0.807,0.891,6,-9.95,0,0.295,0.809,0.1931,0.202,0.245,164.53,4,dance-pop
+trk_2149,Post Malone,Shape Dreams (Deluxe Edition),Shape Dreams,64,212797,0,0.797,0.668,1,-5.44,0,0.233,0.02,0.0328,0.282,0.632,168.22,4,hip-hop
+trk_2150,Olivia Rodrigo,Die World (Deluxe Edition),Die World,79,153910,1,0.512,0.962,3,-5.69,1,0.157,0.576,0.0,0.271,0.403,161.42,4,pop-rock
+trk_2151,SZA,Espresso Plan (Deluxe Edition),Espresso Plan,60,185142,0,0.376,0.599,6,-5.94,0,0.178,0.306,0.0,0.228,0.614,165.85,4,r&b
+trk_2152,Imagine Dragons,Starboy Parade (Deluxe Edition),Starboy Parade,47,189418,0,0.425,0.783,1,-10.21,0,0.216,0.394,0.0,0.216,0.656,162.38,4,rock
+trk_2153,Travis Scott,God's Symphony (Deluxe Edition),God's Symphony,56,170953,0,0.624,0.791,5,-10.83,0,0.342,0.132,0.0,0.143,0.585,146.33,4,hip-hop
+trk_2154,Doja Cat,Starboy Chamber (Deluxe Edition),Starboy Chamber,65,162154,1,0.824,0.688,1,-5.9,1,0.252,0.826,0.0,0.159,0.57,117.37,4,dance-pop
+trk_2155,Imagine Dragons,As It Was Waves (Deluxe Edition),As It Was Waves,93,239570,0,0.854,0.897,2,-7.17,1,0.335,0.82,0.0,0.219,0.733,111.5,4,rock
+trk_2156,Ariana Grande,Save You (Deluxe Edition),Save You,29,198898,1,0.41,0.322,11,-10.97,0,0.246,0.081,0.0,0.143,0.408,89.44,4,pop
+trk_2157,Harry Styles,Lucid Tears (Deluxe Edition),Lucid Tears,54,233101,0,0.374,0.741,1,-11.12,1,0.123,0.637,0.0,0.069,0.205,155.13,4,pop-rock
+trk_2158,Imagine Dragons,God's Tears (Deluxe Edition),God's Tears,56,156931,1,0.522,0.554,9,-3.11,1,0.207,0.209,0.0,0.176,0.796,139.38,4,rock
+trk_2159,Dua Lipa,Espresso Symphony (Deluxe Edition),Espresso Symphony,92,212764,0,0.536,0.661,2,-11.04,0,0.069,0.451,0.1153,0.096,0.348,147.98,4,dance-pop
+trk_2160,SZA,Peaches Tears (Deluxe Edition),Peaches Tears,81,218953,1,0.886,0.798,3,-8.92,1,0.32,0.105,0.0,0.246,0.836,103.03,4,r&b
+trk_2161,Ed Sheeran,Levitating Heart (Deluxe Edition),Levitating Heart,61,233096,1,0.406,0.522,0,-7.42,0,0.288,0.019,0.0,0.213,0.803,117.84,4,pop
+trk_2162,Dua Lipa,Save Chamber (Deluxe Edition),Save Chamber,49,234045,1,0.633,0.715,10,-3.9,0,0.094,0.769,0.0,0.201,0.815,165.18,4,dance-pop
+trk_2163,Kendrick Lamar,Die Parade (Deluxe Edition),Die Parade,49,172398,1,0.508,0.796,10,-9.61,0,0.168,0.779,0.0,0.34,0.812,108.35,4,hip-hop
+trk_2164,Doja Cat,God's You (Deluxe Edition),God's You,66,159255,1,0.572,0.799,3,-11.23,0,0.215,0.717,0.0,0.218,0.225,129.16,4,dance-pop
+trk_2165,Ariana Grande,Anti Lights (Deluxe Edition),Anti Lights,48,250023,1,0.519,0.676,8,-12.4,1,0.16,0.694,0.0,0.252,0.385,105.85,4,pop
+trk_2166,Post Malone,Blinding World (Deluxe Edition),Blinding World,59,218205,1,0.742,0.842,10,-9.3,0,0.24,0.364,0.0,0.151,0.606,114.96,4,hip-hop
+trk_2167,Post Malone,Levitating Lover (Deluxe Edition),Levitating Lover,47,234815,0,0.47,0.695,7,-7.52,1,0.128,0.718,0.1822,0.129,0.428,94.86,4,hip-hop
+trk_2168,Taylor Swift,Sunflower Plan (Deluxe Edition),Sunflower Plan,77,245391,1,0.383,0.842,0,-10.42,0,0.321,0.22,0.0,0.298,0.524,98.55,4,pop
+trk_2169,SZA,Blinding Hero (Deluxe Edition),Blinding Hero,60,145496,1,0.765,0.502,4,-8.86,1,0.137,0.475,0.0,0.132,0.742,112.44,4,r&b
+trk_2170,Kendrick Lamar,Golden Summer (Deluxe Edition),Golden Summer,55,164545,1,0.644,0.716,0,-7.23,0,0.085,0.188,0.0,0.086,0.433,134.14,4,hip-hop
+trk_2171,Justin Bieber,vampire Parade (Deluxe Edition),vampire Parade,43,211835,0,0.516,0.877,2,-9.55,1,0.272,0.878,0.0,0.281,0.858,133.63,4,pop
+trk_2172,The Weeknd,vampire Fantasy (Deluxe Edition),vampire Fantasy,59,253340,1,0.759,0.42,7,-5.88,1,0.088,0.743,0.093,0.209,0.298,87.67,4,pop
+trk_2173,Doja Cat,Sunflower Symphony (Deluxe Edition),Sunflower Symphony,76,141981,1,0.416,0.922,3,-6.46,0,0.077,0.294,0.0,0.291,0.782,99.98,4,dance-pop
+trk_2174,Ed Sheeran,Lucid Chamber (Deluxe Edition),Lucid Chamber,67,188856,0,0.791,0.434,10,-11.32,0,0.1,0.312,0.0,0.171,0.222,107.26,4,pop
+trk_2175,Ed Sheeran,Golden Tears (Deluxe Edition),Golden Tears,87,208404,0,0.731,0.317,1,-8.49,0,0.235,0.24,0.0,0.229,0.737,115.92,4,pop
+trk_2176,Ariana Grande,Golden Dreams (Deluxe Edition),Golden Dreams,62,165390,1,0.847,0.705,0,-3.83,0,0.047,0.583,0.0,0.148,0.717,155.54,4,pop
+trk_2177,Post Malone,Flowers Echoes (Deluxe Edition),Flowers Echoes,54,180535,0,0.589,0.472,9,-4.86,1,0.248,0.235,0.0,0.14,0.894,130.73,4,hip-hop
+trk_2178,Taylor Swift,Midnight You (Deluxe Edition),Midnight You,89,150251,0,0.63,0.364,2,-10.15,0,0.112,0.664,0.0,0.209,0.391,117.63,4,pop
+trk_2179,Post Malone,Anti Vibes (Deluxe Edition),Anti Vibes,87,207401,1,0.556,0.741,8,-9.17,0,0.084,0.05,0.0,0.194,0.779,125.63,4,hip-hop
+trk_2180,Drake,Greedy Lover (Deluxe Edition),Greedy Lover,92,177595,1,0.837,0.819,5,-13.43,0,0.063,0.034,0.0,0.269,0.316,159.31,4,hip-hop
+trk_2181,Ariana Grande,Starboy Tears (Deluxe Edition),Starboy Tears,77,197041,1,0.814,0.524,4,-9.9,1,0.206,0.512,0.0,0.165,0.721,98.24,4,pop
+trk_2182,Billie Eilish,Lucid Heart (Deluxe Edition),Lucid Heart,74,158315,1,0.799,0.457,0,-5.01,1,0.34,0.682,0.0,0.214,0.918,151.05,4,alt-pop
+trk_2183,Justin Bieber,Lucid Nights (Deluxe Edition),Lucid Nights,58,162314,1,0.529,0.568,7,-8.14,0,0.254,0.583,0.0,0.202,0.275,132.45,4,pop
+trk_2184,Justin Bieber,Shape Hero (Deluxe Edition),Shape Hero,48,251531,1,0.548,0.795,11,-9.13,1,0.251,0.608,0.0,0.109,0.329,147.67,4,pop
+trk_2185,Imagine Dragons,Die Parade (Deluxe Edition),Die Parade,78,251397,0,0.882,0.909,8,-12.97,1,0.33,0.76,0.0,0.133,0.81,159.32,4,rock
+trk_2186,Post Malone,Cruel Symphony (Deluxe Edition),Cruel Symphony,100,203256,1,0.439,0.454,11,-6.05,0,0.124,0.354,0.0,0.327,0.732,168.07,4,hip-hop
+trk_2187,Harry Styles,Die Plan (Deluxe Edition),Die Plan,39,240193,0,0.672,0.371,5,-13.3,0,0.101,0.818,0.0,0.289,0.596,99.78,4,pop-rock
+trk_2188,Ed Sheeran,Greedy Waves (Deluxe Edition),Greedy Waves,57,256037,0,0.704,0.407,1,-11.18,0,0.202,0.407,0.0,0.34,0.266,93.76,4,pop
+trk_2189,Doja Cat,Humble Tears (Deluxe Edition),Humble Tears,56,207427,1,0.437,0.504,2,-9.03,1,0.113,0.132,0.0,0.129,0.809,134.34,4,dance-pop
+trk_2190,The Weeknd,Greedy You (Deluxe Edition),Greedy You,62,249896,1,0.355,0.709,0,-7.74,1,0.344,0.87,0.0,0.219,0.227,152.01,4,pop
+trk_2191,SZA,Shape Hour (Deluxe Edition),Shape Hour,64,230570,0,0.845,0.977,3,-6.17,0,0.305,0.44,0.0,0.328,0.562,110.92,4,r&b
+trk_2192,Kendrick Lamar,Golden Lover (Deluxe Edition),Golden Lover,45,250357,1,0.386,0.838,6,-9.9,0,0.116,0.391,0.0,0.205,0.596,169.97,4,hip-hop
+trk_2193,Bruno Mars,Lucid Plan (Deluxe Edition),Lucid Plan,70,252672,0,0.921,0.748,1,-10.41,1,0.322,0.054,0.0,0.154,0.214,132.65,4,r&b
+trk_2194,Taylor Swift,Save Lights (Deluxe Edition),Save Lights,51,155414,0,0.891,0.904,11,-13.14,1,0.26,0.478,0.0,0.313,0.803,165.8,4,pop
+trk_2195,The Weeknd,Flowers Lights (Deluxe Edition),Flowers Lights,47,191464,1,0.465,0.502,9,-6.95,1,0.088,0.444,0.0,0.308,0.753,124.7,4,pop
+trk_2196,Drake,Starboy Nights (Deluxe Edition),Starboy Nights,46,168988,0,0.623,0.494,11,-5.59,0,0.247,0.152,0.2726,0.178,0.594,106.24,4,hip-hop
+trk_2197,Bad Bunny,Cruel Waves (Deluxe Edition),Cruel Waves,30,171036,0,0.733,0.567,6,-8.68,0,0.168,0.529,0.1349,0.232,0.4,155.05,4,reggaeton
+trk_2198,Imagine Dragons,Midnight Hero (Deluxe Edition),Midnight Hero,82,226485,0,0.659,0.885,5,-7.97,0,0.076,0.275,0.0,0.09,0.506,131.14,4,rock
+trk_2199,The Weeknd,Peaches Memories (Deluxe Edition),Peaches Memories,59,182708,1,0.489,0.737,3,-12.87,0,0.193,0.389,0.0,0.343,0.462,122.41,4,pop

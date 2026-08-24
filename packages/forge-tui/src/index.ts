@@ -28,6 +28,8 @@ export * from "./widgets/image";
 export * from "./widgets/prompt-input";
 export * from "./widgets/status-bar";
 
-// Data & LLM
+// Data, Search & AI
 export * from "./data/csv";
 export * from "./llm/zen";
+export * from "./search/exa";
+export * from "./agent/pattern-discovery";
