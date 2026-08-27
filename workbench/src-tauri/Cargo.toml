@@ -1,0 +1,28 @@
+[package]
+name = "dataforge-workbench"
+version = "0.1.0"
+edition = "2021"
+description = "Local-first governed research orchestration workbench for DataForge"
+
+[lib]
+name = "dataforge_workbench"
+path = "src/lib.rs"
+
+[[bin]]
+name = "dataforge-workbench"
+path = "src/main.rs"
+
+[features]
+default = []
+desktop = ["dep:tauri", "dep:tauri-build"]
+
+[dependencies]
+dataforge-rs = { path = "../../rust" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+tauri = { version = "2", optional = true }
+thiserror = "1.0"
+
+[build-dependencies]
+tauri-build = { version = "2", optional = true }

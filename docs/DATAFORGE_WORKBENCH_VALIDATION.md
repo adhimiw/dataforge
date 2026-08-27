@@ -1,0 +1,13 @@
+# DataForge Workbench Validation Record
+
+The local-first Workbench interface was built in browser-demo mode and visually checked at a 1280-pixel desktop viewport. The DataForge Field Instrument design rendered its distinct rail navigation, local-workspace indicator, research brief, budget panel, work graph, active guard, and original cyan/amber/crimson control hierarchy. It does not use the referenced product name, logo, or chat-shell layout.
+
+| Scenario                   | Expected result                                                                                                   | Observed result                                                                                                                             |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Research Desk render**   | Display local-first classification, work graph, run budget, and a no-silent-research guard.                       | Passed. The screen showed the held public-context request without exposing raw rows or provider credentials.                                |
+| **Review queue render**    | Show a scope-bound approval request with target preview, rationale, expiry, and explicit approve/reject controls. | Passed. The pending card rendered all declared scope limits.                                                                                |
+| **Approve demo request**   | Record a local approval receipt, update run state, append a visible notice, and avoid any external action.        | Passed. The run moved to `running local`, the card became `approved`, and the UI stated that external action remains disabled in demo mode. |
+| **Data Bench render**      | Show local aggregate metrics, quality-gate states, lightweight trend bars, and a redaction-aware preview.         | Passed. The rendered preview labelled record identifiers as redacted and did not display raw source records.                                |
+| **Evidence Ledger render** | Show receipts beside source, claim, verification, timestamp, digest, and redaction context.                       | Passed. Both local evidence items remained linked to their claims and clearly disclosed that no external source was fetched.                |
+
+The browser-demo bridge is intentionally deterministic. The packaged Tauri application will call the same typed Rust methods, where the UI is restricted to snapshot reads and scoped approval decisions.

@@ -1,0 +1,1 @@
+{"main-window":{"identifier":"main-window","description":"The local DataForge Workbench window may call only typed DataForge backend commands.","local":true,"windows":["main"],"permissions":["core:default"]}}

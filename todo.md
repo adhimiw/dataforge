@@ -32,3 +32,12 @@
 - [x] Add six hard test cases: schema drift, late data, conflicting revisions, rate limiting, missing intervals, and semantic/unit mismatch.
 - [x] Validate the end-to-end fusion run against available public data without silently externalizing user data.
 - [x] Document live-operation options, costs, test outcomes, and residual risks.
+
+## Governed research-orchestrator and GUI upgrade
+
+- [x] Inspect DataForge and the reconstructed Grok bot for reusable workflow, interface, and integration patterns without copying prompts or secrets.
+- [x] Define a governed multi-agent research orchestration model, evidence contract, approval boundaries, and durable work-state design.
+- [x] Select the local-first product delivery route with the user: a Rust-backed DataForge graphical workspace that keeps data and approvals on-device by default.
+- [x] Build a dedicated upgrade branch with a DataForge graphical workspace while preserving existing local migration work.
+- [x] Implement specialist research workflow management, provenance, review gates, and human-in-the-loop controls.
+- [x] Test end-to-end research orchestration, GUI flows, and safety boundaries; document coverage and remaining integration work.

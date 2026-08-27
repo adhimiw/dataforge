@@ -1,0 +1,29 @@
+name: DataForge Workbench checks
+on:
+  push:
+    branches: [dataforge-workbench]
+    paths: ["workbench/**", "docs/DATAFORGE_WORKBENCH_*.md", ".github/workflows/dataforge-workbench.yml"]
+  pull_request:
+    paths: ["workbench/**", "docs/DATAFORGE_WORKBENCH_*.md", ".github/workflows/dataforge-workbench.yml"]
+  workflow_dispatch:
+permissions: { contents: read }
+jobs:
+  local-workbench:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: workbench } }
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Linux desktop dependencies
+        run: sudo apt-get update && sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev
+      - uses: pnpm/action-setup@v4
+        with: { version: 10.4.1 }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm, cache-dependency-path: workbench/pnpm-lock.yaml }
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      - uses: dtolnay/rust-toolchain@stable
+        with: { components: rustfmt, clippy }
+      - run: cargo fmt --manifest-path src-tauri/Cargo.toml --check
+      - run: cargo clippy --manifest-path src-tauri/Cargo.toml --features desktop -- -D warnings
+      - run: cargo test --manifest-path src-tauri/Cargo.toml --features desktop
+      - run: cargo check --manifest-path src-tauri/Cargo.toml --features desktop
